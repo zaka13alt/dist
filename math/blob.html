@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IXL</title>
+    <style>
+        /* Styling the button black */
+        .black-button {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .black-button:hover {
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- The black button requested -->
+    <button class="black-button" id="openBlobBtn">Open Blob</button>
+
+    <script>
+        document.getElementById('openBlobBtn').addEventListener('click', function() {
+            // 1. Define the HTML content that will live inside the Blob
+            // This content includes the requested iframe
+            const blobHtmlContent = `
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>K12 on IXL</title>
+                    <style>
+                        body { margin: 0; padding: 20px; font-family: sans-serif; }
+                        iframe { width: 100%; height: 500px; border: 2px solid #000; }
+                    </style>
+                </head>
+                <body>
+                    <h2></h2>
+                    <p></p>
+                    <iframe src="https://zaka.dpdns.org/act" title="Example Iframe"></iframe>
+                </body>
+                </html>
+            `;
+
+            // 2. Create the Blob object with an HTML MIME type
+            const blob = new Blob([blobHtmlContent], { type: 'text/html' });
+
+            // 3. Generate a temporary localized URL for the Blob object
+            const blobUrl = URL.createObjectURL(blob);
+
+            // 4. Open the generated Blob URL in a brand new browser tab
+            window.open(blobUrl, '_blank');
+        });
+    </script>
+
+</body>
+</html>
