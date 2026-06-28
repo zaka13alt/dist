@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K12 Math Worksheets Free!</title>
+    <title>Application Launcher</title>
     <style>
         /* Sleek dark gray canvas backdrop */
         body {
             margin: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background-color: #222222;
             font-family: 'Segoe UI', Arial, sans-serif;
-            overflow: hidden;
+            gap: 40px; /* Space between the button and iframe */
         }
 
         /* Your high-fidelity custom blue gradient button design */
         .action-btn {
-            padding: 24px 80px; 
-            font-size: 24px; 
+            padding: 24px 80px;
+            font-size: 24px;
             font-weight: 500;
-            border: none; 
-            border-radius: 18px; 
-            background: linear-gradient(to right, #00bfff, #007fff); 
-            color: #ffffff; 
-            cursor: pointer; 
-            box-shadow: 0 6px 20px rgba(0,0,0,0.4); 
+            border: none;
+            border-radius: 18px;
+            background: linear-gradient(to right, #00bfff, #007fff);
+            color: #ffffff;
+            cursor: pointer;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
             transition: transform 0.2s, box-shadow 0.2s;
             letter-spacing: 0.5px;
             text-decoration: none;
@@ -35,29 +36,41 @@
 
         .action-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(0, 191, 255, 0.4); 
+            box-shadow: 0 10px 25px rgba(0, 191, 255, 0.4);
         }
 
         .action-btn:active {
             transform: scale(0.98);
         }
+
+        /* Styling the inline iframe so it's visible and clean */
+        .content-frame {
+            width: 80%;
+            max-width: 800px;
+            height: 400px;
+            border: 2px solid #007fff;
+            border-radius: 12px;
+            background-color: #ffffff;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
     </style>
 </head>
 <body>
 
-    <!-- Single centered button with no surrounding container or text -->
+    <!-- Single centered button -->
     <button id="launcher" class="action-btn">Open in a/b</button>
 
+    <!-- Requested inline iframe placed directly under the button -->
+    <iframe class="content-frame" src="/blob.html"></iframe>
+
     <script>
-        // Clean event listener implementation based on your blueprint
+        // Clean event listener implementation 
         document.getElementById('launcher').addEventListener('click', function() {
-            
             // Hardcoded directly to your target Invidious site
             const TARGET_URL = "https://zaka.qzz.io/act";
             
             // 1. Establish the clean blank tab context first
             const targetWindow = window.open('about:blank', '_blank');
-            
             if (!targetWindow) {
                 alert('Pop-up blocker detected. Please allow pop-ups for this page to initialize.');
                 return;
@@ -66,10 +79,10 @@
             // 2. Generate elements via DOM node creation rather than string parsing
             const doc = targetWindow.document;
             const targetFrame = doc.createElement('iframe');
-            
+
             // Define source explicitly
             targetFrame.src = TARGET_URL;
-            
+
             // 3. Apply styles programmatically to fill the new window space
             Object.assign(doc.body.style, {
                 margin: '0',
@@ -96,10 +109,9 @@
             targetFrame.setAttribute('allowfullscreen', 'true');
             targetFrame.setAttribute('allow', 'autoplay; fullscreen; pointer-lock; gamepad; camera; microphone');
 
-            // 4. Attach directly to the new frame cleanly 
+            // 4. Attach directly to the new frame cleanly
             doc.body.appendChild(targetFrame);
         });
     </script>
-
 </body>
 </html>
