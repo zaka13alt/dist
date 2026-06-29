@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unb*ckedflix</title>
+    <style>
+        :root {
+            --primary-color: #1a1a1a;
+            --accent-color: #21d07a; /* Green play button */
+            --text-color: #ffffff;
+            --card-bg: #2d2d2d;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Grid Container */
+        .movies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Movie Card */
+        .movie-card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .movie-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(33, 208, 122, 0.2);
+        }
+
+        /* Movie Poster Image */
+        .movie-poster {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        /* Card Content */
+        .movie-info {
+            padding: 15px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .movie-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+        }
+
+        /* Green Play Button */
+        .play-btn {
+            background-color: var(--accent-color);
+            color: #000;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.2s ease;
+        }
+
+        .play-btn:hover {
+            background-color: #19a55e;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Movies ⬇️</h1>
+
+    <div class="movies-grid">
+        <!-- Movie 1 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos" alt="Movie 1" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Shrek 1</h3>
+                <a href="https://drive.google.com/file/d/1NezVaMIuVH1Gt0cHCQMT3JeJu7JuxlIG/view?pli=1" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 2 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos" alt="Movie 2" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Minecraft Movie</h3>
+                <a href="https://limewire.com/d/2VEyn#bT2ouUR7HS" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 3 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos" alt="Movie 3" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Captain Underpants</h3>
+                <a href="https://drive.google.com/file/d/1s1V0IMgEft0s6naVHgZKFL2tqH3q3jQu/view" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 4 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos" alt="Movie 4" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">The Amazing Spider Man 2</h3>
+                <a href="https://drive.google.com/file/d/1GhaEmpHAqxxwbjRe8G4vV_mlT3ZkrLKn/view" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 5 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos" alt="Movie 5" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Spiderman No Way Home </h3>
+                <a href="https://drive.google.com/file/d/1XM-MEdYUt9H5p6IpcuEoZQ6-LUImO-8M/view" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 6 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos" alt="Movie 6" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Spider Man 3</h3>
+                <a href="https://drive.google.com/file/d/1FQtByf8ayQhph5hHcrX3yS2t6ml_AZV2/view" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 7 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos" alt="Movie 7" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Guardians of The Galaxy 2</h3>
+                <a href="https://drive.google.com/file/d/0B-uFeCO4yCFIZXNnLUg3cVdiU3M/view?resourcekey=0-s1hwC6vvc_w-Q2CRrpP08g" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 8 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos" alt="Movie 8" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">The Avengers</h3>
+                <a href="https://drive.google.com/file/d/1i7KQZsuzhuEI81tPYXfy4Tq5dZQkUnsd/view" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 9 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos" alt="Movie 9" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Inside Out (1)</h3>
+                <a href="https://drive.google.com/file/d/1mDan3YLOKzkgfJQ1JCD3T6jXSY_Xu6wd/view" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 10 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos0" alt="Movie 10" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Inside Out 2</h3>
+                <a href="https://drive.google.com/file/d/1w8-u8wz_-PKFN4_9QWorzaEoOeY9EsEl/view" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 11 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos1" alt="Movie 11" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Minions 1 & 2</h3>
+                <a href="https://drive.google.com/drive/folders/1Lr4NHAparpVJbmv1yQbyLACZ2jN4Z5cA" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 12 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos2" alt="Movie 12" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">The Mario Movie</h3>
+                <a href="https://drive.google.com/file/d/1M1Ut6YHZ-LqHwZhtEbjZMqgpHyuNeH0A/view" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+
+        <!-- Movie 13 -->
+        <div class="movie-card">
+            <img src="https://picsum.photos3" alt="Movie 13" class="movie-poster">
+            <div class="movie-info">
+                <h3 class="movie-title">Ghost Rider</h3>
+                <a href="https://drive.google.com/file/d/1Ayamc7qcje1u7_zmKkGbJ5ZdS3eVx92V/view?usp=drive_link" class="play-btn" target="_blank" rel="noopener noreferrer">▶ Play</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
