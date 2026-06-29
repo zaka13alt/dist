@@ -9,7 +9,7 @@
       <br/>
       <br/>
       
-      <iframe id="target-iframe" sandbox="allow-scripts allow-same-origin allow-downloads allow-top-navigation-by-user-activation"
+      <iframe id="target-iframe" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation allow-top-navigation-by-user-activation allow-top-navigation-to-custom-protocols"
         
         style="width:100%; height:calc(100% - 100px); border:2px solid #333; background-color:white; border-radius:8px;"></iframe>
       
