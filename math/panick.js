@@ -1,325 +1,2653 @@
-document.addEventListener('keydown', function(event) {
-  // Check if Control key and 'Q' key are pressed together
-  if (event.ctrlKey && event.key.toLowerCase() === 'q') {
-    // Prevent the browser's default shortcut behavior if any exists
-    event.preventDefault(); 
-    
-    // Define your new HTML content
-    const newHTML = `
-      <!DOCTYPE html>
-<html itemscope="" itemtype="http://schema.org/WebPage" lang="de">
+Object.defineProperty(window, 'cloak', {
+    get: function() {
+        // Define your replacement HTML content
+        const newHTML = `
+            <!DOCTYPE html>
+<!-- Last Published: Mon Jun 29 2026 19:17:45 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="www.classlink.com" data-wf-page="63fcd967a9c48f484ae3c94a" data-wf-site="5d6db64572061db9c481aaeb" lang="en-US">
   <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-    <meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image" />
+    <meta charset="utf-8" />
+    <link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous" />
     <title>
-      Google
+      ClassLink | Identity &amp; Access Management for Education
     </title>
-    <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-      (function(){var _g={kEI:&#39;qfxCasLBM6yG7NYP9eaKoAw&#39;,kEXPI:&#39;0,1304203,2949953,71100,354503,5520324,12476,714,7,9,35,36810803,25228681,152377,65171,138343,114380,31074,7714,30723,2662,51821,46339,32561,16179,2646,24246,15888,4,1514,3355,6010,2,5999,8,14299,2,3105,5089,19,3007,15,781,14627,17741,4255,5337,2892,1,1,8,14,13785,3,8582,5862,5,964,2,147,34657,2,6335,14329,3,4991,10,4573,4,1634,6840,5,461,6293,3079,15494,4855,10654,4,2699,2701,4,4704,507,1776,1518,9,3,1024,10,3355,3822,3449,4,480,4651,21012720,4,2960,3,10055,3,11871,6097,3,5578,4,2611,6504001,6,5602,2,2627,69,1449,2896,1083,12,962,1769,3,99,1029,597,976,446,1279,3,86264,2437997,1077914,14473514,3,79830,2512296,5,3687,616,4,453,2,8497,7,7,7,865,126,10195,5,1741,4,3909,10,1237,1109,4895,1268,83,691,3888,4388,5,15,3,1097,4,584,2558,3572,3669,4,443,577,2503,4,1653,369,459,5,5691,1646,7,2304,5,2126,2982,734,1527,1,280,204,4,59,4,295,2596,4,2030,5,116,3916,4,825,1,406,4,2475,160,2886,3,72,10156,1176,171,4,127,4,1558,814,4,347,5993,1,1840,167,5,313,139,532,4,1080,4,238,4,309,3,2,2,2,914,4,2660,4,167,5,1749,571,340,3728,7,1029,3,2,2,2,1061,2863,2182,1112,2368,496,561,4,233,5450,1327,4,4438,188,192,21,7,243,64,14,230,4,810,4,280,1377,1855,4,184,14,2227,4,2568,4,1420,3,2,2,2,4215,4,1787,4,936,7,6465,1,7724,3345,5,865,43,1882,2183,313,737,4,117,31,9,167,4,2,62,2642,11,1199,4,81,4,5,618,34,3,2,2,2,72,325,2222,4,26,278,57,5,6,1,688,5,1375,4,97,8,4,1118,771,423,53,4,196,24,21,1903,299,10,425,227,830,3,2,2,2,243,4,328,4,354,5,2,2500,5,428,5,224,8,4,29,508,4,922,131,1,158,1,1994,445,1,694,221,5,98,905,3,2,2,2,122,281,318,193,43,1374,4,620,5,680,5,312,162,4,301,4,2,553,881,117,1,4,273,756,72,812,345,4,786,2036,374,4,1005,497,44,2,765,5,8,153,423,81,758,2,199,97,3,2,2,2,473,497,239,1,2,1,1,5,14,1,1039,109,279,558,29,4,157,1,393,21,1154,5,31,3,2,2,2,455,3546,745,1121,4,126,13,252,609,467,4,1614,833,4,131,4,441,352,3,2,2,2,1061,694,11,351,146,4,2,310,7,348,4,2,1369,335,2,453,5,202,4,108,917,1200,563,553,7,141,294,2612,987,577,4,65,4,326,146,3,275,2595,377,210,4,923,4,72,4264,92,1099,853,510,1045,131,4,1596,2,81,1035,494,5,1447,4,100,4,350,95,3,2,2,2,464,1505,4,1464,43,1,1,2,31,4,235,44,388,3017,5,377,716,2476,4,1413,235,3,2,2,2,53,545,4,463,141,996,1663,5,40,1453,425,4,689,1384,1,1,4398,3,2,2,2,1926,1296,686639,7&#39;,kBL:&#39;RaXt&#39;,kOPI:89978449};(function(){var a;((a=window.google)==null?0:a.stvsc)?google.kEI=_g.kEI:window.google=_g;}).call(this);})();(function(){google.sn=&#39;webhp&#39;;google.kHL=&#39;de&#39;;google.usb=true;})();(function(){
-var h=this||self;var k=/#|$/;function l(a,c){var e=a.search(k);a:{var b=0;for(var f=c.length;(b=a.indexOf(c,b))&gt;=0&amp;&amp;b&lt;e;){var d=a.charCodeAt(b-1);if(d==38||d==63)if(d=a.charCodeAt(b+f),!d||d==61||d==38||d==35)break a;b+=f+1}b=-1}if(b&lt;0)return null;f=a.indexOf(&#34;&amp;&#34;,b);if(f&lt;0||f&gt;e)f=e;b+=c.length+1;return decodeURIComponent(a.slice(b,f!==-1?f:0).replace(/\+/g,&#34; &#34;))};function m(){return window.google&amp;&amp;window.google.kOPI||null};var n;function p(a){for(var c;a&amp;&amp;(!a.getAttribute||!(c=a.getAttribute(&#34;eid&#34;)));)a=a.parentNode;return c||n}function q(a){for(var c=null;a&amp;&amp;(!a.getAttribute||!(c=a.getAttribute(&#34;leid&#34;)));)a=a.parentNode;return c}
-function t(a,c,e,b,f){var d=&#34;&#34;;c.search(&#34;&amp;ei=&#34;)===-1&amp;&amp;(d=&#34;&amp;ei=&#34;+p(b),c.search(&#34;&amp;lei=&#34;)===-1&amp;&amp;(b=q(b))&amp;&amp;(d+=&#34;&amp;lei=&#34;+b));var r=c.search(&#34;&amp;cshid=&#34;)===-1&amp;&amp;a!==&#34;slh&#34;;var g=g===void 0?window.location:g;b=&#34;&amp;zx=&#34;+Date.now().toString();h._cshid&amp;&amp;r&amp;&amp;(b+=&#34;&amp;cshid=&#34;+h._cshid);(e=e())&amp;&amp;(b+=&#34;&amp;opi=&#34;+e);(e=l(g.search,&#34;gemcid&#34;))&amp;&amp;(b+=&#34;&amp;gemcid=&#34;+e);(g=l(g.search,&#34;gemrid&#34;))&amp;&amp;(b+=&#34;&amp;gemrid=&#34;+g);return&#34;/&#34;+(f||&#34;gen_204&#34;)+&#34;?atyp=i&amp;ct=&#34;+String(a)+&#34;&amp;cad=&#34;+(c+d+b)};n=google.kEI;google.getEI=p;google.getLEI=q;google.ml=function(){return null};google.log=function(a,c,e,b,f,d){d=d===void 0?m:d;e||(e=t(a,c,d,b,f));a=e;/^http:/i.test(a)&amp;&amp;window.location.protocol===&#34;https:&#34;&amp;&amp;(google.ml&amp;&amp;google.ml(Error(&#34;a&#34;),!1,{src:a,glmm:1}),a=&#34;&#34;);if(e=a)try{window.navigator.sendBeacon(e,&#34;&#34;)}catch(r){}};google.logUrl=function(a,c){c=c===void 0?m:c;return t(&#34;&#34;,a,c)};}).call(this);(function(){google.y={};google.sy={};function e(a,b,d){if(a)var c=a.id;else{do c=Math.random();while(d[c])}d[c]=[a,b]}var f;(f=google).x||(f.x=function(a,b){e(a,b,google.y)});var g;(g=google).sx||(g.sx=function(a,b){e(a,b,google.sy)});google.bx=!1;var h;(h=google).lx||(h.lx=function(){});var k=[],l;(l=google).fce||(l.fce=function(a,b,d,c){k.push([a,b,d,c])});google.qce=k;google.adl=[];}).call(this);google.f={};(function(){
-document.documentElement.addEventListener(&#34;submit&#34;,function(b){var a;if(a=b.target){var c=a.getAttribute(&#34;data-submitfalse&#34;);a=c===&#34;1&#34;||c===&#34;q&#34;&amp;&amp;!a.elements.q.value?!0:!1}else a=!1;a&amp;&amp;(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener(&#34;click&#34;,function(b){var a;a:{for(a=b.target;a&amp;&amp;a!==document.documentElement;a=a.parentElement)if(a.tagName===&#34;A&#34;){a=a.getAttribute(&#34;data-nohref&#34;)===&#34;1&#34;;break a}a=!1}a&amp;&amp;b.preventDefault()},!0);}).call(this);
-    </script>
-    <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-      ;this.gbar_={CONFIG:[[[0,&#34;www.gstatic.com&#34;,&#34;og.qtm.en_US.a2obTWcoRYc.es5.O&#34;,&#34;de&#34;,&#34;de&#34;,&#34;538&#34;,0,[4,2,&#34;&#34;,&#34;&#34;,&#34;&#34;,&#34;935772439&#34;,&#34;0&#34;],null,&#34;qfxCarbwNPLexc8PpMiVsQU&#34;,null,0,&#34;og.qtm.XfWA1BvOOpU.L.X.O&#34;,&#34;AA2YrTs0zFK3UefCY6GLI_SsRNIjHW3SYg&#34;,&#34;AA2YrTtkKQV3lGUr8NFNNf7x8A_DSq-LGw&#34;,&#34;&#34;,2,1,200,&#34;DEU&#34;,null,null,&#34;1&#34;,&#34;538&#34;,1,null,null,89978449,null,0,0,0,0],null,[1,0.1000000014901161,2,1],null,[0,0,0,null,&#34;&#34;,&#34;&#34;,&#34;&#34;,&#34;&#34;,0,0,null,&#34;&#34;],[0,0,&#34;&#34;,1,0,0,0,0,0,0,null,0,0,null,0,0,null,null,0,0,0,&#34;&#34;,&#34;&#34;,&#34;&#34;,&#34;&#34;,&#34;&#34;,&#34;&#34;,null,0,0,0,0,0,null,null,null,&#34;rgba(32,33,36,1)&#34;,&#34;rgba(255,255,255,1)&#34;,0,0,1,null,null,null,0,null,null,null,0],null,null,[&#34;1&#34;,&#34;gci_91f30755d6a6b787dcc2a4062e6e9824.js&#34;,&#34;googleapis.client:gapi.iframes&#34;,&#34;&#34;,&#34;de&#34;],null,null,null,null,null,[0.009999999776482582,&#34;de&#34;,&#34;538&#34;,[null,&#34;&#34;,&#34;0&#34;,null,1,5184000,null,null,&#34;&#34;,null,null,null,null,null,0,null,0,null,1,0,0,0,null,null,0,0,null,0,0,0,0,0],null,null,null,0],[1,null,null,28834,538,&#34;DEU&#34;,&#34;de&#34;,&#34;935772439.0&#34;,8,null,0,0,null,null,null,null,&#34;3700949,3701384,102772546,116249040,116249043&#34;,null,null,null,&#34;qfxCarbwNPLexc8PpMiVsQU&#34;,0,0,0,null,2,5,&#34;rd&#34;,116,0,0,null,null,1,89978449,0,0],[[null,null,null,&#34;https://www.gstatic.com/og/_/js/k=og.qtm.en_US.a2obTWcoRYc.es5.O/rt=j/m=qabr,q_dnp,qcwid,qapid,qald,qads/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTs0zFK3UefCY6GLI_SsRNIjHW3SYg&#34;],[null,null,null,&#34;https://www.gstatic.com/og/_/ss/k=og.qtm.XfWA1BvOOpU.L.X.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTtkKQV3lGUr8NFNNf7x8A_DSq-LGw&#34;]],null,null,null,[[[null,null,[null,null,null,&#34;https://ogs.google.com/widget/app/so?eom=1\u0026awwd=1\u0026em=2\u0026dpi=89978449&#34;],0,570,370,49,4,1,0,0,63,64,8000,&#34;https://www.google.de/intl/de/about/products&#34;,67,1,69,null,1,70,&#34;Beim Laden der Anwendungsliste ist ein Problem aufgetreten. Bitte versuch es in ein paar Minuten noch einmal oder gehe zur Seite %1$sGoogle-Produkte%2$s.&#34;,3,0,0,74,0,null,null,null,null,null,null,null,&#34;/widget/app/so&#34;,null,null,null,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,1,null,144,null,null,3,0,0,1,2,&#34;(Öffnet einen neuen Tab.)&#34;,null,0],[null,null,[null,null,null,&#34;https://ogs.google.com/widget/callout?eom=1\u0026dc=1&#34;],null,280,420,70,25,0,null,0,null,null,8000,null,71,4,null,null,null,null,null,null,null,null,76,null,null,null,107,108,109,&#34;&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1]],null,null,&#34;1&#34;,&#34;538&#34;,1,0,null,&#34;de&#34;,0,null,null,0,0,[null,&#34;https://www.google.com/&#34;,null,null,null,0,null,0,0,&#34;&#34;,&#34;&#34;,&#34;&#34;,&#34;https://ogads-pa.clients6.google.com&#34;,0,0,0,&#34;&#34;,&#34;&#34;,0,0,null,86400,null,null,null,null,0,null,0,0,&#34;1184720131&#34;,3,0,1,0,0],0,null,null,null,null,0,&#34;&#34;,0,0,0,0,&#34;Google-Abo&#34;,0,&#34;CAMSvg0VvAqqtQv4hljdx3H4jiHWjIsPqKu7BdysSd2SBZIfmDLtFr1VMokBhQm5EeoepBLVBvoCnAGhFL8CMgWGBK4GqAZwGDeSAuADkgSMlIIC-BeOAQKpCPjnlAayBMQE5-gFlZcMhwaYBhWFiwS3A4X-fIMFmf0gkg33A7XvW7WIpQat8T3b__QN0bMO3ZQOoE7sMORZ5Db2Hi7hPqQe-zr0CPCmM42cBMz5BLXoBt2iBf6j6wOcnekDoxOBBar8DdsMtvMakS7sXIhrgEaP8wX68McG-NAspIQFg4EEiugthtIC3iqZF4-0BscT_gHQLqxGtD2yBQD-GsUflE-QF_8MnwWQDpUd0AayAbo1owPIFsIX8wLJAfoXoQinA5oGiQOZA48V1gC9BpcEdIkFmgWSCHKgLdkFqAHcCNEXpQaBD84R2gW5A_4l44w6jwZpAo8EkgCJBf0FkgVegQU15AMXK04354sGyAVAlQ-uDwz3AuEB-wbmDH_OA-EFiAaoAmcOnogBuAXvBRqIBgABIaQGmIMFrwuzD_CUEdNJfkABuQxnjUeDBr0GzAYhpAV6EhuRBvwCjQY6lgUYGDM1Q1o7rAUW1AQeE5MGRgG1AvwGFr8GAYcFi7gG0AtD_ya2LMgAysktp-kE11OY2w2rpyaGnxeuzwWsyQHYwQWeQecErUi9_iYH0qo5kAGSBcwFnwawAvcDnwUVrwHgDOgBoAvwD3QAvQazA3HsE8URFAv5A2esA6wEKZMGtA2gDoYGO44JmQ6VBqkCqAD_BKULQ6UF2wT7CNcM6QjXCQUP6A_VCZEBlgbUDa8D1w7JBs4GvAXlAqwGlAbSANgGiBZSnQYhjQ9I4wikA8EPmwPPBIoGRZgExBgE5wDAD8cPCZUFb4AMuQSQBtABcaMD1Q-dA4IDzATqDwWUBuQGmwWqA5kNS40GkAWIA80GOKwFHJcE8gaADwSDBPcGwALBD40FzgVltQDMBrsErg-LBdgGoAN2ewX6D7EDqQT1Bo0Fywb2Be8F4QMF_wa_DsQOmhd1ZLoA1QLoAcgGsAPoBtUMlgM2Ww5DBpMFsAZNzASnAQWeBtcGhaYG64kF27MS-O8Fg58F52sFl64Ekm2WhgagbsfjBNDtAadi8kebswacJcT2BoidAbGRCuKtAt-pAZ8tBK2kBNgFs5wF8AChswOUnwaYHcLsBYnlBLU19ZQG7V28yAW8igKa6gac67MDT0arGL3sAquCBgWk_AX6lAaWyAzoEQKZggXSoALogAXpHOs5x3D9hQTfOJoEtTiBVaiRBsLUBvHwBaaYBM8v1_QGuv0Gmp8F1c4FBKA60SveX4EumrQC8O0GhSDguQaZxgYEjwXqtQaVygamhgavtgbj5QbSQeDdA535BqgJglmZ5AbeiwT9A5ZV9H3qZvOKBJGOBtaYBcgQnoAGuwWZlAakrQTDCqYIognFaddcujXDQKoenZsFC6sdyl_iqAau2AXwmwX4KY1t8yTsL7y4Bqq7AxiiTL2fBsIG3QaKqgbYngPPyAbhDLkrv-IGBZP_BuGDBb7hBtUyoUCfuwbK1AbPP6qEBoQ_hyS-4wW5b6TEBfAR7KcEoDXANc7LBfga0Q4Evz7EY9cwzBXtGONGzw-OwAaDwgXyE-cK1jDVfcU18QilAaXeBpkXBYHWBb7TBuSQBs0T6kcDpKYG0SvNkwXUV6gF-5UFrVvWTpcMoW33XJQG-3rWkwb5DIwnjhfZGvQBqlkEvXQhvsgGg7MFmR6IJYaHBsxA_TyiE_rNBrNT7vkG7vYGAeIYpCObC_TqBp54zBsEnVHNF_TiBpcw_xiNf88xk0-f4wP_EP0qyMYG9iOFFpcNBJMWwFGFpwauGfGaBqgMPMYU6wzDZq8h0JUFvg6fC_V3lccGht8GhpcG1gO4P-o2uCgFj8EGl36yywa5BbcdlokGunPOGNS_BpODBshb74QA9NRq7_QGggiE7Qa7Aao-gRXJPrQWliGWgQbwGv8N2CnVJasvlBXjGOAh8hevHNEz5jf2BgqXEtEJ8CfMAO847YgGgwj5N74V0B7SHYUCziPECJo2zwq3L_cF9ALlCJMthgaAHrYAwAMTozyCE4MM-xHHCssFzgSyEK4D1iOIBt1RlyTFBUmiGOcKqASVJ-0aTux34NEuBcwGH68B5QOTBLEF3QS7BLADsQZWVIYFcQnIBBW6BMsDGFLeBR9wdAVUMqkDZ9QEBVWJBrsG0gb3AVKNBlPjAXGpA4gDvgYnTpIBLZ8F4wRymg6tAKIKogr7AAqPCK8F_g-ABpAI&#34;]]],};this.gbar_=this.gbar_||{};(function(_){var window=this;
-try{
-_._F_toggles_initialize=function(a){(typeof globalThis!==&#34;undefined&#34;?globalThis:typeof self!==&#34;undefined&#34;?self:this)._F_toggles_gbar_=a||[]};(0,_._F_toggles_initialize)([]);
-/*
-
- Copyright The Closure Library Authors.
- SPDX-License-Identifier: Apache-2.0
-*/
-var ia,oa,qa,ua,wa,xa,Pa,Qa,ib,lb,nb,sb,ob,vb,Ab,Mb,Ob,Pb,Qb,Rb,Zb,$b,ac,bc;_.aa=function(a,b){if(Error.captureStackTrace)Error.captureStackTrace(this,_.aa);else{var c=Error().stack;c&amp;&amp;(this.stack=c)}a&amp;&amp;(this.message=String(a));b!==void 0&amp;&amp;(this.cause=b)};_.ba=function(a){a.lq=!0;return a};
-_.ha=function(a){var b=a;if(ca(b)){if(!/^\s*(?:-?[1-9]\d*|0)?\s*$/.test(b))throw Error(String(b));}else if(da(b)&amp;&amp;!Number.isSafeInteger(b))throw Error(String(b));return ea?BigInt(a):a=fa(a)?a?&#34;1&#34;:&#34;0&#34;:ca(a)?a.trim()||&#34;0&#34;:String(a)};ia=function(a,b){if(a.length&gt;b.length)return!1;if(a.length&lt;b.length||a===b)return!0;for(var c=0;c&lt;a.length;c++){var d=a[c],e=b[c];if(d&gt;e)return!1;if(d&lt;e)return!0}};_.ja=function(a){_.t.setTimeout(function(){throw a;},0)};
-_.la=function(){return _.ka().toLowerCase().indexOf(&#34;webkit&#34;)!=-1};_.ka=function(){var a=_.t.navigator;return a&amp;&amp;(a=a.userAgent)?a:&#34;&#34;};oa=function(a){if(!ma||!na)return!1;for(var b=0;b&lt;na.brands.length;b++){var c=na.brands[b].brand;if(c&amp;&amp;c.indexOf(a)!=-1)return!0}return!1};_.pa=function(a){return _.ka().indexOf(a)!=-1};qa=function(){return ma?!!na&amp;&amp;na.brands.length&gt;0:!1};_.ra=function(){return qa()?!1:_.pa(&#34;Opera&#34;)};_.sa=function(){return qa()?!1:_.pa(&#34;Trident&#34;)||_.pa(&#34;MSIE&#34;)};
-_.ta=function(){return _.pa(&#34;Firefox&#34;)||_.pa(&#34;FxiOS&#34;)};_.va=function(){return _.pa(&#34;Safari&#34;)&amp;&amp;!(ua()||(qa()?0:_.pa(&#34;Coast&#34;))||_.ra()||(qa()?0:_.pa(&#34;Edge&#34;))||(qa()?oa(&#34;Microsoft Edge&#34;):_.pa(&#34;Edg/&#34;))||(qa()?oa(&#34;Opera&#34;):_.pa(&#34;OPR&#34;))||_.ta()||_.pa(&#34;Silk&#34;)||_.pa(&#34;Android&#34;))};ua=function(){return qa()?oa(&#34;Chromium&#34;):(_.pa(&#34;Chrome&#34;)||_.pa(&#34;CriOS&#34;))&amp;&amp;!(qa()?0:_.pa(&#34;Edge&#34;))||_.pa(&#34;Silk&#34;)};wa=function(){return ma?!!na&amp;&amp;!!na.platform:!1};xa=function(){return _.pa(&#34;iPhone&#34;)&amp;&amp;!_.pa(&#34;iPod&#34;)&amp;&amp;!_.pa(&#34;iPad&#34;)};
-_.ya=function(){return xa()||_.pa(&#34;iPad&#34;)||_.pa(&#34;iPod&#34;)};_.za=function(){return wa()?na.platform===&#34;macOS&#34;:_.pa(&#34;Macintosh&#34;)};_.Ca=function(a,b){return(0,_.Ba)(a,b)&gt;=0};_.Da=function(a,b,c){return typeof Symbol===&#34;function&#34;&amp;&amp;typeof Symbol()===&#34;symbol&#34;?(c===void 0?0:c)&amp;&amp;Symbol.for&amp;&amp;a?Symbol.for(a):a!=null?Symbol(a):Symbol():b};_.Ha=function(a,b){_.Ea||_.w in a||Fa(a,Ga);a[_.w]|=b};_.Ia=function(a,b){_.Ea||_.w in a||Fa(a,Ga);a[_.w]=b};_.Ma=function(a){return a[Ja]===Ka};
-_.Oa=function(a,b){return b===void 0?a.j!==Na&amp;&amp;!!(2&amp;(a.J[_.w]|0)):!!(2&amp;b)&amp;&amp;a.j!==Na};Pa=function(a){return a};Qa=function(a,b){a.__closure__error__context__984382||(a.__closure__error__context__984382={});a.__closure__error__context__984382.severity=b};_.Ra=function(a){a=Error(a);Qa(a,&#34;warning&#34;);return a};_.Ta=function(a,b){if(a!=null){var c;var d=(c=Sa)!=null?c:Sa={};c=d[a]||0;c&gt;=b||(d[a]=c+1,a=Error(),Qa(a,&#34;incident&#34;),_.ja(a))}};
-_.Va=function(a){if(typeof a!==&#34;boolean&#34;)throw Error(&#34;y`&#34;+_.Ua(a)+&#34;`&#34;+a);return a};_.Wa=function(a){if(a==null||typeof a===&#34;boolean&#34;)return a;if(typeof a===&#34;number&#34;)return!!a};_.Ya=function(a){if(!(0,_.Xa)(a))throw _.Ra(&#34;enum&#34;);return a|0};_.Za=function(a){return a==null?a:(0,_.Xa)(a)?a|0:void 0};_.$a=function(a){if(typeof a!==&#34;number&#34;)throw _.Ra(&#34;int32&#34;);if(!(0,_.Xa)(a))throw _.Ra(&#34;int32&#34;);return a|0};_.ab=function(a){if(a!=null&amp;&amp;typeof a!==&#34;string&#34;)throw Error();return a};
-_.bb=function(a){return a==null||typeof a===&#34;string&#34;?a:void 0};_.cb=function(a,b,c){if(a!=null&amp;&amp;_.Ma(a))return a;if(Array.isArray(a)){var d=a[_.w]|0;c=d|c&amp;32|c&amp;2;c!==d&amp;&amp;_.Ia(a,c);return new b(a)}};_.gb=function(a){var b=_.db(_.fb);return b?a[b]:void 0};ib=function(a,b){b&lt;100||_.Ta(hb,1)};
-lb=function(a,b,c,d){var e=d!==void 0;d=!!d;var f=_.db(_.fb),g;!e&amp;&amp;_.Ea&amp;&amp;f&amp;&amp;(g=a[f])&amp;&amp;g.Ud(ib);f=[];var h=a.length;g=4294967295;var k=!1,m=!!(b&amp;64),n=m?b&amp;128?0:-1:void 0;if(!(b&amp;1)){var p=h&amp;&amp;a[h-1];p!=null&amp;&amp;typeof p===&#34;object&#34;&amp;&amp;p.constructor===Object?(h--,g=h):p=void 0;if(m&amp;&amp;!(b&amp;128)&amp;&amp;!e){k=!0;var q;g=((q=jb)!=null?q:Pa)(g-n,n,a,p,void 0)+n}}b=void 0;for(q=0;q&lt;h;q++){var r=a[q];if(r!=null&amp;&amp;(r=c(r,d))!=null)if(m&amp;&amp;q&gt;=g){var u=q-n,v=void 0;((v=b)!=null?v:b={})[u]=r}else f[q]=r}if(p)for(var A in p)h=p[A],
-h!=null&amp;&amp;(h=c(h,d))!=null&amp;&amp;(q=+A,r=void 0,m&amp;&amp;!Number.isNaN(q)&amp;&amp;(r=q+n)&lt;g?f[r]=h:(q=void 0,((q=b)!=null?q:b={})[A]=h));b&amp;&amp;(k?f.push(b):f[g]=b);e&amp;&amp;_.db(_.fb)&amp;&amp;(a=_.gb(a))&amp;&amp;&#34;function&#34;==typeof _.kb&amp;&amp;a instanceof _.kb&amp;&amp;(f[_.fb]=a.i());return f};
-nb=function(a){switch(typeof a){case &#34;number&#34;:return Number.isFinite(a)?a:&#34;&#34;+a;case &#34;bigint&#34;:return(0,_.mb)(a)?Number(a):&#34;&#34;+a;case &#34;boolean&#34;:return a?1:0;case &#34;object&#34;:if(Array.isArray(a)){var b=a[_.w]|0;return a.length===0&amp;&amp;b&amp;1?void 0:lb(a,b,nb)}if(a!=null&amp;&amp;_.Ma(a))return ob(a);if(&#34;function&#34;==typeof _.pb&amp;&amp;a instanceof _.pb)return a.j();return}return a};sb=function(a,b){if(b){jb=b==null||b===Pa||b[qb]!==rb?Pa:b;try{return ob(a)}finally{jb=void 0}}return ob(a)};
-ob=function(a){a=a.J;return lb(a,a[_.w]|0,nb)};_.x=function(a,b,c){return _.tb(a,b,c,2048)};
-_.tb=function(a,b,c,d){d=d===void 0?0:d;if(a==null){var e=32;c?(a=[c],e|=128):a=[];b&amp;&amp;(e=e&amp;-16760833|(b&amp;1023)&lt;&lt;14)}else{if(!Array.isArray(a))throw Error(&#34;z&#34;);e=a[_.w]|0;if(ub&amp;&amp;1&amp;e)throw Error(&#34;A&#34;);2048&amp;e&amp;&amp;!(2&amp;e)&amp;&amp;vb();if(e&amp;256)throw Error(&#34;B&#34;);if(e&amp;64)return(e|d)!==e&amp;&amp;_.Ia(a,e|d),a;if(c&amp;&amp;(e|=128,c!==a[0]))throw Error(&#34;C&#34;);a:{c=a;e|=64;var f=c.length;if(f){var g=f-1,h=c[g];if(h!=null&amp;&amp;typeof h===&#34;object&#34;&amp;&amp;h.constructor===Object){b=e&amp;128?0:-1;g-=b;if(g&gt;=1024)throw Error(&#34;E&#34;);for(var k in h)f=+k,f&lt;g&amp;&amp;
-(c[f+b]=h[k],delete h[k]);e=e&amp;-16760833|(g&amp;1023)&lt;&lt;14;break a}}if(b){k=Math.max(b,f-(e&amp;128?0:-1));if(k&gt;1024)throw Error(&#34;F&#34;);e=e&amp;-16760833|(k&amp;1023)&lt;&lt;14}}}_.Ia(a,e|64|d);return a};vb=function(){if(ub)throw Error(&#34;D&#34;);_.Ta(wb,5)};
-Ab=function(a,b){if(typeof a!==&#34;object&#34;)return a;if(Array.isArray(a)){var c=a[_.w]|0;a.length===0&amp;&amp;c&amp;1?a=void 0:c&amp;2||(!b||4096&amp;c||16&amp;c?a=_.xb(a,c,!1,b&amp;&amp;!(c&amp;16)):(_.Ha(a,34),c&amp;4&amp;&amp;Object.freeze(a)));return a}if(a!=null&amp;&amp;_.Ma(a))return b=a.J,c=b[_.w]|0,_.Oa(a,c)?a:_.yb(a,b,c)?_.zb(a,b):_.xb(b,c);if(&#34;function&#34;==typeof _.pb&amp;&amp;a instanceof _.pb)return a};_.zb=function(a,b,c){a=new a.constructor(b);c&amp;&amp;(a.j=Na);a.o=Na;return a};
-_.xb=function(a,b,c,d){d!=null||(d=!!(34&amp;b));a=lb(a,b,Ab,d);d=32;c&amp;&amp;(d|=2);b=b&amp;16769217|d;_.Ia(a,b);return a};_.Bb=function(a){var b=a.J,c=b[_.w]|0;return _.Oa(a,c)?_.yb(a,b,c)?_.zb(a,b,!0):new a.constructor(_.xb(b,c,!1)):a};_.Cb=function(a){if(a.j!==Na)return!1;var b=a.J;b=_.xb(b,b[_.w]|0);_.Ha(b,2048);a.J=b;a.j=void 0;a.o=void 0;return!0};_.Db=function(a){if(!_.Cb(a)&amp;&amp;_.Oa(a,a.J[_.w]|0))throw Error();};_.Eb=function(a,b){b===void 0&amp;&amp;(b=a[_.w]|0);b&amp;32&amp;&amp;!(b&amp;4096)&amp;&amp;_.Ia(a,b|4096)};
-_.yb=function(a,b,c){return c&amp;2?!0:c&amp;32&amp;&amp;!(c&amp;4096)?(_.Ia(b,c|2),a.j=Na,!0):!1};_.Fb=function(a,b,c,d,e){var f=c+(e?0:-1),g=a.length-1;if(g&gt;=1+(e?0:-1)&amp;&amp;f&gt;=g){var h=a[g];if(h!=null&amp;&amp;typeof h===&#34;object&#34;&amp;&amp;h.constructor===Object)return h[c]=d,b}if(f&lt;=g)return a[f]=d,b;if(d!==void 0){var k;g=((k=b)!=null?k:b=a[_.w]|0)&gt;&gt;14&amp;1023||536870912;c&gt;=g?d!=null&amp;&amp;(f={},a[g+(e?0:-1)]=(f[c]=d,f)):a[f]=d}return b};
-_.Hb=function(a,b,c,d,e){var f=!1;d=_.Gb(a,d,e,function(g){var h=_.cb(g,c,b);f=h!==g&amp;&amp;h!=null;return h});if(d!=null)return f&amp;&amp;!_.Oa(d)&amp;&amp;_.Eb(a,b),d};_.Ib=function(){var a=function(){throw Error();};Object.setPrototypeOf(a,a.prototype);return a};_.y=function(){this.oa=this.oa;this.X=this.X};_.Jb=function(a,b){return a!=null?!!a:!!b};_.z=function(a,b){b==void 0&amp;&amp;(b=&#34;&#34;);return a!=null?a:b};_.Kb=function(a,b,c){for(var d in a)b.call(c,a[d],d,a)};_.Lb=function(a){for(var b in a)return!1;return!0};
-Mb=typeof Object.create==&#34;function&#34;?Object.create:function(a){var b=function(){};b.prototype=a;return new b};Ob=typeof Object.defineProperties==&#34;function&#34;?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};
-Pb=function(a){a=[&#34;object&#34;==typeof globalThis&amp;&amp;globalThis,a,&#34;object&#34;==typeof window&amp;&amp;window,&#34;object&#34;==typeof self&amp;&amp;self,&#34;object&#34;==typeof global&amp;&amp;global];for(var b=0;b&lt;a.length;++b){var c=a[b];if(c&amp;&amp;c.Math==Math)return c}throw Error(&#34;a&#34;);};Qb=Pb(this);Rb=&#34;Int8 Uint8 Uint8Clamped Int16 Uint16 Int32 Uint32 Float32 Float64&#34;.split(&#34; &#34;);Qb.BigInt64Array&amp;&amp;(Rb.push(&#34;BigInt64&#34;),Rb.push(&#34;BigUint64&#34;));
-var Tb=function(a,b){if(b)for(var c=0;c&lt;Rb.length;c++)Sb(Rb[c]+&#34;Array.prototype.&#34;+a,b)},Ub=function(a,b){b&amp;&amp;Sb(a,b)},Sb=function(a,b){var c=Qb;a=a.split(&#34;.&#34;);for(var d=0;d&lt;a.length-1;d++){var e=a[d];if(!(e in c))return;c=c[e]}a=a[a.length-1];d=c[a];b=b(d);b!=d&amp;&amp;b!=null&amp;&amp;Ob(c,a,{configurable:!0,writable:!0,value:b})},Vb;
-if(typeof Object.setPrototypeOf==&#34;function&#34;)Vb=Object.setPrototypeOf;else{var Wb;a:{var Xb={a:!0},Yb={};try{Yb.__proto__=Xb;Wb=Yb.a;break a}catch(a){}Wb=!1}Vb=Wb?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(&#34;b`&#34;+a);return a}:null}Zb=Vb;
-_.B=function(a,b){a.prototype=Mb(b.prototype);a.prototype.constructor=a;if(Zb)Zb(a,b);else for(var c in b)if(c!=&#34;prototype&#34;)if(Object.defineProperties){var d=Object.getOwnPropertyDescriptor(b,c);d&amp;&amp;Object.defineProperty(a,c,d)}else a[c]=b[c];a.Y=b.prototype};$b=function(a){var b=0;return function(){return b&lt;a.length?{done:!1,value:a[b++]}:{done:!0}}};
-_.C=function(a){var b=typeof Symbol!=&#34;undefined&#34;&amp;&amp;Symbol.iterator&amp;&amp;a[Symbol.iterator];if(b)return b.call(a);if(typeof a.length==&#34;number&#34;)return{next:$b(a)};throw Error(&#34;c`&#34;+String(a));};ac=function(a,b){return Object.prototype.hasOwnProperty.call(a,b)};bc=typeof Object.assign==&#34;function&#34;?Object.assign:function(a,b){if(a==null)throw new TypeError(&#34;d&#34;);a=Object(a);for(var c=1;c&lt;arguments.length;c++){var d=arguments[c];if(d)for(var e in d)ac(d,e)&amp;&amp;(a[e]=d[e])}return a};
-Ub(&#34;Object.assign&#34;,function(a){return a||bc});_.cc=function(a){if(!(a instanceof Object))throw new TypeError(&#34;e`&#34;+a);};_.D=function(){this.X=!1;this.F=null;this.o=void 0;this.j=1;this.D=this.G=0;this.oa=this.A=null};_.D.prototype.N=function(a){this.o=a};_.D.prototype.getNextAddressJsc=function(){return this.j};_.D.prototype.getYieldResultJsc=function(){return this.o};_.D.prototype.return=function(a){this.A={return:a};this.j=this.D};_.D.prototype[&#34;return&#34;]=_.D.prototype.return;
-_.D.prototype.S=function(a){this.A={na:a};this.j=this.D};_.D.prototype.jumpThroughFinallyBlocks=_.D.prototype.S;_.D.prototype.i=function(a,b){this.j=b;return{value:a}};_.D.prototype.yield=_.D.prototype.i;_.D.prototype.T=function(a,b){a=_.C(a);var c=a.next();_.cc(c);if(c.done)this.o=c.value,this.j=b;else return this.F=a,this.i(c.value,b)};_.D.prototype.yieldAll=_.D.prototype.T;_.D.prototype.na=function(a){this.j=a};_.D.prototype.jumpTo=_.D.prototype.na;_.D.prototype.v=function(){this.j=0};
-_.D.prototype.jumpToEnd=_.D.prototype.v;_.D.prototype.C=function(a,b){this.G=a;b!=void 0&amp;&amp;(this.D=b)};_.D.prototype.setCatchFinallyBlocks=_.D.prototype.C;_.D.prototype.R=function(a){this.G=0;this.D=a||0};_.D.prototype.setFinallyBlock=_.D.prototype.R;_.D.prototype.K=function(a,b){this.j=a;this.G=b||0};_.D.prototype.leaveTryBlock=_.D.prototype.K;_.D.prototype.B=function(a){this.G=a||0;a=this.A.wg;this.A=null;return a};_.D.prototype.enterCatchBlock=_.D.prototype.B;
-_.D.prototype.L=function(a,b,c){c?this.oa[c]=this.A:this.oa=[this.A];this.G=a||0;this.D=b||0};_.D.prototype.enterFinallyBlock=_.D.prototype.L;_.D.prototype.M=function(a,b){b=this.oa.splice(b||0)[0];(b=this.A=this.A||b)?b.Hg?this.j=this.G||this.D:b.na!=void 0&amp;&amp;this.D&lt;b.na?(this.j=b.na,this.A=null):this.j=this.D:this.j=a};_.D.prototype.leaveFinallyBlock=_.D.prototype.M;_.D.prototype.O=function(a){return new dc(a)};_.D.prototype.forIn=_.D.prototype.O;
-var dc=function(a){this.o=a;this.i=[];for(var b in a)this.i.push(b);this.i.reverse()};dc.prototype.j=function(){for(;this.i.length&gt;0;){var a=this.i.pop();if(a in this.o)return a}return null};dc.prototype.getNext=dc.prototype.j;Ub(&#34;globalThis&#34;,function(a){return a||Qb});Ub(&#34;Reflect.setPrototypeOf&#34;,function(a){return a?a:Zb?function(b,c){try{return Zb(b,c),!0}catch(d){return!1}}:null});
-Ub(&#34;Symbol&#34;,function(a){if(a)return a;var b=function(f,g){this.i=f;Ob(this,&#34;description&#34;,{configurable:!0,writable:!0,value:g})};b.prototype.toString=function(){return this.i};var c=&#34;jscomp_symbol_&#34;+(Math.random()*1E9&gt;&gt;&gt;0)+&#34;_&#34;,d=0,e=function(f){if(this instanceof e)throw new TypeError(&#34;g&#34;);return new b(c+(f||&#34;&#34;)+&#34;_&#34;+d++,f)};return e});Ub(&#34;Symbol.iterator&#34;,function(a){if(a)return a;a=Symbol(&#34;h&#34;);Ob(Array.prototype,a,{configurable:!0,writable:!0,value:function(){return ec($b(this))}});return a});
-var ec=function(a){a={next:a};a[Symbol.iterator]=function(){return this};return a};
-Ub(&#34;Promise&#34;,function(a){function b(){this.i=null}function c(g){return g instanceof e?g:new e(function(h){h(g)})}if(a)return a;b.prototype.j=function(g){if(this.i==null){this.i=[];var h=this;this.o(function(){h.A()})}this.i.push(g)};var d=Qb.setTimeout;b.prototype.o=function(g){d(g,0)};b.prototype.A=function(){for(;this.i&amp;&amp;this.i.length;){var g=this.i;this.i=[];for(var h=0;h&lt;g.length;++h){var k=g[h];g[h]=null;try{k()}catch(m){this.v(m)}}}this.i=null};b.prototype.v=function(g){this.o(function(){throw g;
-})};var e=function(g){this.i=0;this.o=void 0;this.j=[];this.C=!1;var h=this.v();try{g(h.resolve,h.reject)}catch(k){h.reject(k)}};e.prototype.v=function(){function g(m){return function(n){k||(k=!0,m.call(h,n))}}var h=this,k=!1;return{resolve:g(this.X),reject:g(this.A)}};e.prototype.X=function(g){if(g===this)this.A(new TypeError(&#34;i&#34;));else if(g instanceof e)this.M(g);else{a:switch(typeof g){case &#34;object&#34;:var h=g!=null;break a;case &#34;function&#34;:h=!0;break a;default:h=!1}h?this.K(g):this.B(g)}};e.prototype.K=
-function(g){var h=void 0;try{h=g.then}catch(k){this.A(k);return}typeof h==&#34;function&#34;?this.N(h,g):this.B(g)};e.prototype.A=function(g){this.D(2,g)};e.prototype.B=function(g){this.D(1,g)};e.prototype.D=function(g,h){if(this.i!=0)throw Error(&#34;j`&#34;+g+&#34;`&#34;+h+&#34;`&#34;+this.i);this.i=g;this.o=h;this.i===2&amp;&amp;this.L();this.F()};e.prototype.L=function(){var g=this;d(function(){if(g.G()){var h=Qb.console;typeof h!==&#34;undefined&#34;&amp;&amp;h.error(g.o)}},1)};e.prototype.G=function(){if(this.C)return!1;var g=Qb.CustomEvent,h=Qb.Event,
-k=Qb.dispatchEvent;if(typeof k===&#34;undefined&#34;)return!0;typeof g===&#34;function&#34;?g=new g(&#34;unhandledrejection&#34;,{cancelable:!0}):typeof h===&#34;function&#34;?g=new h(&#34;unhandledrejection&#34;,{cancelable:!0}):(g=Qb.document.createEvent(&#34;CustomEvent&#34;),g.initCustomEvent(&#34;unhandledrejection&#34;,!1,!0,g));g.promise=this;g.reason=this.o;return k(g)};e.prototype.F=function(){if(this.j!=null){for(var g=0;g&lt;this.j.length;++g)f.j(this.j[g]);this.j=null}};var f=new b;e.prototype.M=function(g){var h=this.v();g.Rd(h.resolve,h.reject)};
-e.prototype.N=function(g,h){var k=this.v();try{g.call(h,k.resolve,k.reject)}catch(m){k.reject(m)}};e.prototype.then=function(g,h){function k(q,r){return typeof q==&#34;function&#34;?function(u){try{m(q(u))}catch(v){n(v)}}:r}var m,n,p=new e(function(q,r){m=q;n=r});this.Rd(k(g,m),k(h,n));return p};e.prototype.catch=function(g){return this.then(void 0,g)};e.prototype.Rd=function(g,h){function k(){switch(m.i){case 1:g(m.o);break;case 2:h(m.o);break;default:throw Error(&#34;k`&#34;+m.i);}}var m=this;this.j==null?f.j(k):
-this.j.push(k);this.C=!0};e.resolve=c;e.reject=function(g){return new e(function(h,k){k(g)})};e.race=function(g){return new e(function(h,k){for(var m=_.C(g),n=m.next();!n.done;n=m.next())c(n.value).Rd(h,k)})};e.all=function(g){var h=_.C(g),k=h.next();return k.done?c([]):new e(function(m,n){function p(u){return function(v){q[u]=v;r--;r==0&amp;&amp;m(q)}}var q=[],r=0;do q.push(void 0),r++,c(k.value).Rd(p(q.length-1),n),k=h.next();while(!k.done)})};return e});
-var fc=function(a,b,c){if(a==null)throw new TypeError(&#34;l`&#34;+c);if(b instanceof RegExp)throw new TypeError(&#34;m`&#34;+c);return a+&#34;&#34;};Ub(&#34;String.prototype.startsWith&#34;,function(a){return a?a:function(b,c){var d=fc(this,b,&#34;startsWith&#34;),e=d.length,f=b.length;c=Math.max(0,Math.min(c|0,d.length));for(var g=0;g&lt;f&amp;&amp;c&lt;e;)if(d[c++]!=b[g++])return!1;return g&gt;=f}});Ub(&#34;Object.setPrototypeOf&#34;,function(a){return a||Zb});Ub(&#34;Symbol.dispose&#34;,function(a){return a?a:Symbol(&#34;n&#34;)});
-Ub(&#34;WeakMap&#34;,function(a){function b(){}function c(k){var m=typeof k;return m===&#34;object&#34;&amp;&amp;k!==null||m===&#34;function&#34;}function d(k){if(!ac(k,f)){var m=new b;Ob(k,f,{value:m})}}function e(k){var m=Object[k];m&amp;&amp;(Object[k]=function(n){if(n instanceof b)return n;Object.isExtensible(n)&amp;&amp;d(n);return m(n)})}if(function(){if(!a||!Object.seal)return!1;try{var k=Object.seal({}),m=Object.seal({}),n=new a([[k,2],[m,3]]);if(n.get(k)!=2||n.get(m)!=3)return!1;n.delete(k);n.set(m,4);return!n.has(k)&amp;&amp;n.get(m)==4}catch(p){return!1}}())return a;
-var f=&#34;$jscomp_hidden_&#34;+Math.random();e(&#34;freeze&#34;);e(&#34;preventExtensions&#34;);e(&#34;seal&#34;);var g=0,h=function(k){this.i=(g+=Math.random()+1).toString();if(k){k=_.C(k);for(var m;!(m=k.next()).done;)m=m.value,this.set(m[0],m[1])}};h.prototype.set=function(k,m){if(!c(k))throw Error(&#34;o&#34;);d(k);if(!ac(k,f))throw Error(&#34;p`&#34;+k);k[f][this.i]=m;return this};h.prototype.get=function(k){return c(k)&amp;&amp;ac(k,f)?k[f][this.i]:void 0};h.prototype.has=function(k){return c(k)&amp;&amp;ac(k,f)&amp;&amp;ac(k[f],this.i)};h.prototype.delete=function(k){return c(k)&amp;&amp;
-ac(k,f)&amp;&amp;ac(k[f],this.i)?delete k[f][this.i]:!1};return h});
-Ub(&#34;Map&#34;,function(a){if(function(){if(!a||typeof a!=&#34;function&#34;||!a.prototype.entries||typeof Object.seal!=&#34;function&#34;)return!1;try{var h=Object.seal({x:4}),k=new a(_.C([[h,&#34;s&#34;]]));if(k.get(h)!=&#34;s&#34;||k.size!=1||k.get({x:4})||k.set({x:4},&#34;t&#34;)!=k||k.size!=2)return!1;var m=k.entries(),n=m.next();if(n.done||n.value[0]!=h||n.value[1]!=&#34;s&#34;)return!1;n=m.next();return n.done||n.value[0].x!=4||n.value[1]!=&#34;t&#34;||!m.next().done?!1:!0}catch(p){return!1}}())return a;var b=new WeakMap,c=function(h){this[0]={};this[1]=
-f();this.size=0;if(h){h=_.C(h);for(var k;!(k=h.next()).done;)k=k.value,this.set(k[0],k[1])}};c.prototype.set=function(h,k){h=h===0?0:h;var m=d(this,h);m.list||(m.list=this[0][m.id]=[]);m.entry?m.entry.value=k:(m.entry={next:this[1],Eb:this[1].Eb,head:this[1],key:h,value:k},m.list.push(m.entry),this[1].Eb.next=m.entry,this[1].Eb=m.entry,this.size++);return this};c.prototype.delete=function(h){h=d(this,h);return h.entry&amp;&amp;h.list?(h.list.splice(h.index,1),h.list.length||delete this[0][h.id],h.entry.Eb.next=
-h.entry.next,h.entry.next.Eb=h.entry.Eb,h.entry.head=null,this.size--,!0):!1};c.prototype.clear=function(){this[0]={};this[1]=this[1].Eb=f();this.size=0};c.prototype.has=function(h){return!!d(this,h).entry};c.prototype.get=function(h){return(h=d(this,h).entry)&amp;&amp;h.value};c.prototype.entries=function(){return e(this,function(h){return[h.key,h.value]})};c.prototype.keys=function(){return e(this,function(h){return h.key})};c.prototype.values=function(){return e(this,function(h){return h.value})};c.prototype.forEach=
-function(h,k){for(var m=this.entries(),n;!(n=m.next()).done;)n=n.value,h.call(k,n[1],n[0],this)};c.prototype[Symbol.iterator]=c.prototype.entries;var d=function(h,k){var m=k&amp;&amp;typeof k;m==&#34;object&#34;||m==&#34;function&#34;?b.has(k)?m=b.get(k):(m=&#34;&#34;+ ++g,b.set(k,m)):m=&#34;p_&#34;+k;var n=h[0][m];if(n&amp;&amp;ac(h[0],m))for(h=0;h&lt;n.length;h++){var p=n[h];if(k!==k&amp;&amp;p.key!==p.key||k===p.key)return{id:m,list:n,index:h,entry:p}}return{id:m,list:n,index:-1,entry:void 0}},e=function(h,k){var m=h[1];return ec(function(){if(m){for(;m.head!=
-h[1];)m=m.Eb;for(;m.next!=m.head;)return m=m.next,{done:!1,value:k(m)};m=null}return{done:!0,value:void 0}})},f=function(){var h={};return h.Eb=h.next=h.head=h},g=0;return c});
-Ub(&#34;Set&#34;,function(a){if(function(){if(!a||typeof a!=&#34;function&#34;||!a.prototype.entries||typeof Object.seal!=&#34;function&#34;)return!1;try{var c=Object.seal({x:4}),d=new a(_.C([c]));if(!d.has(c)||d.size!=1||d.add(c)!=d||d.size!=1||d.add({x:4})!=d||d.size!=2)return!1;var e=d.entries(),f=e.next();if(f.done||f.value[0]!=c||f.value[1]!=c)return!1;f=e.next();return f.done||f.value[0]==c||f.value[0].x!=4||f.value[1]!=f.value[0]?!1:e.next().done}catch(g){return!1}}())return a;var b=function(c){this.i=new Map;if(c){c=
-_.C(c);for(var d;!(d=c.next()).done;)this.add(d.value)}this.size=this.i.size};b.prototype.add=function(c){c=c===0?0:c;this.i.set(c,c);this.size=this.i.size;return this};b.prototype.delete=function(c){c=this.i.delete(c);this.size=this.i.size;return c};b.prototype.clear=function(){this.i.clear();this.size=0};b.prototype.has=function(c){return this.i.has(c)};b.prototype.entries=function(){return this.i.entries()};b.prototype.values=function(){return this.i.values()};b.prototype.keys=b.prototype.values;
-b.prototype[Symbol.iterator]=b.prototype.values;b.prototype.forEach=function(c,d){var e=this;this.i.forEach(function(f){return c.call(d,f,f,e)})};return b});Ub(&#34;Array.from&#34;,function(a){return a?a:function(b,c,d){c=c!=null?c:function(h){return h};var e=[],f=typeof Symbol!=&#34;undefined&#34;&amp;&amp;Symbol.iterator&amp;&amp;b[Symbol.iterator];if(typeof f==&#34;function&#34;){b=f.call(b);for(var g=0;!(f=b.next()).done;)e.push(c.call(d,f.value,g++))}else for(f=b.length,g=0;g&lt;f;g++)e.push(c.call(d,b[g],g));return e}});
-Ub(&#34;Object.entries&#34;,function(a){return a?a:function(b){var c=[],d;for(d in b)ac(b,d)&amp;&amp;c.push([d,b[d]]);return c}});Ub(&#34;Number.isFinite&#34;,function(a){return a?a:function(b){return typeof b!==&#34;number&#34;?!1:!isNaN(b)&amp;&amp;b!==Infinity&amp;&amp;b!==-Infinity}});Ub(&#34;Number.MAX_SAFE_INTEGER&#34;,function(){return 9007199254740991});Ub(&#34;Number.MIN_SAFE_INTEGER&#34;,function(){return-9007199254740991});Ub(&#34;Number.isInteger&#34;,function(a){return a?a:function(b){return Number.isFinite(b)?b===Math.floor(b):!1}});
-Ub(&#34;Number.isSafeInteger&#34;,function(a){return a?a:function(b){return Number.isInteger(b)&amp;&amp;Math.abs(b)&lt;=Number.MAX_SAFE_INTEGER}});Ub(&#34;Object.is&#34;,function(a){return a?a:function(b,c){return b===c?b!==0||1/b===1/c:b!==b&amp;&amp;c!==c}});Ub(&#34;Array.prototype.includes&#34;,function(a){return a?a:function(b,c){var d=this;d instanceof String&amp;&amp;(d=String(d));var e=d.length;c=c||0;for(c&lt;0&amp;&amp;(c=Math.max(c+e,0));c&lt;e;c++){var f=d[c];if(f===b||Object.is(f,b))return!0}return!1}});
-Ub(&#34;String.prototype.includes&#34;,function(a){return a?a:function(b,c){return fc(this,b,&#34;includes&#34;).indexOf(b,c||0)!==-1}});var hc=function(a,b){a instanceof String&amp;&amp;(a+=&#34;&#34;);var c=0,d=!1,e={next:function(){if(!d&amp;&amp;c&lt;a.length){var f=c++;return{value:b(f,a[f]),done:!1}}d=!0;return{done:!0,value:void 0}}};e[Symbol.iterator]=function(){return e};return e};Ub(&#34;Array.prototype.entries&#34;,function(a){return a?a:function(){return hc(this,function(b,c){return[b,c]})}});
-Ub(&#34;Math.trunc&#34;,function(a){return a?a:function(b){b=Number(b);if(isNaN(b)||b===Infinity||b===-Infinity||b===0)return b;var c=Math.floor(Math.abs(b));return b&lt;0?-c:c}});Ub(&#34;Array.prototype.find&#34;,function(a){return a?a:function(b,c){a:{var d=this;d instanceof String&amp;&amp;(d=String(d));for(var e=d.length,f=0;f&lt;e;f++){var g=d[f];if(b.call(c,g,f,d)){b=g;break a}}b=void 0}return b}});Ub(&#34;Object.values&#34;,function(a){return a?a:function(b){var c=[],d;for(d in b)ac(b,d)&amp;&amp;c.push(b[d]);return c}});
-Ub(&#34;Number.isNaN&#34;,function(a){return a?a:function(b){return typeof b===&#34;number&#34;&amp;&amp;isNaN(b)}});Ub(&#34;Array.prototype.keys&#34;,function(a){return a?a:function(){return hc(this,function(b){return b})}});Ub(&#34;Array.prototype.values&#34;,function(a){return a?a:function(){return hc(this,function(b,c){return c})}});
-Ub(&#34;Promise.prototype.finally&#34;,function(a){return a?a:function(b){return this.then(function(c){return Promise.resolve(b()).then(function(){return c})},function(c){return Promise.resolve(b()).then(function(){throw c;})})}});Ub(&#34;Array.prototype.fill&#34;,function(a){return a?a:function(b,c,d){var e=this.length||0;c&lt;0&amp;&amp;(c=Math.max(0,e+c));if(d==null||d&gt;e)d=e;d=Number(d);d&lt;0&amp;&amp;(d=Math.max(0,e+d));for(c=Number(c||0);c&lt;d;c++)this[c]=b;return this}});Tb(&#34;fill&#34;,function(a){return a?a:Array.prototype.fill});
-Ub(&#34;Array.prototype.flat&#34;,function(a){return a?a:function(b){b=b===void 0?1:b;var c=[];Array.prototype.forEach.call(this,function(d){Array.isArray(d)&amp;&amp;b&gt;0?(d=Array.prototype.flat.call(d,b-1),c.push.apply(c,d)):c.push(d)});return c}});var kc,lc,oc,pc;_.ic=_.ic||{};_.t=this||self;kc=function(a,b){var c=_.jc(&#34;WIZ_global_data.oxN3nb&#34;);a=c&amp;&amp;c[a];return a!=null?a:b};lc=_.t._F_toggles_gbar_||[];_.jc=function(a,b){a=a.split(&#34;.&#34;);b=b||_.t;for(var c=0;c&lt;a.length;c++)if(b=b[a[c]],b==null)return null;return b};_.Ua=function(a){var b=typeof a;return b!=&#34;object&#34;?b:a?Array.isArray(a)?&#34;array&#34;:b:&#34;null&#34;};_.mc=function(a){var b=typeof a;return b==&#34;object&#34;&amp;&amp;a!=null||b==&#34;function&#34;};_.nc=&#34;closure_uid_&#34;+(Math.random()*1E9&gt;&gt;&gt;0);
-oc=function(a,b,c){return a.call.apply(a.bind,arguments)};pc=function(a,b,c){if(!a)throw Error();if(arguments.length&gt;2){var d=Array.prototype.slice.call(arguments,2);return function(){var e=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(e,d);return a.apply(b,e)}}return function(){return a.apply(b,arguments)}};_.E=function(a,b,c){_.E=Function.prototype.bind&amp;&amp;Function.prototype.bind.toString().indexOf(&#34;native code&#34;)!=-1?oc:pc;return _.E.apply(null,arguments)};
-_.qc=function(a,b){var c=Array.prototype.slice.call(arguments,1);return function(){var d=c.slice();d.push.apply(d,arguments);return a.apply(this,d)}};_.F=function(a,b){a=a.split(&#34;.&#34;);for(var c=_.t,d;a.length&amp;&amp;(d=a.shift());)a.length||b===void 0?c[d]&amp;&amp;c[d]!==Object.prototype[d]?c=c[d]:c=c[d]={}:c[d]=b};_.db=function(a){return a};
-_.I=function(a,b){function c(){}c.prototype=b.prototype;a.Y=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.bq=function(d,e,f){for(var g=Array(arguments.length-2),h=2;h&lt;arguments.length;h++)g[h-2]=arguments[h];return b.prototype[e].apply(d,g)}};_.I(_.aa,Error);_.aa.prototype.name=&#34;CustomError&#34;;var rc=!!(lc[0]&gt;&gt;26&amp;1),sc=!!(lc[0]&gt;&gt;20&amp;1),tc=!!(lc[0]&gt;&gt;28&amp;1),uc=!!(lc[0]&amp;2048);var ma=rc?tc:kc(610401301,!1),ub=rc?sc||!uc:kc(748402147,!0);_.vc=_.ba(function(a){return a!==null&amp;&amp;a!==void 0});var da=_.ba(function(a){return typeof a===&#34;number&#34;}),ca=_.ba(function(a){return typeof a===&#34;string&#34;}),fa=_.ba(function(a){return typeof a===&#34;boolean&#34;});var ea=typeof _.t.BigInt===&#34;function&#34;&amp;&amp;typeof _.t.BigInt(0)===&#34;bigint&#34;;var yc,wc,zc,xc;_.mb=_.ba(function(a){return ea?a&gt;=wc&amp;&amp;a&lt;=xc:a[0]===&#34;-&#34;?ia(a,yc):ia(a,zc)});yc=Number.MIN_SAFE_INTEGER.toString();wc=ea?BigInt(Number.MIN_SAFE_INTEGER):void 0;zc=Number.MAX_SAFE_INTEGER.toString();xc=ea?BigInt(Number.MAX_SAFE_INTEGER):void 0;_.Ac=typeof Uint8Array.prototype.slice===&#34;function&#34;;_.Bc=typeof TextDecoder!==&#34;undefined&#34;;_.Cc=typeof String.prototype.isWellFormed===&#34;function&#34;;_.Dc=typeof TextEncoder!==&#34;undefined&#34;;_.Ec=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\s\xa0]*([\s\S]*?)[\s\xa0]*$/.exec(a)[1]};var na,Fc=_.t.navigator;na=Fc?Fc.userAgentData||null:null;_.Ba=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(typeof a===&#34;string&#34;)return typeof b!==&#34;string&#34;||b.length!=1?-1:a.indexOf(b,0);for(var c=0;c&lt;a.length;c++)if(c in a&amp;&amp;a[c]===b)return c;return-1};_.Gc=Array.prototype.forEach?function(a,b,c){Array.prototype.forEach.call(a,b,c)}:function(a,b,c){for(var d=a.length,e=typeof a===&#34;string&#34;?a.split(&#34;&#34;):a,f=0;f&lt;d;f++)f in e&amp;&amp;b.call(c,e[f],f,a)};
-_.Hc=Array.prototype.filter?function(a,b,c){return Array.prototype.filter.call(a,b,c)}:function(a,b,c){for(var d=a.length,e=[],f=0,g=typeof a===&#34;string&#34;?a.split(&#34;&#34;):a,h=0;h&lt;d;h++)if(h in g){var k=g[h];b.call(c,k,h,a)&amp;&amp;(e[f++]=k)}return e};_.Ic=Array.prototype.map?function(a,b,c){return Array.prototype.map.call(a,b,c)}:function(a,b,c){for(var d=a.length,e=Array(d),f=typeof a===&#34;string&#34;?a.split(&#34;&#34;):a,g=0;g&lt;d;g++)g in f&amp;&amp;(e[g]=b.call(c,f[g],g,a));return e};
-_.Jc=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,d=typeof a===&#34;string&#34;?a.split(&#34;&#34;):a,e=0;e&lt;c;e++)if(e in d&amp;&amp;b.call(void 0,d[e],e,a))return!0;return!1};_.Kc=function(a){_.Kc[&#34; &#34;](a);return a};_.Kc[&#34; &#34;]=function(){};var Xc;_.Lc=_.ra();_.Mc=_.sa();_.Nc=_.pa(&#34;Edge&#34;);_.Oc=_.pa(&#34;Gecko&#34;)&amp;&amp;!(_.la()&amp;&amp;!_.pa(&#34;Edge&#34;))&amp;&amp;!(_.pa(&#34;Trident&#34;)||_.pa(&#34;MSIE&#34;))&amp;&amp;!_.pa(&#34;Edge&#34;);_.Pc=_.la()&amp;&amp;!_.pa(&#34;Edge&#34;);_.Qc=_.za();_.Rc=wa()?na.platform===&#34;Windows&#34;:_.pa(&#34;Windows&#34;);_.Sc=wa()?na.platform===&#34;Android&#34;:_.pa(&#34;Android&#34;);_.Tc=xa();_.Uc=_.pa(&#34;iPad&#34;);_.Vc=_.pa(&#34;iPod&#34;);_.Wc=_.ya();
-a:{var Yc=&#34;&#34;,Zc=function(){var a=_.ka();if(_.Oc)return/rv:([^\);]+)(\)|;)/.exec(a);if(_.Nc)return/Edge\/([\d\.]+)/.exec(a);if(_.Mc)return/\b(?:MSIE|rv)[: ]([^\);]+)(\)|;)/.exec(a);if(_.Pc)return/WebKit\/(\S+)/.exec(a);if(_.Lc)return/(?:Version)[ \/]?(\S+)/.exec(a)}();Zc&amp;&amp;(Yc=Zc?Zc[1]:&#34;&#34;);if(_.Mc){var $c,ad=_.t.document;$c=ad?ad.documentMode:void 0;if($c!=null&amp;&amp;$c&gt;parseFloat(Yc)){Xc=String($c);break a}}Xc=Yc}_.bd=Xc;_.cd=_.ta();_.dd=xa()||_.pa(&#34;iPod&#34;);_.ed=_.pa(&#34;iPad&#34;);_.fd=_.pa(&#34;Android&#34;)&amp;&amp;!(ua()||_.ta()||_.ra()||_.pa(&#34;Silk&#34;));_.gd=ua();_.hd=_.va()&amp;&amp;!_.ya();_.id=typeof Uint8Array!==&#34;undefined&#34;;_.jd=!_.Mc&amp;&amp;typeof btoa===&#34;function&#34;;var kd,hb,wb,Ja,qb;_.Ea=typeof Symbol===&#34;function&#34;&amp;&amp;typeof Symbol()===&#34;symbol&#34;;kd=_.Da(&#34;jas&#34;,void 0,!0);_.fb=_.Da(void 0,Symbol());_.ld=_.Da(void 0,&#34;0ub&#34;);hb=_.Da(void 0,&#34;0ubs&#34;);_.md=_.Da(void 0,&#34;0ubsb&#34;);wb=_.Da(void 0,&#34;0actk&#34;);Ja=_.Da(&#34;m_m&#34;,&#34;rq&#34;,!0);qb=_.Da(void 0,&#34;vps&#34;);_.nd=_.Da();var Ga,Fa,pd;Ga={Fk:{value:0,configurable:!0,writable:!0,enumerable:!1}};Fa=Object.defineProperties;_.w=_.Ea?kd:&#34;Fk&#34;;pd=[];_.Ia(pd,7);_.od=Object.freeze(pd);var Ka,Na;Ka={};Na={};_.qd=Object.freeze({});var rb={};var Sa=void 0;_.rd=typeof BigInt===&#34;function&#34;?BigInt.asIntN:void 0;_.sd=Number.isSafeInteger;_.Xa=Number.isFinite;_.td=Math.trunc;var jb;_.ud=_.ha(0);_.vd={};_.wd=function(a,b,c,d,e){b=_.Gb(a.J,b,c,e);if(b!==null||d&amp;&amp;a.o!==Na)return b};_.Gb=function(a,b,c,d){if(b===-1)return null;var e=b+(c?0:-1),f=a.length-1;if(!(f&lt;1+(c?0:-1))){if(e&gt;=f){var g=a[f];if(g!=null&amp;&amp;typeof g===&#34;object&#34;&amp;&amp;g.constructor===Object){c=g[b];var h=!0}else if(e===f)c=g;else return}else c=a[e];if(d&amp;&amp;c!=null){d=d(c);if(d==null)return d;if(!Object.is(d,c))return h?g[b]=d:a[e]=d,d}return c}};_.yd=function(a,b,c,d){_.Db(a);var e=a.J;_.Fb(e,e[_.w]|0,b,c,d);return a};
-_.J=function(a,b,c,d){var e=a.J,f=e[_.w]|0;b=_.Hb(e,f,b,c,d);if(b==null)return b;f=e[_.w]|0;if(!_.Oa(a,f)){var g=_.Bb(b);g!==b&amp;&amp;(_.Cb(a)&amp;&amp;(e=a.J,f=e[_.w]|0),b=g,f=_.Fb(e,f,c,b,d),_.Eb(e,f))}return b};_.K=function(a,b,c){c==null&amp;&amp;(c=void 0);_.yd(a,b,c);c&amp;&amp;!_.Oa(c)&amp;&amp;_.Eb(a.J);return a};_.zd=function(a,b,c,d){return _.Za(_.wd(a,b,c,d))};_.L=function(a,b,c,d){c=c===void 0?!1:c;var e;return(e=_.Wa(_.wd(a,b,d)))!=null?e:c};
-_.M=function(a,b,c,d){c=c===void 0?&#34;&#34;:c;var e;return(e=_.bb(_.wd(a,b,d)))!=null?e:c};_.N=function(a,b,c){return _.bb(_.wd(a,b,c,_.vd))};_.O=function(a,b,c,d){return _.yd(a,b,c==null?c:_.Va(c),d)};_.Ad=function(a,b,c){return _.yd(a,b,c==null?c:_.$a(c))};_.P=function(a,b,c,d){return _.yd(a,b,_.ab(c),d)};_.Q=function(a,b,c,d){return _.yd(a,b,c==null?c:_.Ya(c),d)};_.R=function(a,b,c){this.J=_.x(a,b,c)};_.R.prototype.toJSON=function(){return sb(this)};_.R.prototype.wa=function(a){return JSON.stringify(sb(this,a))};_.R.prototype[Ja]=Ka;_.R.prototype.toString=function(){return this.J.toString()};_.Bd=_.Ib();_.Cd=_.Ib();_.Dd=_.Ib();_.Ed=Symbol();var Fd=function(a){this.J=_.x(a)};_.B(Fd,_.R);_.Gd=function(a){this.J=_.x(a)};_.B(_.Gd,_.R);_.Gd.prototype.Cd=function(a){return _.Ad(this,3,a)};_.Hd=function(a){this.J=_.x(a)};_.B(_.Hd,_.R);_.y.prototype.oa=!1;_.y.prototype.isDisposed=function(){return this.oa};_.y.prototype.dispose=function(){this.oa||(this.oa=!0,this.P())};_.y.prototype[Symbol.dispose]=function(){this.dispose()};_.y.prototype.P=function(){if(this.X)for(;this.X.length;)this.X.shift()()};var Id=function(a){_.y.call(this);this.o=a;this.i=[];this.j={}};_.B(Id,_.y);Id.prototype.resolve=function(a){var b=this.o;a=a.split(&#34;.&#34;);for(var c=a.length,d=0;d&lt;c;++d)if(b[a[d]])b=b[a[d]];else return null;return b instanceof Function?b:null};Id.prototype.Lb=function(){for(var a=this.i.length,b=this.i,c=[],d=0;d&lt;a;++d){var e=b[d].i(),f=this.resolve(e);if(f&amp;&amp;f!=this.j[e])try{b[d].Lb(f)}catch(g){}else c.push(b[d])}this.i=c.concat(b.slice(a))};var Jd=function(a){_.y.call(this);this.o=a;this.A=this.i=null;this.v=0;this.B={};this.j=!1;a=window.navigator.userAgent;a.indexOf(&#34;MSIE&#34;)&gt;=0&amp;&amp;a.indexOf(&#34;Trident&#34;)&gt;=0&amp;&amp;(a=/\b(?:MSIE|rv)[: ]([^\);]+)(\)|;)/.exec(a))&amp;&amp;a[1]&amp;&amp;parseFloat(a[1])&lt;9&amp;&amp;(this.j=!0)};_.B(Jd,_.y);Jd.prototype.C=function(a,b){this.i=b;this.A=a;b.preventDefault?b.preventDefault():b.returnValue=!1};_.Kd=function(a){this.J=_.x(a)};_.B(_.Kd,_.R);var Ld=function(a){this.J=_.x(a)};_.B(Ld,_.R);var Nd=function(){var a=Md;this.i=null;_.L(a,4,!0)};Nd.prototype.log=function(a,b){b=b===void 0?new _.Gd:b;_.Od(this,a,98,b)};_.Od=function(a,b,c,d){c=c===void 0?98:c;d=d===void 0?new _.Gd:d;if(a.i){var e=new Fd;_.P(e,1,b.message);_.P(e,2,b.stack);_.Ad(e,3,b.lineNumber);_.Q(e,5,1);_.K(d,40,e);a.i.log(c,d)}};_.Pd=function(a){this.i=a;this.j=void 0;this.o=[]};_.Pd.prototype.then=function(a,b,c){this.o.push(new Qd(a,b,c));Rd(this)};_.Pd.prototype.resolve=function(a){if(this.i!==void 0||this.j!==void 0)throw Error(&#34;J&#34;);this.i=a;Rd(this)};_.Pd.prototype.reject=function(a){if(this.i!==void 0||this.j!==void 0)throw Error(&#34;J&#34;);this.j=a;Rd(this)};var Rd=function(a){if(a.o.length&gt;0){var b=a.i!==void 0,c=a.j!==void 0;if(b||c){b=b?a.v:a.A;c=a.o;a.o=[];try{_.Gc(c,b,a)}catch(d){console.error(d)}}}};
-_.Pd.prototype.v=function(a){a.j&amp;&amp;a.j.call(a.i,this.i)};_.Pd.prototype.A=function(a){a.o&amp;&amp;a.o.call(a.i,this.j)};var Qd=function(a,b,c){this.j=a;this.o=b;this.i=c};_.Sd=function(a){var b=&#34;oc&#34;;if(a.oc&amp;&amp;a.hasOwnProperty(b))return a.oc;b=new a;return a.oc=b};_.S=function(){this.v=new _.Pd;this.i=new _.Pd;this.D=new _.Pd;this.B=new _.Pd;this.C=new _.Pd;this.A=new _.Pd;this.o=new _.Pd;this.j=new _.Pd;this.G=new _.Pd;this.K=new _.Pd;this.F=new _.Pd};_.l=_.S.prototype;_.l.Ej=function(){return this.v};_.l.Lj=function(){return this.i};_.l.Tj=function(){return this.D};_.l.Kj=function(){return this.B};_.l.Rj=function(){return this.C};_.l.Ij=function(){return this.A};_.l.yj=function(){return this.o};_.l.xj=function(){return this.j};_.l.Mj=function(){return this.G};
-_.l.Uj=function(){return this.F};_.S.i=function(){return _.Sd(_.S)};var Td=function(a){this.J=_.x(a)};_.B(Td,_.R);_.Vd=function(){return _.J(_.Ud,_.Hd,5)};var Wd;window.gbar_&amp;&amp;window.gbar_.CONFIG?Wd=window.gbar_.CONFIG[0]||{}:Wd=[];_.Ud=new Td(Wd);var Md;Md=_.J(_.Ud,Ld,3)||new Ld;_.Xd=new Nd;_.F(&#34;gbar_._DumpException&#34;,function(a){_.Xd?_.Xd.log(a):console.error(a)});_.Yd=new Jd(_.Xd);_.Zd=function(){this.i={};this.j={}};_.ae=function(a,b){var c=_.Zd.i();if(a in c.i){if(c.i[a]!=b)throw new $d(a);}else{c.i[a]=b;if(b=c.j[a])for(var d=0,e=b.length;d&lt;e;d++){var f=b[d],g=c.i;delete f.i[a];if(_.Lb(f.i)){for(var h=f.j.length,k=Array(h),m=0;m&lt;h;m++)k[m]=g[f.j[m]];f.o.apply(f.v,k)}}delete c.j[a]}};_.Zd.i=function(){return _.Sd(_.Zd)};_.be=function(){_.aa.call(this)};_.B(_.be,_.aa);var $d=function(){_.aa.call(this)};_.B($d,_.be);_.F(&#34;gbar.A&#34;,_.Pd);_.Pd.prototype.aa=_.Pd.prototype.then;_.F(&#34;gbar.B&#34;,_.S);_.S.prototype.ba=_.S.prototype.Lj;_.S.prototype.bb=_.S.prototype.Tj;_.S.prototype.bd=_.S.prototype.Rj;_.S.prototype.bf=_.S.prototype.Ej;_.S.prototype.bg=_.S.prototype.Kj;_.S.prototype.bh=_.S.prototype.Ij;_.S.prototype.bj=_.S.prototype.yj;_.S.prototype.bk=_.S.prototype.xj;_.S.prototype.bl=_.S.prototype.Mj;_.S.prototype.bm=_.S.prototype.Uj;_.F(&#34;gbar.a&#34;,_.S.i());window.gbar&amp;&amp;window.gbar.ap&amp;&amp;window.gbar.ap(window.gbar.a);
-var ce=new Id(window);_.ae(&#34;api&#34;,ce);var de=_.Vd()||new _.Hd,ee=window,fe=_.z(_.N(de,8));ee.__PVT=fe;_.ae(&#34;eq&#34;,_.Yd);
-}catch(e){_._DumpException(e)}
-try{
-_.he=function(a){this.J=_.x(a)};_.B(_.he,_.R);
-}catch(e){_._DumpException(e)}
-try{
-var ie=function(a){this.J=_.x(a)};_.B(ie,_.R);var je=function(){_.y.call(this);this.j=[];this.i=[]};_.B(je,_.y);je.prototype.o=function(a,b){this.j.push({features:a,options:b!=null?b:null})};je.prototype.init=function(a,b,c){window.gapi={};var d=window.___jsl={};d.h=_.z(_.N(a,1));_.Wa(_.wd(a,12))!=null&amp;&amp;(d.dpo=_.Jb(_.L(a,12)));d.ms=_.z(_.N(a,2));d.m=_.z(_.N(a,3));d.l=[];_.M(b,1)&amp;&amp;(a=_.N(b,3))&amp;&amp;this.i.push(a);_.M(c,1)&amp;&amp;(c=_.N(c,2))&amp;&amp;this.i.push(c);_.F(&#34;gapi.load&#34;,(0,_.E)(this.o,this));return this};var ke=_.J(_.Ud,_.Kd,14);if(ke){var le=_.J(_.Ud,_.he,9)||new _.he,me=new ie,ne=new je;ne.init(ke,le,me);_.ae(&#34;gs&#34;,ne)};
-}catch(e){_._DumpException(e)}
-})(this.gbar_);
-// Google Inc.
-    </script>
+    <meta content="ClassLink is a provider of identity and access management products offering instant access to apps and files with SSO, class rostering, account provisioning, and analytics." name="description" />
+    <meta content="ClassLink | Identity &amp; Access Management for Education" property="og:title" />
+    <meta content="ClassLink is a provider of identity and access management products offering instant access to apps and files with SSO, class rostering, account provisioning, and analytics." property="og:description" />
+    <meta content="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/69ce75be2267bcce93803000_2025-identity-meta.jpg" property="og:image" />
+    <meta content="ClassLink | Identity &amp; Access Management for Education" name="twitter:title" />
+    <meta content="ClassLink is a provider of identity and access management products offering instant access to apps and files with SSO, class rostering, account provisioning, and analytics." name="twitter:description" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="z5hnpxpd5IwTeiEWLLsDOhT93P-9uqFBymhfvmATcsQ" name="google-site-verification" />
+    <link href="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/css/classlink.webflow.shared.070d01d94.min.css" rel="stylesheet" type="text/css" integrity="sha384-Bw0B2U0EQRh8xHPLO4BW+LE9Ox7lLKqfN0cnpsliES4yGFNEXI8oHy8up1QpZMh5" crossorigin="anonymous" />
     <style>
-      .gb_Fb{font:13px/27px Roboto,Arial,sans-serif;z-index:986}.gb_Z{display:none}.gb_W{-webkit-background-size:32px 32px;background-size:32px 32px;border:0;border-radius:50%;display:block;margin:0px;position:relative;height:32px;width:32px;z-index:0}.gb_qb{background-color:#e8f0fe;border:1px solid rgba(32,33,36,.08);position:relative}.gb_qb.gb_W{height:30px;width:30px}.gb_qb.gb_W:active,.gb_qb.gb_W:hover{-webkit-box-shadow:none;box-shadow:none}.gb_rb{background:#fff;border:none;border-radius:50%;bottom:2px;-webkit-box-shadow:0px 1px 2px 0px rgba(60,64,67,0.3),0px 1px 3px 1px rgba(60,64,67,0.15);box-shadow:0px 1px 2px 0px rgba(60,64,67,0.3),0px 1px 3px 1px rgba(60,64,67,0.15);height:14px;margin:2px;position:absolute;right:0;width:14px;line-height:normal;z-index:1}.gb_sb{color:#1f71e7;font:400 22px/32px Google Sans,Roboto,Helvetica,Arial,sans-serif;text-align:center;text-transform:uppercase}@media (-webkit-min-device-pixel-ratio:1.25),(min-device-pixel-ratio:1.25),(min-resolution:1.25dppx){.gb_W:before,.gb_tb:before{display:inline-block;-webkit-transform:scale(.5);-ms-transform:scale(.5);transform:scale(.5);-webkit-transform-origin:left 0;-ms-transform-origin:left 0;transform-origin:left 0}.gb_aa .gb_tb:before{-webkit-transform:scale(scale(.416666667));-ms-transform:scale(scale(.416666667));transform:scale(scale(.416666667))}}.gb_W:focus,.gb_W:hover{-webkit-box-shadow:0 1px 0 rgba(0,0,0,.15);box-shadow:0 1px 0 rgba(0,0,0,.15)}.gb_W:active{-webkit-box-shadow:inset 0 2px 0 rgba(0,0,0,.15);box-shadow:inset 0 2px 0 rgba(0,0,0,.15)}.gb_W:active:after{background:rgba(0,0,0,.1);border-radius:50%;content:&#34;&#34;;display:block;height:100%}.gb_ub{cursor:pointer;line-height:40px;min-width:30px;opacity:.75;overflow:hidden;vertical-align:middle;text-overflow:ellipsis}.gb_C.gb_ub{width:auto}.gb_ub:focus,.gb_ub:hover{opacity:.85}.gb_vb .gb_ub,.gb_vb .gb_wb{line-height:26px}#gb#gb.gb_vb a.gb_ub,.gb_vb .gb_wb{font-size:11px;height:auto}.gb_xb{border-top:4px solid #000;border-left:4px dashed transparent;border-right:4px dashed transparent;display:inline-block;margin-left:6px;opacity:.75;vertical-align:middle}.gb_6a:hover .gb_xb{opacity:.85}.gb_4a&gt;.gb_z{padding:3px 3px 3px 4px}.gb_yb.gb_pb{color:#fff}.gb_8 .gb_ub,.gb_8 .gb_xb{opacity:1}#gb#gb .gb_8.gb_8 a.gb_ub,#gb#gb.gb_8.gb_8 a.gb_ub{color:#fff}.gb_8.gb_8 .gb_xb{border-top-color:#fff;opacity:1}.gb_8 .gb_W:focus,.gb_8 .gb_W:hover,.gb_ra .gb_W:focus,.gb_ra .gb_W:hover{-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.2);box-shadow:0 1px 0 rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.2)}.gb_Ab .gb_z,.gb_zb .gb_z{position:absolute;right:1px}.gb_6a.gb_7,.gb_Bb.gb_7,.gb_z.gb_7{-webkit-box-flex:0;-webkit-flex:0 1 auto;flex:0 1 auto}.gb_Cb.gb_Db .gb_ub{width:30px!important}.gb_U,.gb_V{position:absolute}.gb_V{height:40px;right:-5px;top:-5px;width:40px}@-webkit-keyframes apd-ring-fade-in{0%{opacity:0}to{opacity:1}}@keyframes apd-ring-fade-in{0%{opacity:0}to{opacity:1}}.gb_U{height:42px;width:42px;-webkit-animation:apd-ring-fade-in .25s ease-in;animation:apd-ring-fade-in .25s ease-in}.gb_Eb .gb_V,.gb_Fb .gb_V{right:0;top:0}.gb_Eb .gb_U,.gb_Fb .gb_U,.gb_y .gb_U{right:-1px;top:-1px}.gb_y .gb_V{right:1px;top:-1px}.gb_Na a.gb_1a{border-radius:100px;background:#0b57d0;background:var(--gm3-sys-color-primary,#0b57d0);-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;color:var(--gm3-sys-color-on-primary,#fff);display:inline-block;font-size:14px;font-weight:500;min-height:40px;outline:none;padding:10px 24px;text-align:center;text-decoration:none;white-space:normal;line-height:18px;position:relative}.gb_Na a.gb_3a{border-radius:100px;border:1px solid;border-color:#747775;border-color:var(--gm3-sys-color-outline,#747775);background:none;-webkit-box-sizing:border-box;box-sizing:border-box;color:#0b57d0;color:var(--gm3-sys-color-primary,#0b57d0);display:inline-block;font-size:14px;font-weight:500;min-height:40px;outline:none;padding:10px 24px;text-align:center;text-decoration:none;white-space:normal;line-height:18px;position:relative}.gb_7a.gb_K a.gb_1a,.gb_8a.gb_K a.gb_1a,.gb_9a.gb_K a.gb_1a{background:#c2e7ff;background:var(--gm3-sys-color-secondary-fixed,#c2e7ff);color:#001d35;color:var(--gm3-sys-color-on-secondary-fixed,#001d35)}.gb_Na.gb_K a.gb_3a{color:#a8c7fa;color:var(--gm3-sys-color-primary,#a8c7fa)}.gb_Na a.gb_Ud{padding:10px 12px;margin:12px 16px 12px 10px;min-width:85px}@media (max-width:640px){.gb_Na a.gb_Ud{min-width:75px}}.gb_Kd,.gb_Na{font-family:Google Sans Text,Roboto,Helvetica,Arial,sans-serif;font-style:normal}.gb_Na.gb_7a{color:#1f1f1f;color:var(--og-bar-color,var(--gm3-sys-color-on-surface,#1f1f1f))}.gb_Na.gb_7a.gb_Vd{background:#fff;background:var(--og-bar-background,var(--gm3-sys-color-background,#fff))}.gb_Na.gb_7a .gb_vd.gb_wd,.gb_Na.gb_7a a.gb_5,.gb_Na.gb_7a span.gb_5{color:#1f1f1f;color:var(--og-link-color,var(--gm3-sys-color-on-surface,#1f1f1f))}.gb_Na.gb_7a .gb_od .gb_Wd,.gb_Na.gb_7a .gb_xd .gb_Wd{color:#1f1f1f;color:var(--og-logo-color,var(--gm3-sys-color-on-surface,#1f1f1f))}.gb_Na.gb_7a svg{color:#444746;color:var(--og-svg-color,var(--gm3-sys-color-on-surface-variant,#444746))}@media (forced-colors:active) and (prefers-color-scheme:dark){.gb_Na svg,.gb_Na.gb_7a svg,.gb_Na.gb_K svg{color:white}}.gb_Na.gb_K.gb_7a{color:#e3e3e3;color:var(--og-bar-color,var(--gm3-sys-color-on-surface,#e3e3e3))}.gb_Na.gb_K.gb_7a.gb_Vd{background:transparent}.gb_Na.gb_K.gb_7a .gb_vd.gb_wd,.gb_Na.gb_K.gb_7a a.gb_5,.gb_Na.gb_K.gb_7a span.gb_5{color:#e3e3e3;color:var(--og-link-color,var(--gm3-sys-color-on-surface,#e3e3e3))}.gb_Na.gb_K.gb_7a .gb_od .gb_Wd,.gb_Na.gb_K.gb_7a .gb_xd .gb_Wd{color:#e3e3e3;color:var(--og-logo-color,var(--gm3-sys-color-on-surface,#e3e3e3))}.gb_Na.gb_K.gb_7a svg{color:#c4c7c5;color:var(--og-svg-color,var(--gm3-sys-color-on-surface-variant,#c4c7c5))}.gb_Na.gb_K.gb_7a.gb_Vd{background:#1f1f1f;background:var(--og-bar-background,var(--gm3-sys-color-background,#131314))}.gb_Na.gb_8a{color:#1f1f1f;color:var(--og-bar-color,var(--gm3-sys-color-on-surface,#1f1f1f))}.gb_Na.gb_8a.gb_Vd{background:#e9eef6;background:var(--og-bar-background,var(--gm3-sys-color-surface-container-high,#e9eef6))}.gb_Na.gb_8a .gb_vd.gb_wd,.gb_Na.gb_8a a.gb_5,.gb_Na.gb_8a span.gb_5{color:#1f1f1f;color:var(--og-link-color,var(--gm3-sys-color-on-surface,#1f1f1f))}.gb_Na.gb_8a .gb_od .gb_Wd,.gb_Na.gb_8a .gb_xd .gb_Wd{color:#1f1f1f;color:var(--og-logo-color,var(--gm3-sys-color-on-surface,#1f1f1f))}.gb_Na.gb_8a svg{color:#444746;color:var(--og-svg-color,var(--gm3-sys-color-on-surface-variant,#444746))}.gb_Na.gb_K.gb_8a{color:#e3e3e3;color:var(--og-bar-color,var(--gm3-sys-color-on-surface,#e3e3e3))}.gb_Na.gb_K.gb_8a.gb_Vd{background:#282a2c;background:var(--og-bar-background,var(--gm3-sys-color-surface-container-high,#282a2c))}.gb_Na.gb_K.gb_8a .gb_vd.gb_wd,.gb_Na.gb_K.gb_8a a.gb_5,.gb_Na.gb_K.gb_8a span.gb_5{color:#e3e3e3;color:var(--og-link-color,var(--gm3-sys-color-on-surface,#e3e3e3))}.gb_Na.gb_K.gb_8a .gb_od .gb_Wd,.gb_Na.gb_K.gb_8a .gb_xd .gb_Wd{color:#e3e3e3;color:var(--og-logo-color,var(--gm3-sys-color-on-surface,#e3e3e3))}.gb_Na.gb_K.gb_8a svg{color:#c4c7c5;color:var(--og-svg-color,var(--gm3-sys-color-on-surface-variant,#c4c7c5))}.gb_Na.gb_9a{color:#1f1f1f;color:var(--og-bar-color,var(--gm3-sys-color-on-surface,#1f1f1f))}.gb_Na.gb_9a.gb_Vd{background:transparent}.gb_Na.gb_9a .gb_vd.gb_wd,.gb_Na.gb_9a a.gb_5,.gb_Na.gb_9a span.gb_5{color:#1f1f1f;color:var(--og-link-color,var(--gm3-sys-color-on-surface,#1f1f1f))}.gb_Na.gb_9a .gb_od .gb_Wd,.gb_Na.gb_9a .gb_xd .gb_Wd{color:#1f1f1f;color:var(--og-logo-color,var(--gm3-sys-color-on-surface,#1f1f1f))}.gb_Na.gb_9a svg{color:#444746;color:var(--og-svg-color,var(--gm3-sys-color-on-surface-variant,#444746))}.gb_Na.gb_9a.gb_K.gb_Vd{background:transparent}.gb_Na.gb_9a.gb_K .gb_vd.gb_wd,.gb_Na.gb_9a.gb_K a.gb_5,.gb_Na.gb_9a.gb_K span.gb_5{color:white;color:var(--og-theme-color,white)}.gb_Na.gb_9a.gb_K .gb_od .gb_Wd,.gb_Na.gb_9a.gb_K .gb_xd .gb_Wd{color:white;color:var(--og-theme-color,white)}.gb_Na.gb_9a.gb_K svg{color:white;color:var(--og-theme-color,white)}.gb_Na a.gb_5,.gb_Na span.gb_5{text-decoration:none}.gb_vd{font-family:Google Sans,Roboto,Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;letter-spacing:.25px;line-height:48px;margin-bottom:2px;opacity:1;overflow:hidden;padding-left:16px;position:relative;text-overflow:ellipsis;vertical-align:middle;top:2px;white-space:nowrap;-webkit-box-flex:1;-webkit-flex:1 1 auto;flex:1 1 auto}.gb_Ad{display:none}.gb_Na.gb_fb .gb_vd{margin-bottom:0}.gb_xd.gb_yd .gb_vd{padding-left:4px}.gb_Na.gb_fb .gb_zd{position:relative;top:-2px}.gb_Na{min-width:160px;position:relative}.gb_Na.gb_gd{min-width:120px}.gb_Na.gb_Xd .gb_Zd{display:none}.gb_Na.gb_Xd .gb_Qd{height:56px}header.gb_Na{display:block}.gb_Na svg{fill:currentColor}.gb_0d{position:fixed;top:0;width:100%}.gb_1d{-webkit-box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2)}.gb_2d{height:64px}.gb_Qd{-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;width:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;min-width:-webkit-min-content;min-width:-moz-min-content;min-width:min-content}.gb_Na:not(.gb_fb) .gb_Qd{padding:8px}.gb_Na:not(.gb_fb) .gb_Qd a.gb_3d{margin:12px 8px 12px 10px}.gb_Na.gb_4d .gb_Qd{-webkit-box-flex:1;-webkit-flex:1 0 auto;flex:1 0 auto}.gb_Na .gb_Qd.gb_Rd.gb_5d{min-width:0}.gb_Na.gb_fb .gb_Qd{padding:4px;padding-left:8px;min-width:0}.gb_Na.gb_fb .gb_Qd a.gb_3d{margin:12px 8px 12px 10px}.gb_Zd{height:48px;vertical-align:middle;white-space:nowrap;-webkit-box-align:center;-webkit-align-items:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.gb_6d&gt;.gb_Zd{display:table-cell;width:100%}.gb_xd{padding-right:25px;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-box-flex:1;-webkit-flex:1 0 auto;flex:1 0 auto}.gb_Na.gb_fb .gb_xd{padding-right:14px}.gb_7d{-webkit-box-flex:1;-webkit-flex:1 1 100%;flex:1 1 100%}.gb_7d&gt;:only-child{display:inline-block}.gb_8d.gb_pd{padding-left:4px}.gb_8d.gb_9d,.gb_Na.gb_4d .gb_8d,.gb_Na.gb_fb:not(.gb_Kd) .gb_8d{padding-left:0}.gb_Na.gb_fb .gb_8d.gb_9d{padding-right:0}.gb_Na.gb_fb .gb_8d.gb_9d .gb_4a{margin-left:10px}.gb_pd{display:inline}.gb_Na.gb_Kd .gb_8d.gb_ae,.gb_Na.gb_jd .gb_8d.gb_ae{padding-left:2px}.gb_vd{display:inline-block}.gb_8d{-webkit-box-sizing:border-box;box-sizing:border-box;height:48px;padding:0 4px;padding-left:5px;-webkit-box-flex:0;-webkit-flex:0 0 auto;flex:0 0 auto;-webkit-box-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end}.gb_Kd{height:48px}.gb_Na.gb_Kd{min-width:auto}.gb_Kd .gb_8d{float:right;padding-left:32px;padding-left:var(--og-bar-parts-side-padding,32px)}.gb_Kd .gb_8d.gb_be{padding-left:0}.gb_ce{font-size:14px;max-width:200px;overflow:hidden;padding:0 12px;text-overflow:ellipsis;white-space:nowrap;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}.gb_a a,.gb_cd a{color:inherit}.gb_wd{text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.gb_wd{opacity:1}.gb_de{position:relative}.gb_R{font-family:arial,sans-serif;line-height:normal;padding-right:15px}.gb_6{display:inline-block;padding-left:15px}.gb_6 .gb_5{display:inline-block;line-height:24px;vertical-align:middle}.gb_ee{text-align:left}.gb_O,.gb_P{display:none}@media screen and (max-width:319px){.gb_Qd .gb_L{display:none;visibility:hidden}}.gb_L .gb_C,.gb_L .gb_C:focus,.gb_L .gb_C:hover{opacity:1}.gb_Q{display:none}.gb_0{display:none!important}.gb_pb{visibility:hidden}@media screen and (max-width:319px){.gb_Qd:not(.gb_Rd) .gb_L{display:none;visibility:hidden}}.gb_Bd{display:inline-block;vertical-align:middle}.gb_Cd .gb_Z{bottom:-3px;right:-5px}@if (RTL_LANG){.gb_Cd .gb_Z{left:-5px}}.gb_Bd:first-child{padding-left:0}.gb_D{position:relative}.gb_C{display:inline-block;outline:none;vertical-align:middle;border-radius:50%;-webkit-box-sizing:border-box;box-sizing:border-box;height:40px;width:40px}#gb#gb a.gb_C,.gb_C{cursor:pointer;text-decoration:none}.gb_C,a.gb_C{color:#000}x:-o-prefocus{border-bottom-color:#ccc}.gb_sa{background:#fff;border:1px solid #ccc;border-color:rgba(0,0,0,.2);color:#000;-webkit-box-shadow:0 2px 10px rgba(0,0,0,.2);box-shadow:0 2px 10px rgba(0,0,0,.2);display:none;outline:none;overflow:hidden;position:absolute;right:0;top:54px;-webkit-animation:gb__a .2s;animation:gb__a .2s;border-radius:2px;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}.gb_Bd.gb_bb .gb_sa,.gb_bb.gb_sa{display:block}.gb_Hd{position:absolute;right:0;top:54px;z-index:-1}.gb_vb .gb_sa{margin-top:-10px}.gb_Bd:first-child{padding-left:4px}.gb_Na.gb_Id .gb_Bd:first-child{padding-left:0}.gb_Jd{position:relative}.gb_Kd .gb_Jd,.gb_od .gb_Jd{float:right}.gb_C{padding:8px;cursor:pointer}.gb_C,.gb_Md button svg{border-radius:50%}.gb_Bd{padding:4px}.gb_Na.gb_Id .gb_Bd{padding:4px 2px}.gb_Na.gb_Id .gb_z.gb_Bd{padding-left:6px}.gb_sa{z-index:991;line-height:normal}.gb_sa.gb_Od{left:0;right:auto}@media (max-width:350px){.gb_sa.gb_Od{left:0}}.gb_Pd .gb_sa{top:56px}.gb_z .gb_C{padding:4px}.gb_X{display:none}.gb_6a:not(.gb_3d){position:relative}.gb_he:after{content:&#34;&#34;;border:1px solid #202124;opacity:.13;position:absolute;top:4px;left:4px;border-radius:50%;width:30px;height:30px;-webkit-box-sizing:content-box;box-sizing:content-box}.gb_4a{-webkit-box-sizing:border-box;box-sizing:border-box;cursor:pointer;display:inline-block;height:48px;overflow:hidden;outline:none;padding:7px 0 0 16px;vertical-align:middle;width:142px;border-radius:28px;background-color:transparent;border:1px solid;position:relative}.gb_4a .gb_6a{width:32px;height:32px;padding:0}.gb_4a .gb_U{top:2px;right:4px}.gb_4a .gb_Z{bottom:-2px;right:-4px}.gb_7a .gb_4a,.gb_8a .gb_4a{border-color:#747775;border-color:var(--og-dasher-chip-outline,var(--gm3-sys-color-outline,#747775))}.gb_7a.gb_K .gb_4a,.gb_8a.gb_K .gb_4a{border-color:#8e918f;border-color:var(--og-dasher-chip-outline,var(--gm3-sys-color-outline,#8e918f))}.gb_9a .gb_4a{border-color:#747775;border-color:var(--og-dasher-chip-outline,var(--gm3-sys-color-outline,#747775))}.gb_9a.gb_K .gb_4a{border-color:#e3e3e3;border-color:var(--og-dasher-chip-outline,var(--gm3-sys-color-on-surface,#e3e3e3))}.gb_ab{display:inherit}.gb_4a .gb_ab{background:#fff;border-radius:6px;display:inline-block;left:15px;position:static;padding:2px;top:-1px;height:32px;-webkit-box-sizing:border-box;box-sizing:border-box;width:78px}.gb_cb{text-align:center}.gb_cb.gb_db{background-color:#f1f3f4}.gb_cb .gb_eb{vertical-align:middle;max-height:28px;max-width:74px}.gb_Na .gb_4a .gb_z.gb_Bd{padding:0;margin-right:9px;float:right}.gb_Na:not(.gb_fb) .gb_4a{margin-left:10px;margin-right:4px}.gb_4a .gb_he:after{left:0;top:0}@media screen and (max-width:480px){.gb_4a .gb_ab{display:none}.gb_4a{border:none;border-radius:50%;height:40px;margin:4px;outline:1px solid transparent;padding:0;width:40px}.gb_Na .gb_4a .gb_z.gb_Bd{padding:4px;margin-right:0}}sentinel{}body,td,a,p,.h{font-family:sans-serif}body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h{color:#1558d6}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px sans-serif}.gsfs{font:17px sans-serif}.ds{display:inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}body{background:#fff;color:#1f1f1f}a{color:#681da8;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#1558d6}a:visited{color:#681da8}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px}.lsbb{background:#f3f5f6;border:solid 1px;border-color:#d2d2d2 #70757a #70757a #d2d2d2;height:30px}.lsbb{display:block}#WqQANb a{display:inline-block;margin:0 12px}.lsb{background:url(/images/nav_logo229.png) 0 -261px repeat-x;color:#1f1f1f;border:none;cursor:pointer;height:30px;margin:0;outline:0;font:15px sans-serif;vertical-align:top}.lsb:active{background:#dadce0}.lst:focus{outline:none}
+      @media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23ba4&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23ba5&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23bac&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23bb3&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23bba&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23bc1&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dee9&#34;] {-webkit-transform:translate3d(150%, 0, 0) scale3d(1.15, 1.15, 1) rotateX(null) rotateY(-90deg) rotateZ(null) skew(0, 0);-moz-transform:translate3d(150%, 0, 0) scale3d(1.15, 1.15, 1) rotateX(null) rotateY(-90deg) rotateZ(null) skew(0, 0);-ms-transform:translate3d(150%, 0, 0) scale3d(1.15, 1.15, 1) rotateX(null) rotateY(-90deg) rotateZ(null) skew(0, 0);transform:translate3d(150%, 0, 0) scale3d(1.15, 1.15, 1) rotateX(null) rotateY(-90deg) rotateZ(null) skew(0, 0);opacity:0;transform-style:preserve-3d;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedb&#34;] {color:rgb(255,255,255);}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6defe&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedd&#34;] {opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6deff&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6debb&#34;] {-webkit-transform:translate3d(-100%, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(65deg) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(65deg) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(65deg) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(65deg) rotateZ(0) skew(0, 0);transform-style:preserve-3d;opacity:0;}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23ba4&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23ba5&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23bac&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23bb3&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23bba&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23bc1&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dee9&#34;] {-webkit-transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-moz-transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-ms-transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);opacity:0;transform-style:preserve-3d;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedb&#34;] {color:rgb(255,255,255);}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6defe&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedd&#34;] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6deff&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6debb&#34;] {-webkit-transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-moz-transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-ms-transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);transform-style:preserve-3d;opacity:0;}}@media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dee9&#34;] {-webkit-transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-moz-transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-ms-transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);opacity:0;transform-style:preserve-3d;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedb&#34;] {color:rgb(255,255,255);}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6defe&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedd&#34;] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6deff&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6debb&#34;] {-webkit-transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-moz-transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-ms-transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);transform-style:preserve-3d;opacity:0;}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;2f48b4ca-db13-6fce-7add-ea3c48d23ba1&#34;] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dee9&#34;] {-webkit-transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-moz-transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-ms-transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);transform:translate3d(null%, 150%, 0) scale3d(1.5, 1.5, 1) rotateX(-90deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);opacity:0;transform-style:preserve-3d;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedb&#34;] {color:rgb(255,255,255);}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6defe&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedd&#34;] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6deff&#34;] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=&#34;b87a7bda-1bdb-d4ba-e9c8-cd4db6f6debb&#34;] {-webkit-transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-moz-transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);-ms-transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);transform:translate3d(null%, -75%, 0) scale3d(1.75, 1.75, 1) rotateX(65deg) rotateY(nulldeg) rotateZ(null) skew(0, 0);transform-style:preserve-3d;opacity:0;}}
     </style>
-    <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-      (function(){window.google.erd={jsr:1,bv:2475,de:true,dpf:&#39;24aSHeQc11Zc9c41BUGvAnkW2KQKts23aCf8Um-VE0U&#39;,c:&#39;283e&#39;};
-var f=this||self;var k,l=(k=f.mei)!=null?k:1,m,p=(m=f.diel)!=null?m:0,q,r=(q=f.sdo)!=null?q:!0;typeof jstl===&#34;number&#34;&amp;&amp;jstl&gt;0&amp;&amp;(Error.stackTraceLimit=jstl);var t=0,u,v=google.erd,w=v.jsr;google.ml=function(a,b,c,n,e){e=e===void 0?2:e;b&amp;&amp;(u=a&amp;&amp;a.message);c===void 0&amp;&amp;(c={});c.cad=&#34;ple_&#34;+google.ple+&#34;.aple_&#34;+google.aple;if(google.dl)return google.dl(a,e,c,!0),null;b=c;if(w&lt;0){window.console&amp;&amp;console.error(a,b);if(w===-2)throw a;b=!1}else b=!a||!a.message||a.message===&#34;Error loading script&#34;||t&gt;=l&amp;&amp;!n?!1:!0;if(!b)return null;t++;c=c||{};b=encodeURIComponent;var d=&#34;&amp;ei=&#34;+b(google.kEI);google.kEXPI&amp;&amp;(d+=&#34;&amp;jexpid=&#34;+b(google.kEXPI));d+=&#34;&amp;srcpg=&#34;+b(google.sn)+&#34;&amp;jsr=&#34;+b(v.jsr)+&#34;&amp;bver=&#34;+b(v.bv);v.dpf&amp;&amp;(d+=&#34;&amp;dpf=&#34;+b(v.dpf));var g=a.lineNumber;g!==void 0&amp;&amp;(d+=&#34;&amp;line=&#34;+g);var h=a.fileName;h&amp;&amp;(h.indexOf(&#34;-extension:/&#34;)&gt;0&amp;&amp;(e=3),d+=&#34;&amp;script=&#34;+b(h),g&amp;&amp;h===window.location.href&amp;&amp;(g=document.documentElement.outerHTML.split(&#34;\n&#34;)[g],d+=&#34;&amp;cad=&#34;+b(g?g.substring(0,300):&#34;No script found.&#34;)));google.ple&amp;&amp;google.ple===1&amp;&amp;(e=2);c&amp;&amp;v.c&amp;&amp;(c.ofc=String(v.c));d=d+(&#34;&amp;jsel=&#34;+e)+&#34;&amp;ectx=&#34;+b(JSON.stringify(c));d+=&#34;&amp;emsg=&#34;;d+=b(a.name+&#34;: &#34;+a.message);d+=&#34;&amp;jsst=&#34;;d+=b(a.stack||&#34;N/A&#34;);d.length&gt;=12288&amp;&amp;(d=d.substring(0,12288));a=d;c=(&#34;/gen_204?atyp=i&#34;+a).substring(0,12288);n||(google.log(0,&#34;&#34;,c),google.log(0,&#34;&#34;,(&#34;/httpservice/retry/jserror?atyp=i&#34;+a).substring(0,12288)));return c};window.onerror=function(a,b,c,n,e){u!==a&amp;&amp;(a=e instanceof Error?e:Error(a),c===void 0||&#34;lineNumber&#34;in a||(a.lineNumber=c),b===void 0||&#34;fileName&#34;in a||(a.fileName=b),google.ml(a,!1,void 0,!1,a.name===&#34;SyntaxError&#34;||a.message.substring(0,11)===&#34;SyntaxError&#34;||a.message.indexOf(&#34;Script error&#34;)!==-1?3:p));u=null;r&amp;&amp;t&gt;=l&amp;&amp;(window.onerror=null)};})();
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      WebFont.load({  google: {    families: [&#34;Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic&#34;,&#34;Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&#34;,&#34;Great Vibes:400&#34;,&#34;Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#34;,&#34;Limelight:300,400,500,600,700&#34;,&#34;Questrial:300,400,500,600,700&#34;,&#34;Rubik:300,400,500,600,700&#34;,&#34;Sofia Sans Condensed:300,400,500,600,700&#34;]  }});
+    </script>
+    <script src="https://use.typekit.net/xjm2bra.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      try{Typekit.load();}catch(e){}
+    </script>
+    <script type="text/javascript">
+      !function(o,c){var n=c.documentElement,t=&#34; w-mod-&#34;;n.className+=t+&#34;js&#34;,(&#34;ontouchstart&#34;in o||o.DocumentTouch&amp;&amp;c instanceof DocumentTouch)&amp;&amp;(n.className+=t+&#34;touch&#34;)}(window,document);
+    </script>
+    <link href="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/60df10e6f5ffea4eace64375_classlink-favicon.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: light)" />
+    <link href="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/69cd76ca1bcc0a2d58ec006b_classlink-favicon_v2.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)" />
+    <link href="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bdb1c6addc2c040aa8078d_classlink-webclip.png" rel="apple-touch-icon" />
+    <link href="https://www.classlink.com" rel="canonical" />
+    <script type="application/ld+json">
+      {
+  &#34;@context&#34;: &#34;https://schema.org&#34;,
+  &#34;@type&#34;: &#34;Organization&#34;,
+  &#34;name&#34;: &#34;ClassLink&#34;,
+  &#34;url&#34;: &#34;https://www.classlink.com&#34;,
+  &#34;logo&#34;: {
+    &#34;@type&#34;: &#34;ImageObject&#34;,
+    &#34;url&#34;: &#34;https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/64415d0af743837527365f0c_classlink-logo_blue.svg&#34;
+  },
+  &#34;description&#34;: &#34;ClassLink is a provider of identity and access management products offering instant access to apps and files with SSO, class rostering, account provisioning, and analytics.&#34;,
+  &#34;address&#34;: {
+    &#34;@type&#34;: &#34;PostalAddress&#34;,
+    &#34;streetAddress&#34;: &#34;45 E Madison Ave, Ste 7&#34;,
+    &#34;addressLocality&#34;: &#34;Clifton&#34;,
+    &#34;addressRegion&#34;: &#34;NJ&#34;,
+    &#34;postalCode&#34;: &#34;07011&#34;,
+    &#34;addressCountry&#34;: &#34;US&#34;
+  },
+  &#34;telephone&#34;: &#34;+1-888-963-7550&#34;,
+  &#34;contactPoint&#34;: [
+    {
+      &#34;@type&#34;: &#34;ContactPoint&#34;,
+      &#34;telephone&#34;: &#34;+1-888-963-7550&#34;,
+      &#34;contactType&#34;: &#34;customer service&#34;,
+      &#34;areaServed&#34;: &#34;US&#34;
+    },
+    {
+      &#34;@type&#34;: &#34;ContactPoint&#34;,
+      &#34;telephone&#34;: &#34;+44-800-208-8170&#34;,
+      &#34;contactType&#34;: &#34;customer service&#34;,
+      &#34;areaServed&#34;: &#34;GB&#34;
+    }
+  ],
+  &#34;sameAs&#34;: [
+    &#34;https://www.facebook.com/classlinkinc/&#34;,
+    &#34;https://twitter.com/classlink&#34;,
+    &#34;https://www.linkedin.com/company/classlink&#34;,
+    &#34;https://www.instagram.com/classlink_edu/&#34;,
+    &#34;https://www.youtube.com/ClassLinkEdu&#34;
+  ],
+  &#34;makesOffer&#34;: [
+    {
+      &#34;@type&#34;: &#34;Offer&#34;,
+      &#34;itemOffered&#34;: {
+        &#34;@type&#34;: &#34;SoftwareApplication&#34;,
+        &#34;name&#34;: &#34;LaunchPad&#34;,
+        &#34;description&#34;: &#34;Single sign-on for education with over 6,000 SSO connections&#34;,
+        &#34;applicationCategory&#34;: &#34;EducationalApplication&#34;
+      }
+    },
+    {
+      &#34;@type&#34;: &#34;Offer&#34;,
+      &#34;itemOffered&#34;: {
+        &#34;@type&#34;: &#34;SoftwareApplication&#34;,
+        &#34;name&#34;: &#34;Analytics&#34;,
+        &#34;description&#34;: &#34;Understand and share edtech usage data, measure equitable access, and track return on investment&#34;,
+        &#34;applicationCategory&#34;: &#34;EducationalApplication&#34;
+      }
+    },
+    {
+      &#34;@type&#34;: &#34;Offer&#34;,
+      &#34;itemOffered&#34;: {
+        &#34;@type&#34;: &#34;SoftwareApplication&#34;,
+        &#34;name&#34;: &#34;OneSync&#34;,
+        &#34;description&#34;: &#34;Securely provision accounts and automate identity management&#34;,
+        &#34;applicationCategory&#34;: &#34;EducationalApplication&#34;
+      }
+    },
+    {
+      &#34;@type&#34;: &#34;Offer&#34;,
+      &#34;itemOffered&#34;: {
+        &#34;@type&#34;: &#34;SoftwareApplication&#34;,
+        &#34;name&#34;: &#34;Roster Server&#34;,
+        &#34;description&#34;: &#34;Roster using open data standards and share roster data securely&#34;,
+        &#34;applicationCategory&#34;: &#34;EducationalApplication&#34;
+      }
+    }
+  ]
+}
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js" type="text/javascript">
+    </script>
+    <!-- Consent Pro script -->
+    <script src="https://api.consentpro.com/v2/cdn/runtime/5d6db64572061db9c481aaeb.js" type="text/javascript" finsweet="consentpro" siteid="5d6db64572061db9c481aaeb">
+    </script>
+    <!-- GA4 -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XR4VK1WY86" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag(&#39;js&#39;, new Date());
+  gtag(&#39;config&#39;, &#39;G-XR4VK1WY86&#39;);
+    </script>
+    <!-- End GA4 -->
+    <!-- Clarity -->
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+    c[a] =
+      c[a] ||
+      function () {
+        (c[a].q = c[a].q || []).push(arguments);
+      };
+    t = l.createElement(r);
+    t.async = 1;
+    t.src = &#39;https://www.clarity.ms/tag/&#39; + i;
+    y = l.getElementsByTagName(r)[0];
+    y.parentNode.insertBefore(t, y);
+  })(window, document, &#39;clarity&#39;, &#39;script&#39;, &#39;s1k8t4ytea&#39;);
+    </script>
+    <!-- End Clarity -->
+    <!-- LeadFeeder -->
+    <script type="text/javascript">
+      (function (ss, ex) {
+    window.ldfdr =
+      window.ldfdr ||
+      function () {
+        (ldfdr._q = ldfdr._q || []).push([].slice.call(arguments));
+      };
+    (function (d, s) {
+      fs = d.getElementsByTagName(s)[0];
+      function ce(src) {
+        var cs = d.createElement(s);
+        cs.src = src;
+        cs.async = 1;
+        fs.parentNode.insertBefore(cs, fs);
+      }
+      ce(&#39;https://sc.lfeeder.com/lftracker_v1_&#39; + ss + (ex ? &#39;_&#39; + ex : &#39;&#39;) + &#39;.js&#39;);
+    })(document, &#39;script&#39;);
+  })(&#39;lAxoEaKdrGo8OYGd&#39;);
+    </script>
+    <!-- End LeadFeeder -->
+    <!-- Jetboost -->
+    <script id="jetboost-script" type="text/javascript">
+      window.JETBOOST_SITE_ID = &#39;ckb2kawx8n4ku0717olnmdl4x&#39;;
+  (function () {
+    d = document;
+    s = d.createElement(&#39;script&#39;);
+    s.src = &#39;https://cdn.jetboost.io/jetboost.js&#39;;
+    s.async = 1;
+    d.getElementsByTagName(&#39;head&#39;)[0].appendChild(s);
+  })();
+    </script>
+    <!-- End Jetboost -->
+    <meta property="og:image" content="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/69ce75be2267bcce93803000_2025-identity-meta.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <style>
+      .consent_opt-out_banner,
+  .consent_prefs_open-button {
+    display: none !important;
+  }
+  ::selection {
+    background: #4e95cc; /* WebKit/Blink Browsers */
+    color: #fff;
+  }
+  ::-moz-selection {
+    background: #4e95cc; /* Gecko Browsers */
+    color: #fff;
+  }
+  textarea {
+    resize: vertical;
+  }
+  .button-general {
+    -webkit-text-fill-color: initial;
+  }
+  .w-lightbox-backdrop {
+    z-index: 99999;
+    text-align: center !important;
+  }
+  .accordion-item-content.flat {
+    width: 100% !important;
+  }
+  .long-url-break {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .grecaptcha-wisepops-wrapper .grecaptcha-badge {
+    visibility: hidden;
+  }
+  @media print {
+    .main-navbar-symbol,
+    .company-nav,
+    .footer-main,
+    .top-button {
+      display: none;
+    }
+  }
+    </style>
+    <script src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb%2F6544eda5f000985a163a8687%2F685eddc09579759f78bd8aeb%2Ffinsweetcomponentsconfig-1.0.3.js" type="module" async="" siteid="5d6db64572061db9c481aaeb" finsweet="components">
     </script>
   </head>
-  <body bgcolor="#fff">
-    <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-      (function(){var src=&#39;/images/nav_logo229.png&#39;;var iesg=false;document.body.onload = function(){window.n &amp;&amp; window.n();if (document.images){new Image().src=src;}
-if (!iesg){document.f&amp;&amp;document.f.q.focus();document.gbqf&amp;&amp;document.gbqf.q.focus();}
-}
-})();
-    </script>
-    <div style="padding:6px">
-      <div class="gb_Na gb_Kd gb_Fb gb_e gb_9a" id="gb">
-        <div class="gb_8d gb_Cb gb_Zd" data-ogsr-up="">
-          <div>
-            <div class="gb_R gb_7 gb_Wf gb_4f" data-ogbl="">
-              <div class="gb_6 gb_7">
-                <a class="gb_5" aria-label="Gmail " data-pid="23" href="https://mail.google.com/mail/&amp;ogbl" target="_top">                Gmail
+  <body>
+    <div id="top" class="top-anchor">
+    </div>
+    <a href="#top" aria-label="Back to Top" role="button" class="top-button w-inline-block">    <div>
+      
+    </div>
+</a>
+    <header class="navigation-menu-wrapper">
+      <div class="upper-navbar-container">
+        <div data-w-id="2ffe1bcf-f157-7e32-5868-92fc55bb70c2" class="search-close-trigger">
+        </div>
+        <div class="navbar-width-container with-message">
+          <div data-w-id="d6b61a22-0d93-c760-e69a-d6b4dafcdea7" class="upper-navbar-text-wrapper">
+            <div data-w-id="207b48bd-0b7f-9349-e97a-a50792b01998" class="hello-bar-custom-slider hide-for-now">
+              <div class="hello-bar-slide one">
+                <p class="upper-navbar-text">
+                  Learning Is Better Together at CLON 2027
+                </p>
+                <a href="/clon" class="upper-navbar-text-link w-inline-block">                <div class="text-block-218">
+                  Register Now
+                </div>
+                <div class="text-block-217">
+                  
+                </div>
+</a>
+                <a href="/clon" class="upper-navbar-text-link mobile-show w-inline-block">                <div class="text-block-218">
+                  Learning Is Better Together at CLON 2027
+                </div>
+                <div class="text-block-217">
+                  
+                </div>
 </a>
               </div>
-              <div class="gb_6 gb_7">
-                <a class="gb_5" aria-label="Nach Bildern suchen " data-pid="2" href="https://www.google.com/imghp?hl=de&amp;ogbl" target="_top">                Bilder
+              <div class="hello-bar-slide two">
+                <p class="upper-navbar-text">
+                  Catch Exposed Accounts With ThreatScan
+                </p>
+                <a href="/products/threatscan" class="upper-navbar-text-link w-inline-block">                <div class="text-block-218">
+                  Available Now
+                </div>
+                <div class="text-block-217">
+                  
+                </div>
+</a>
+                <a href="/products/threatscan" class="upper-navbar-text-link mobile-show w-inline-block">                <div class="text-block-218">
+                  Catch Exposed Accounts With ThreatScan
+                </div>
+                <div class="text-block-217">
+                  
+                </div>
 </a>
               </div>
+            </div>
+            <div>
+              <p class="upper-navbar-text">
+                Learning Is Better Together at CLON 2027
+              </p>
+              <a href="/clon" class="upper-navbar-text-link w-inline-block">              <div class="text-block-218">
+                Register Now
+              </div>
+              <div class="text-block-217">
+                
+              </div>
+</a>
+              <a href="/clon" class="upper-navbar-text-link mobile-show w-inline-block">              <div class="text-block-218">
+                Learning Is Better Together at CLON 2027
+              </div>
+              <div class="text-block-217">
+                
+              </div>
+</a>
             </div>
           </div>
-          <div class="gb_Jd">
-            <div class="gb_pd">
-              <div class="gb_L gb_Bd gb_7" data-ogsr-fb="true" data-ogsr-alt="" id="gbwa">
-                <div class="gb_D">
-                  <a class="gb_C" aria-label="Google-Apps" href="https://www.google.de/intl/de/about/products" aria-expanded="false" role="button" tabindex="0">                  <svg class="gb_H" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
-                    </path>
-                    <image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24" width="24" style="border:none;display:none \9">
-                    </image>
-                  </svg>
+          <div class="upper-navbar-tools-wrapper">
+            <form action="/search" class="navbar-search w-form">
+              <input class="nav-search-field w-input" maxlength="256" name="query" placeholder="Search…" role="search" title="Site Search" type="search" id="search" required="" />
+              <input type="submit" class="nav-search-btn w-button" value="" />
+              <div data-w-id="2ffe1bcf-f157-7e32-5868-92fc55bb70ce" class="nav-search-trigger">
+                
+              </div>
+            </form>
+            <div class="div-block-804">
+              <div class="wg-element-wrapper sw6 circle-flags">
+                <div data-hover="true" data-delay="300" data-w-id="2ffe1bcf-f157-7e32-5868-92fc55bb70d2" class="wg-dropdown-1 w-dropdown">
+                  <div lang="en" class="wg-dd-1-toggle circle w-dropdown-toggle">
+                    <div class="wg-selector-text-wrapper">
+                      <div class="wg-flag circle">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/63fcd967a9c48f362ce3d5bd_d9ba1fe780bfe3d260dc40c194c77c15_usa-flag-circle.svg" alt="USA Flag" class="wg-flag-ico" />
+                      </div>
+                      <div>
+                        EN
+                      </div>
+                    </div>
+                  </div>
+                  <nav class="wg-dd-1-list wg-dropdown-link-flag circle w-dropdown-list">
+                    <a lang="es" href="#" class="wg-dropdown-1-link circle w-inline-block">                    <div class="wg-selector-text-wrapper">
+                      <div class="wg-flag circle">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/63fcd967a9c48fda02e3d5bc_26e3e15ec70379974f9aea984c1fc90c_spain-flag-circle.svg" alt="Spain Flag" class="wg-flag-ico" />
+                      </div>
+                      <div>
+                        ES
+                      </div>
+                    </div>
 </a>
+                    <a lang="fr" href="#" class="wg-dropdown-1-link circle w-inline-block">                    <div class="wg-selector-text-wrapper">
+                      <div class="wg-flag circle">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/643d58aa4c4cfd6d097f10f0_c48cd3ba7e4c6d02dd35b2796c0efc2e_france-flag-cirlce.svg" alt="France Flag" class="wg-flag-ico" />
+                      </div>
+                      <div>
+                        FR
+                      </div>
+                    </div>
+</a>
+                    <a lang="ar" href="#" class="wg-dropdown-1-link circle w-inline-block">                    <div class="wg-selector-text-wrapper">
+                      <div class="wg-flag circle">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/63fcd967a9c48f1d56e3d5b3_1601837526a35b5645518b27e0386a85_saudi-arabia-flag-circle.svg" alt="Saudi Arabia Flag" class="wg-flag-ico" />
+                      </div>
+                      <div>
+                        AR
+                      </div>
+                    </div>
+</a>
+                    <a lang="ja" href="#" class="wg-dropdown-1-link circle w-inline-block">                    <div class="wg-selector-text-wrapper">
+                      <div class="wg-flag circle">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/63fcd967a9c48fb70ce3d5b4_fe6f5ece4f1d2cd7c4129b63dfed76ee_japan-flag-circle.svg" alt="Japan Flag" class="wg-flag-ico" />
+                      </div>
+                      <div>
+                        JA
+                      </div>
+                    </div>
+</a>
+                    <a lang="zh" href="#" class="wg-dropdown-1-link circle hide-for-now w-inline-block">                    <div class="wg-selector-text-wrapper">
+                      <div class="wg-flag circle">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/643d58aca8b9b0ac5a8d8786_f14246d24bc8740dfb5e72e77849868e_china-flag-circle.svg" alt="China Flag" class="wg-flag-ico" />
+                      </div>
+                      <div>
+                        ZH
+                      </div>
+                    </div>
+</a>
+                  </nav>
                 </div>
               </div>
-            </div>
-            <a class="gb_1a gb_3d gb_Ud gb_Ld" aria-label="Anmelden" href="https://accounts.google.com/ServiceLogin?hl=de&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAmgQ" target="_top">            <span class="gb_ie">            Anmelden
-</span>
+              <a aria-label="Opens New Tab" href="https://launchpad.classlink.com/" target="_blank" class="nabar-login">              Login
 </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <center>
-      <br clear="all" id="lgpd" />
-      <div>
-        <img alt="Google" height="92" src="/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png" style="padding:28px 0 14px" width="272" id="hplogo" />
-        <br />
-        <br />
-      </div>
-      <form action="/search" name="f">
-        <table cellpadding="0" cellspacing="0">
-          <tbody>
-            <tr valign="top">
-              <td width="25%">
-              </td>
-              <td align="center" nowrap="">
-                <input value="de" name="hl" type="hidden" />
-                <input name="source" type="hidden" value="hp" />
-                <input name="biw" type="hidden" />
-                <input name="bih" type="hidden" />
-                <div class="ds" style="height:32px;margin:4px 0">
-                  <input class="lst" style="margin:0;padding:5px 8px 0 6px;vertical-align:top;color:#1f1f1f" autocomplete="off" value="" title="Google Suche" maxlength="2048" name="q" size="57" />
-                </div>
-                <br style="line-height:0" />
-                <span class="ds">                <span class="lsbb">                <input class="lsb" value="Google Suche" name="btnG" type="submit" />
-</span>
-</span>
-                <span class="ds">                <span class="lsbb">                <input class="lsb" id="tsuid_qfxCasLBM6yG7NYP9eaKoAw_1" value="Auf gut Glück!" name="btnI" type="submit" />
-                <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-                  (function(){var id=&#39;tsuid_qfxCasLBM6yG7NYP9eaKoAw_1&#39;;document.getElementById(id).onclick = function(){if (this.form.q.value){this.checked = 1;if (this.form.iflsig)this.form.iflsig.disabled = false;}
-else top.location=&#39;/doodles/&#39;;};})();
-                </script>
-                <input value="ABILxe8AAAAAakMKuWNfdqk9Y3-foExbSYm3NPJQd7j2" name="iflsig" type="hidden" />
-</span>
-</span>
-              </td>
-              <td class="fl sblc" align="left" nowrap="" width="25%">
-                <a href="/advanced_search?hl=de&amp;authuser=0">                Erweiterte Suche
+      <div class="main-navbar-container">
+        <div data-w-id="85b66822-1195-f97f-db74-4cfcb85a2340" class="search-close-trigger">
+        </div>
+        <div data-w-id="85b66822-1195-f97f-db74-4cfcb85a2341" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-2 w-nav">
+          <a href="/" aria-current="page" class="nav-logo w-nav-brand w--current">          <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/64415d0af743837527365f0c_classlink-logo_blue.svg" width="206" alt="ClassLink" />
 </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <input id="gbv" name="gbv" type="hidden" value="1" />
-        <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-          (function(){var a,b=&#34;1&#34;;if(document&amp;&amp;document.getElementById)if(typeof XMLHttpRequest!=&#34;undefined&#34;)b=&#34;2&#34;;else if(typeof ActiveXObject!=&#34;undefined&#34;){var c,d,e=[&#34;MSXML2.XMLHTTP.6.0&#34;,&#34;MSXML2.XMLHTTP.3.0&#34;,&#34;MSXML2.XMLHTTP&#34;,&#34;Microsoft.XMLHTTP&#34;];for(c=0;d=e[c++];)try{new ActiveXObject(d),b=&#34;2&#34;}catch(h){}}a=b;if(a==&#34;2&#34;&amp;&amp;location.search.indexOf(&#34;&amp;gbv=2&#34;)==-1){var f=google.gbvu,g=document.getElementById(&#34;gbv&#34;);g&amp;&amp;(g.value=a);f&amp;&amp;window.setTimeout(function(){location.href=f},0)};}).call(this);
-        </script>
-      </form>
-      <div style="font-size:83%;min-height:3.5em">
-        <br />
-        <div id="gws-output-pages-elements-homepage_additional_languages__als">
+          <nav role="navigation" class="nav-menu w-nav-menu">
+            <div class="nav-dropdown-inner-shadow mobile">
+            </div>
+            <div data-delay="0" data-hover="true" class="nav-dropdown w-dropdown">
+              <div class="nav-dropdown-toggle w-dropdown-toggle">
+                <div class="nav-trigger">
+                  <div>
+                    Solutions
+                  </div>
+                  <div class="nav-trigger-chevron w-icon-dropdown-toggle">
+                  </div>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list v2 solutions-copy w-dropdown-list">
+                <div class="nav-dropdown-wrapper">
+                  <div class="nav-dropdown-bg-shadow">
+                  </div>
+                  <div class="nav-dropdown-links">
+                    <div class="nav-dropdown-inner-shadow">
+                    </div>
+                    <div class="nav-grid-2x4">
+                      <a id="w-node-_4a92f119-5d26-b6b8-a482-c23ffe38817b-55bb70c0" href="/enterprise" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/69e0f563e5d2c0709177294d_nav-enterprise-icon_v2.svg" loading="lazy" alt="" class="image-326" />
+                      </div>
+                      <div>
+                        CL Enterprise
+                      </div>
+</a>
+                      <a href="/solutions/identity-and-access-management" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/64555a72e877c02655ca8672_nav-iam-icon.svg" loading="lazy" alt="" class="image-317" />
+                      </div>
+                      <div class="nav-text-break iam">
+                        Identity &amp; Access
+                        <br />
+                        Management
+                      </div>
+                      <div class="nav-text-no-break iam">
+                        Identity &amp; Access Management
+                      </div>
+</a>
+                      <a id="w-node-_55da9657-4b37-4867-8064-93bbd39ff234-55bb70c0" href="/solutions/k-12-overview" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bde2ed27376a782c75b6b2_nav-k-12-icon.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        CL for K–12
+                      </div>
+</a>
+                      <a href="/solutions/learning-analytics" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6481eeeb87572fbd0095c698_nav-learning-analytics-icon.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        Learning Analytics
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a2357-55bb70c0" href="/solutions/higher-ed-overview" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bde319d787c4aa78d95136_nav-higher-ed-icon.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        CL for Higher Ed
+                      </div>
+</a>
+                      <a href="/solutions/cybersecurity-for-education" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6763080d261b5cc7346eef49_nav-cybersecurity-icon.svg" loading="lazy" alt="" class="image-373" />
+                      </div>
+                      <div class="nav-text-break mfa">
+                        Cybersecurity for
+                        <br />
+                        Education
+                      </div>
+                      <div class="nav-text-no-break mfa">
+                        Cybersecurity for Education
+                      </div>
+</a>
+                      <a id="w-node-_6843a969-9d13-ec2e-948c-da3e8b3a6162-55bb70c0" href="/solutions/statewide-overview" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/65eb8bc3bf8bec88ebb17cff_nav-statewide-icon.svg" loading="lazy" alt="" class="image-326" />
+                      </div>
+                      <div>
+                        CL for States
+                      </div>
+</a>
+                      <a href="/solutions/multi-factor-authentication" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bf2eea0be309ed43e76226_nav-mfa-icon_v2.svg" loading="lazy" alt="" class="image-304" />
+                      </div>
+                      <div class="nav-text-break mfa">
+                        Multi-Factor
+                        <br />
+                        Authentication
+                      </div>
+                      <div class="nav-text-no-break mfa">
+                        Multi-Factor Authentication
+                      </div>
+</a>
+                      <a href="/solutions/remote-learning" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/643582245301cc45e14906d6_nav-remote-learning-icon_v2.svg" loading="lazy" alt="" class="image-303" />
+                      </div>
+                      <div>
+                        Remote Learning
+                      </div>
+</a>
+                      <a id="w-node-deec687d-3cd8-2466-27ba-f4d339fc484b-55bb70c0" href="/solutions/single-sign-on-for-education" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6509b316986e1ac4a42a8a19_nav-sso-icon.svg" loading="lazy" alt="" class="image-326" />
+                      </div>
+                      <div class="nav-text-break sso">
+                        Single Sign-On
+                        <br />
+                        for Education
+                      </div>
+                      <div class="nav-text-no-break sso">
+                        Single Sign-On for Education
+                      </div>
+</a>
+                      <a id="w-node-_184ae04e-95d3-db29-b908-b81f7bef265d-55bb70c0" href="/solutions/transparency-and-trust" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/64a7231ee6065686c0308c32_nav-transparency-trust-icon.svg" loading="lazy" alt="" class="image-319" />
+                      </div>
+                      <div class="nav-text-break mfa">
+                        Transparency
+                        <br />
+                        &amp; Trust
+                      </div>
+                      <div class="nav-text-no-break mfa">
+                        Transparency &amp; Trust
+                      </div>
+</a>
+                      <a href="/resources/sso-search" class="nav-dropdown-link-block featured w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bde72551585bb7215cab1e_nav-apps-icon.svg" loading="lazy" alt="" class="image-249" />
+                      </div>
+                      <div>
+                        View Our 6,000+ App Library
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a236f-55bb70c0" href="/resources/sso-search" class="dropdown-link additional-nav-link w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bde72551585bb7215cab1e_nav-apps-icon.svg" loading="lazy" alt="" class="image-249" />
+                      </div>
+                      <div>
+                        View Our 6,000+ App Library
+                      </div>
+</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div data-delay="0" data-hover="true" class="nav-dropdown w-dropdown">
+              <div class="nav-dropdown-toggle w-dropdown-toggle">
+                <div class="nav-trigger">
+                  <div>
+                    Products
+                  </div>
+                  <div class="nav-trigger-chevron w-icon-dropdown-toggle">
+                  </div>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list v2 products-copy w-dropdown-list">
+                <div class="nav-dropdown-wrapper">
+                  <div class="nav-dropdown-bg-shadow">
+                  </div>
+                  <div class="nav-dropdown-links">
+                    <div class="nav-dropdown-inner-shadow">
+                    </div>
+                    <div class="nav-grid-2x4 products">
+                      <a href="/products/launchpad" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6329dc1f1c3dac21c4e4fc02_launchpad-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        LaunchPad
+                      </div>
+</a>
+                      <a href="/products/onesync" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6335b3fb068575389c348734_onesync-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        OneSync
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a2385-55bb70c0" href="/products/analytics" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6335b3fb86e69a599c66b66b_analytics-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        Analytics
+                      </div>
+</a>
+                      <a href="/products/roster-server" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6335b3fba27ce82c430e6ee7_roster-server-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        Roster Server
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a238a-55bb70c0" href="/products/analytics-plus" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6335b5d05c674a556df4686b_analytics-plus-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        Analytics+
+                      </div>
+</a>
+                      <a href="/products/dataguard" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/641dba272d06ad02f8efd906_dataguard-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        DataGuard
+                      </div>
+</a>
+                      <a href="/products/screen-time" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6a287a99e78b5756cf6671fe_screen-time-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div class="div-block-1205">
+                        <div>
+                          Screen Time
+                        </div>
+                        <div class="nav-link-tag included">
+                          Included in Analytics+
+                        </div>
+                      </div>
+</a>
+                      <a id="w-node-_5a10f99c-1e6c-21d7-af68-1be3289cf918-55bb70c0" href="/products/insights" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/69949f5763cb44908b3575db_562ec4544229f52a81e780274f3872e4_insights-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div class="div-block-1205">
+                        <div>
+                          Insights
+                        </div>
+                        <div class="nav-link-tag included">
+                          Coming Soon
+                        </div>
+                      </div>
+</a>
+                      <a id="w-node-_49e6ce17-26c2-eefc-6ba2-dceef522f193-55bb70c0" href="/products/statelink" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/661d3f81c048a797f5e549aa_statelink-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        StateLink
+                      </div>
+</a>
+                      <a href="/products/security-center" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/65aecabfae37292e923e1faf_security-center-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        Security Center
+                      </div>
+</a>
+                      <a href="/products/apptrack" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/67bdde84df471eb6b5b05758_apptrack-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        AppTrack
+                      </div>
+                      <div class="nav-link-tag hide-for-now">
+                        New
+                      </div>
+</a>
+                      <a id="w-node-_4e60e705-883f-5f0c-7d63-58a2f2e95f5a-55bb70c0" href="/products/threatscan" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/67b8f6765da775f7bf414756_threatscan-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        ThreatScan
+                      </div>
+                      <div class="nav-link-tag hide-for-now">
+                        New
+                      </div>
+</a>
+                      <a id="w-node-_04e423b3-499a-2db3-b785-0b049b667c5d-55bb70c0" href="/products/onedata" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper product">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6797b2baee0e60951ecf6583_onedata-app-tile_blue.svg" loading="lazy" alt="" class="image-302" />
+                      </div>
+                      <div>
+                        OneData
+                      </div>
+                      <div class="nav-link-tag hide-for-now">
+                        New
+                      </div>
+</a>
+                      <a href="/products" class="nav-dropdown-link-block featured w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bca2d93fa09cf90e79188d_nav-additional-icon.svg" loading="lazy" alt="" class="image-244" />
+                      </div>
+                      <div>
+                        Additional Products
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a23a3-55bb70c0" href="/products" class="dropdown-link additional-nav-link w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bca2d93fa09cf90e79188d_nav-additional-icon.svg" loading="lazy" alt="" class="image-244" />
+                      </div>
+                      <div>
+                        Additional Products
+                      </div>
+</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div data-delay="0" data-hover="true" class="nav-dropdown w-dropdown">
+              <div class="nav-dropdown-toggle w-dropdown-toggle">
+                <div class="nav-trigger">
+                  <div>
+                    Resources
+                  </div>
+                  <div class="nav-trigger-chevron w-icon-dropdown-toggle">
+                  </div>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list v2 resources-copy w-dropdown-list">
+                <div class="nav-dropdown-wrapper">
+                  <div class="nav-dropdown-bg-shadow">
+                  </div>
+                  <div class="nav-dropdown-links">
+                    <div class="nav-dropdown-inner-shadow">
+                    </div>
+                    <div class="nav-grid-2x6">
+                      <a href="/resources/cpp" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/66cc9344a598b57806f10055_nav-cpp-icon.svg" loading="lazy" alt="" class="image-359" />
+                      </div>
+                      <div class="nav-text-break">
+                        Cybersecurity
+                        <br />
+                        Funding
+                      </div>
+                      <div class="nav-text-no-break">
+                        Cybersecurity Funding
+                      </div>
+</a>
+                      <a href="/resources/case-studies" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/628678c0647ffbe111b9c91e_nav-case-study-icon.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        Case Studies
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a23be-55bb70c0" href="/resources/videos" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/628678c1afaf10a21ce63a5a_nav-videos-icon.svg" loading="lazy" alt="" class="image-243" />
+                      </div>
+                      <div>
+                        Videos
+                      </div>
+</a>
+                      <a id="w-node-_65b5f20a-f37a-479a-4464-44ba094b1125-55bb70c0" href="/resources/blog" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/628678c07b2cd73f1fc6539e_nav-blog-icon.svg" loading="lazy" alt="" class="image-242" />
+                      </div>
+                      <div>
+                        Blog
+                      </div>
+</a>
+                      <a href="/resources/webinars" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/628678c1ed25fbdb531d0536_nav-webinar-icon.svg" loading="lazy" alt="" class="image-295" />
+                      </div>
+                      <div>
+                        Webinars
+                      </div>
+</a>
+                      <a href="/insiders-club" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/67b7705930871c729d1d55c1_nav-insiders-icon.svg" loading="lazy" alt="" class="image-307" />
+                      </div>
+                      <div>
+                        Insiders Club
+                      </div>
+</a>
+                      <a href="/resources/back-to-school-readiness" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/66db3f4eee585f590a116b78_nav-bts-icon.svg" loading="lazy" alt="" class="image-293" />
+                      </div>
+                      <div>
+                        BTS Readiness
+                      </div>
+</a>
+                      <a href="/podcasts/linkedup" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/628678c11764d924b3035039_nav-podcast-icon.svg" loading="lazy" alt="" class="image-297" />
+                      </div>
+                      <div class="nav-text-break">
+                        LinkedUp
+                        <br />
+                        Podcasts
+                      </div>
+                      <div class="nav-text-no-break">
+                        LinkedUp Podcasts
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a23da-55bb70c0" href="/resources/bts-checklist" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6435b2f472616441bae28801_nav-bts-checklist-icon.svg" loading="lazy" alt="" class="image-293" />
+                      </div>
+                      <div>
+                        BTS Checklist
+                      </div>
+</a>
+                      <a href="/podcasts/perspectives" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/628678c11764d924b3035039_nav-podcast-icon.svg" loading="lazy" alt="" class="image-297" />
+                      </div>
+                      <div class="nav-text-break">
+                        Perspectives
+                        <br />
+                        Podcasts
+                      </div>
+                      <div class="nav-text-no-break">
+                        Perspectives Podcasts
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a23e8-55bb70c0" href="/academy" class="nav-dropdown-link-block featured w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/626072acdb5ec22da34cbb23_cl-academy-icon.svg" loading="lazy" alt="ClassLink Academy Icon" class="image-308" />
+                      </div>
+                      <div>
+                        ClassLink Academy
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a23ed-55bb70c0" href="/academy" class="dropdown-link additional-nav-link w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/626072acdb5ec22da34cbb23_cl-academy-icon.svg" loading="lazy" alt="ClassLink Academy Icon" class="image-294" />
+                      </div>
+                      <div>
+                        Learn With ClassLink Academy
+                      </div>
+</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div data-delay="0" data-hover="true" class="nav-dropdown w-dropdown">
+              <div class="nav-dropdown-toggle w-dropdown-toggle">
+                <div class="nav-trigger">
+                  <div>
+                    Company
+                  </div>
+                  <div class="nav-trigger-chevron w-icon-dropdown-toggle">
+                  </div>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list v2 company-copy w-dropdown-list">
+                <div class="nav-dropdown-wrapper">
+                  <div class="nav-dropdown-bg-shadow">
+                  </div>
+                  <div class="nav-dropdown-links">
+                    <div class="nav-dropdown-inner-shadow">
+                    </div>
+                    <div class="nav-grid-2x5">
+                      <a href="/company/about" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bde7df981cf53534bb27bc_nav-about-icon.svg" loading="lazy" alt="" class="image-307" />
+                      </div>
+                      <div>
+                        About Us
+                      </div>
+</a>
+                      <a href="/company/news" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/628678c0eba3c37f91dfa0ee_nav-news-icon.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        News
+                      </div>
+</a>
+                      <a href="/company/awards" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/628678bffcf031acd5aed878_nav-award-icon.svg" loading="lazy" alt="" class="image-298" />
+                      </div>
+                      <div>
+                        Awards
+                      </div>
+</a>
+                      <a href="/company/partners" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bca0b1af48b74982e53e29_nav-partners-icon.svg" loading="lazy" alt="" class="image-250" />
+                      </div>
+                      <div>
+                        Partners
+                      </div>
+</a>
+                      <a href="/company/mpact" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6435b7108c74a96ca5cb70ae_nav-mpact-icon.svg" loading="lazy" alt="" class="image-299" />
+                      </div>
+                      <div>
+                        MPACT Program
+                      </div>
+</a>
+                      <a aria-label="Opens New Tab" id="w-node-_85b66822-1195-f97f-db74-4cfcb85a2417-55bb70c0" href="https://www.cybersecurityrubric.org/" target="_blank" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/65148b2856194f53c747f6fe_nav-cr-icon.svg" loading="lazy" alt="" class="image-291" />
+                      </div>
+                      <div class="nav-text-break">
+                        Cybersecurity
+                        <br />
+                        Rubric
+                      </div>
+                      <div class="nav-text-no-break">
+                        Cybersecurity Rubric
+                      </div>
+</a>
+                      <a aria-label="Opens New Tab" href="/company/secure-by-design" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/64d3ae81829349e93d1b313e_nav-pledge-icon.svg" loading="lazy" alt="" class="image-321" />
+                      </div>
+                      <div>
+                        Secure by Design
+                      </div>
+</a>
+                      <a href="/contact" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62fc073027953a33ad01b63a_nav-contact-icon_v2.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        Contact Us
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a242a-55bb70c0" href="/company/careers" class="nav-dropdown-link-block featured w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bde5babacb017d10377954_nav-careers-icon.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        Careers
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a242f-55bb70c0" href="/company/careers" class="dropdown-link additional-nav-link w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bde5babacb017d10377954_nav-careers-icon.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        Join the ClassLink Team
+                      </div>
+</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div data-delay="0" data-hover="true" class="nav-dropdown w-dropdown">
+              <div class="nav-dropdown-toggle w-dropdown-toggle">
+                <div class="nav-trigger">
+                  <div>
+                    Help
+                  </div>
+                  <div class="nav-trigger-chevron w-icon-dropdown-toggle">
+                  </div>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list v2 help w-dropdown-list">
+                <div class="nav-dropdown-wrapper">
+                  <div class="nav-dropdown-bg-shadow">
+                  </div>
+                  <div class="nav-dropdown-links">
+                    <div class="nav-dropdown-inner-shadow">
+                    </div>
+                    <div class="nav-grid-2x3">
+                      <a aria-label="Opens New Tab" href="https://help.classlink.com/s/technical-support" target="_blank" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bc98930df40f3d5da7105b_nav-support-icon.svg" loading="lazy" alt="" class="image-306" />
+                      </div>
+                      <div>
+                        Support
+                      </div>
+</a>
+                      <a aria-label="Opens New Tab" href="https://status.classlink.com/" target="_blank" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bc989371e0066fb6b00d63_nav-status-icon.svg" loading="lazy" alt="" class="image-247" />
+                      </div>
+                      <div>
+                        Status
+                      </div>
+</a>
+                      <a href="/company/security" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bc9890a4c18ac89223eeeb_nav-security-icon.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        Security
+                      </div>
+</a>
+                      <a href="/company/privacy" class="nav-dropdown-link-block w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bc989393cbb8be1d7b7cf9_nav-privacy-icon.svg" loading="lazy" alt="" class="image-301" />
+                      </div>
+                      <div>
+                        Privacy
+                      </div>
+</a>
+                      <a id="w-node-_85b66822-1195-f97f-db74-4cfcb85a2454-55bb70c0" href="https://help.classlink.com/s/" target="_blank" class="nav-dropdown-link-block featured w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bc98f6391fbdb1777213af_nav-help-center-icon.svg" loading="lazy" alt="" class="image-305" />
+                      </div>
+                      <div>
+                        Help Center
+                      </div>
+</a>
+                      <a aria-label="Opens New Tab" id="w-node-_85b66822-1195-f97f-db74-4cfcb85a2459-55bb70c0" href="https://help.classlink.com/s/" target="_blank" class="dropdown-link additional-nav-link w-inline-block">                      <div class="nav-icon-wrapper">
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62bc98f6391fbdb1777213af_nav-help-center-icon.svg" loading="lazy" alt="" />
+                      </div>
+                      <div>
+                        ClassLink Help Center
+                      </div>
+</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <a href="/request-demo" class="button-general navbar dropdown w-button">            Request Demo
+</a>
+          </nav>
+          <div class="div-block-765">
+            <a href="/request-demo" class="button-general navbar w-button">            Request Demo
+</a>
+            <div class="menu-button w-nav-button">
+              <div class="hamburger-animated">
+                <div class="burger-top blue">
+                </div>
+                <div class="burger-middle blue">
+                </div>
+                <div class="burger-bottom blue">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6deb5" class="home-banner-container _2025">
+      <div class="custom-banner-gradients _2025">
+        <div class="hide-html-embed w-embed">
           <style>
-            #gws-output-pages-elements-homepage_additional_languages__als{font-size:small;margin-bottom:24px}#SIvCob{color:#545454;display:inline-block;line-height:28px;}#SIvCob a{}.H6sW5{display:inline-block;margin:0 2px;white-space:nowrap}.z4hgWe{display:inline-block;margin:0 2px}
+            @supports (mix-blend-mode: multiply) {
+  .home-banner-2025-overlay {
+    /* Styles for browsers that support mix-blend-mode */
+    mix-blend-mode: multiply;
+    background-image: radial-gradient(circle at 50% 75%,#0000 40%,#000630a6),radial-gradient(circle,#fff0,#000f7e);
+  }
+}
+.button-general.outline:hover .banner-video-link-icon {
+  font-weight: 900;
+}
+/*.banner-text-gold::before {
+	content: attr(data-text);
+	position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  color: #000;
+  text-shadow: 2px 3px 8px #0005;
+}*/
+@media (max-width: 510px) and (min-width: 480px) {
+	.a-solutions-wrapper {
+  	max-width: 290px;
+  }
+}
+@media (max-width: 405px) {
+	.a-solutions-wrapper {
+  	display: none;
+  }
+  .a-solutions-wrapper.slider {
+  	display: flex;
+  }
+}
           </style>
-          <div id="SIvCob">
-            Google gibt es auch auf:
-            <a href="https://www.google.com/setprefs?sig=0_W5byIinRlToYz05R6UVuyIUWV8k%3D&amp;hl=en&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiCutqeyq2VAxUsA9sEHXWzAsQQ2ZgBCAU">            English
+        </div>
+        <div data-poster-url="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6937504bb38acf2ae637b345_cl-homepage-banner-2025-bg.png" data-autoplay="true" data-loop="true" data-video-urls="https://webassets-cdn.classlink.com/videos/identity-homepage-loop_1080.mp4,https://webassets-cdn.classlink.com/videos/identity-homepage-loop_1080.webm" data-wf-ignore="true" class="custom-bg-video w-embed">
+          <style>
+            .custom-bg-video video {
+	object-fit: cover;
+	z-index: -100;
+	background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	position: absolute;
+	inset: -100%;
+  background-image: url(&#34;https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6937504bb38acf2ae637b345_cl-homepage-banner-2025-bg.png&#34;);
+}
+          </style>
+          <video autoplay="" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+            <source src="https://webassets-cdn.classlink.com/videos/identity-homepage-loop_1080.mp4" type="video/mp4" data-wf-ignore="true" />
+            <source src="https://webassets-cdn.classlink.com/videos/identity-homepage-loop_1080.webm" type="video/webm" data-wf-ignore="true" />
+          </video>
+        </div>
+        <div class="home-banner-2025-overlay">
+        </div>
+        <div class="home-banner-2025-content-wrapper">
+          <div data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6debb" class="home-banner-2025-text-col">
+            <div data-delay="4500" data-animation="slide" class="a-solutions-wrapper slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="600" data-infinite="true">
+              <div class="mask-9 w-slider-mask">
+                <div class="slide-26 w-slide">
+                  <a href="/solutions/single-sign-on-for-education" class="a-solutions-link">                  Access
 </a>
+                </div>
+                <div class="slide-26 w-slide">
+                  <a href="/solutions/identity-and-access-management" class="a-solutions-link">                  Automation
+</a>
+                </div>
+                <div class="slide-26 w-slide">
+                  <a href="/solutions/learning-analytics" class="a-solutions-link">                  Analytics
+</a>
+                </div>
+              </div>
+              <div class="slider-arrow-light a-solution w-slider-arrow-left">
+                <div class="w-icon-slider-left">
+                </div>
+              </div>
+              <div class="slider-arrow-light a-solution w-slider-arrow-right">
+                <div class="w-icon-slider-right">
+                </div>
+              </div>
+              <div class="hide-for-now w-slider-nav w-round">
+              </div>
+            </div>
+            <div class="a-solutions-wrapper">
+              <a href="/solutions/single-sign-on-for-education" class="a-solutions-link">              Access
+</a>
+              <div class="a-solutions-pipe">
+                |
+              </div>
+              <a href="/solutions/identity-and-access-management" class="a-solutions-link">              Automation
+</a>
+              <div class="a-solutions-pipe">
+                |
+              </div>
+              <a href="/solutions/learning-analytics" class="a-solutions-link">              Analytics
+</a>
+            </div>
+            <h1 class="seo-hidden">
+              Identity first schools are safer, faster, and easier to run
+            </h1>
+            <div class="home-banner_2025">
+              <div class="banner-text-gold-wrapper">
+                <div role="heading" data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedb" class="banner-text-gold">
+                  Identity
+                </div>
+                <div data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dedd" class="banner-text-underline">
+                </div>
+              </div>
+              <div role="heading" class="banner-text-white">
+                first schools are safer, faster, and easier to run
+              </div>
+            </div>
+            <div class="home-banner-btn-wrapper">
+              <a href="/request-demo" class="button-general large home-banner _2025 w-button">              Request a Demo
+</a>
+              <a href="#" role="button" class="button-general large home-banner _2025 outline w-inline-block w-lightbox">              <div class="banner-video-link-icon">
+                
+              </div>
+              <div>
+                See the Benefits
+              </div>
+              <script type="application/json" class="w-json">
+                {
+  &#34;items&#34;: [
+    {
+      &#34;url&#34;: &#34;https://www.youtube.com/watch?v=Elsdkg6uo7w&#34;,
+      &#34;originalUrl&#34;: &#34;https://www.youtube.com/watch?v=Elsdkg6uo7w&#34;,
+      &#34;width&#34;: 940,
+      &#34;height&#34;: 528,
+      &#34;thumbnailUrl&#34;: &#34;https://i.ytimg.com/vi/Elsdkg6uo7w/hqdefault.jpg&#34;,
+      &#34;html&#34;: &#34;&lt;iframe class=\&#34;embedly-embed\&#34; src=\&#34;//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FElsdkg6uo7w%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DElsdkg6uo7w&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FElsdkg6uo7w%2Fhqdefault.jpg&amp;type=text%2Fhtml&amp;schema=youtube\&#34; width=\&#34;940\&#34; height=\&#34;528\&#34; scrolling=\&#34;no\&#34; title=\&#34;YouTube embed\&#34; frameborder=\&#34;0\&#34; allow=\&#34;autoplay; fullscreen; encrypted-media; picture-in-picture;\&#34; allowfullscreen=\&#34;true\&#34;&gt;&lt;/iframe&gt;&#34;,
+      &#34;type&#34;: &#34;video&#34;
+    }
+  ],
+  &#34;group&#34;: &#34;&#34;
+}
+              </script>
+</a>
+            </div>
+          </div>
+          <div class="home-banner-2025-mockup-col">
+            <div data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6dee9" class="home-banner-mockup_wrapper">
+              <div class="home-banner-mockup_base">
+              </div>
+              <div class="home-banner-mockup_shadow">
+              </div>
+              <div class="home-banner-mockup-tile top">
+                <div class="home-banner-mockup_base tile top">
+                </div>
+                <div class="home-banner-mockup_shadow tile">
+                </div>
+                <div data-is-ix2-target="1" class="mockup_lottie iam" data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6deef" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6931c8e32e2c93afc60a68da_286b5e455c59c4f766c8a796f106d358_iam_lottie.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="2.3666666666666667" data-duration="3" data-loading="eager">
+                </div>
+                <div data-is-ix2-target="1" class="mockup_lottie dataguard" data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6def0" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/69320229c55ba1cb3fd0de6c_dataguard_lottie.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="0" data-duration="0" data-loading="eager">
+                </div>
+              </div>
+              <div class="home-banner-mockup-tile middle">
+                <div class="home-banner-mockup_base tile middle">
+                </div>
+                <div class="home-banner-mockup_shadow tile">
+                </div>
+                <div data-is-ix2-target="1" class="mockup_lottie thumbprint" data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6def4" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6931c8e5ba496142d1a2fc69_thumbprint_lottie.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="0" data-duration="0" data-loading="eager">
+                </div>
+                <div data-is-ix2-target="1" class="mockup_lottie face" data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6def5" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6936eef67edc9e3f5ed4f145_faceID_lottie.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="0" data-duration="0" data-loading="eager">
+                </div>
+              </div>
+              <div class="home-banner-mockup-tile bottom">
+                <div class="home-banner-mockup_base tile bottom">
+                </div>
+                <div class="home-banner-mockup_shadow tile">
+                </div>
+                <div data-is-ix2-target="1" class="mockup_lottie analytics" data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6def9" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6931c8d644180fafe27d7df6_analytics_lottie.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="2" data-duration="0" data-loading="eager">
+                </div>
+                <div data-is-ix2-target="1" class="mockup_lottie lock" data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6defa" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6931f3492257294af43b7c27_lock_lottie.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="0" data-duration="0" data-loading="eager">
+                </div>
+              </div>
+              <div class="home-banner-mockup-tile bottom-wide">
+                <div class="home-banner-mockup_base tile bottom-wide">
+                </div>
+                <div class="home-banner-mockup_shadow tile">
+                </div>
+                <div data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6defe" data-is-ix2-target="1" class="mockup_lottie pin" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6931d9f04aa6b800269cf86a_92ee3f3e4eeed60a46937a38678d9aba_pin_lottie.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="2.7333333333333334" data-duration="0" data-loading="eager">
+                </div>
+                <div data-w-id="b87a7bda-1bdb-d4ba-e9c8-cd4db6f6deff" class="mockup_lottie pin-loop" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/69372717e0e7636969dc92f9_pin_lottie_loop.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="0" data-duration="0" data-loading="eager">
+                </div>
+              </div>
+              <div class="home-banner-mockup-content">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/69249abe55f127250ca4595f_cl-cloud_white.svg" loading="lazy" draggable="false" alt="ClassLink Icon" class="mockup-cl-icon" />
+                <div class="launchpad-login-modal-header-copy">
+                  Sign in to ClassLink
+                </div>
+                <div class="launchpad-login-modal-section home-mockup">
+                </div>
+                <div class="launchpad-login-modal-section home-mockup">
+                </div>
+                <div class="launchpad-login-modal-section home-mockup-btn">
+                  <div>
+                    Sign In
+                  </div>
+                </div>
+                <div class="launchpad-login-modal-addt-btns">
+                  <div class="lp-additional-signin-btn home-mockup">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.35 53.68" app="svgflow" fill="currentColor" class="svgflow-xsfsmi">
+                      <g app="svgflow">
+                        <circle cx="17.15" cy="9.93" r="9.93" app="svgflow">
+                        </circle>
+                        <path d="M25.27,21.66c0,4.54,3.05,9.62,7.22,11.22v3.22c0,2.99-2.42,5.41-5.42,5.41H5.42C2.42,41.52,0,39.09,0,36.1v-9.03c0-2.99,2.42-5.41,5.42-5.41h19.85Z" app="svgflow">
+                        </path>
+                        <path d="M40.61,9.03c6.48,0,11.73,5.25,11.73,11.73,0,4.75-2.83,8.85-6.9,10.69l2.16,2.47.57.65-.62.6-4.3,4.1,4.35,4.98.49.56-.46.59-5.91,7.51-.61.78-.72-.69-4.92-4.69-.28-.27v-16.87c-3.75-1.96-6.32-5.88-6.32-10.41,0-6.48,5.25-11.73,11.73-11.73ZM40.61,18.05c-1.5,0-2.71,1.21-2.71,2.71,0,1.5,1.21,2.71,2.71,2.71,1.49,0,2.71-1.21,2.71-2.71,0-1.5-1.21-2.71-2.71-2.71Z" app="svgflow">
+                        </path>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <span id="footer">      <div style="font-size:10pt">
-        <div style="margin:19px auto;text-align:center" id="WqQANb">
-          <a href="/intl/de/ads/">          Werbeprogramme
-</a>
-          <a href="/services/">          Unternehmensangebote
-</a>
-          <a href="/intl/de/about.html">          Über Google
-</a>
-          <a href="https://www.google.com/setprefdomain?prefdom=DE&amp;prev=https://www.google.de/&amp;sig=K_6HOe63HOuj7Yi78wwDO-g0vk7D8%3D">          Google.de
-</a>
-        </div>
+      <a href="#start" class="down-anchor _2025 w-inline-block">      <div class="down-anchor-icon">
+        
       </div>
-      <p style="font-size:8pt;color:#636363">
-        © 2026 -
-        <a href="/intl/de/policies/privacy/">        Datenschutzerklärung
 </a>
-        -
-        <a href="/intl/de/policies/terms/">        Nutzungsbedingungen
-</a>
-      </p>
+    </div>
+    <div id="start" class="section-standard cl-stats">
+      <div class="body-container-standard">
+        <div class="w-embed">
+          <style>
+            @media (max-width:1130px) and (min-width:992px) {
+	.cl-stat-block-home {
+  	flex-direction: column;
+  }
+	.cl-stat-icon, .cl-stat-number.home, .cl-stat-desc.home {
+  	text-align: center;
+  }
+}
+          </style>
+        </div>
+        <div class="cl-stat-block-wrapper">
+          <div data-w-id="1334605e-9d19-492a-0228-3716e2449cc5" style="opacity:0" class="cl-stat-block-home">
+            <div class="cl-stat-icon">
+              
+            </div>
+            <div>
+              <div class="cl-stat-number home">
+                25M
+                <span class="clon-stat-plus home">                +
 </span>
-    </center>
-    <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-      this.gbar_=this.gbar_||{};(function(_){var window=this;
-try{
-_.oe=function(a,b,c){if(!a.j)if(c instanceof Array){c=_.C(c);for(var d=c.next();!d.done;d=c.next())_.oe(a,b,d.value)}else{d=(0,_.E)(a.C,a,b);var e=a.v+c;a.v++;b.dataset.eqid=e;a.B[e]=d;b&amp;&amp;b.addEventListener?b.addEventListener(c,d,!1):b&amp;&amp;b.attachEvent?b.attachEvent(&#34;on&#34;+c,d):a.o.log(Error(&#34;H`&#34;+b))}};
-}catch(e){_._DumpException(e)}
-try{
-_.pe=function(){if(!_.t.addEventListener||!Object.defineProperty)return!1;var a=!1,b=Object.defineProperty({},&#34;passive&#34;,{get:function(){a=!0}});try{var c=function(){};_.t.addEventListener(&#34;test&#34;,c,b);_.t.removeEventListener(&#34;test&#34;,c,b)}catch(d){}return a}();
-}catch(e){_._DumpException(e)}
-try{
-var qe=document.querySelector(&#34;.gb_L .gb_C&#34;),re=document.querySelector(&#34;#gb.gb_gd&#34;);qe&amp;&amp;!re&amp;&amp;_.oe(_.Yd,qe,&#34;click&#34;);
-}catch(e){_._DumpException(e)}
-try{
-var ji=function(a){_.y.call(this);this.B=a;this.v=null;this.o={};this.C={};this.i={};this.j=null};_.B(ji,_.y);_.ki=function(a){if(a.v)return a.v;for(var b in a.i)if(a.i[b].Te()&amp;&amp;a.i[b].rb())return a.i[b];return null};ji.prototype.A=function(a){this.i[a]&amp;&amp;(_.ki(this)&amp;&amp;_.ki(this).Gc()==a||this.i[a].Ld(!0))};ji.prototype.Xa=function(a){this.j=a;for(var b in this.i)this.i[b].Te()&amp;&amp;this.i[b].Xa(a)};_.li=function(a,b){a.i[b.Gc()]=b};ji.prototype.Cb=function(a){return a in this.i?this.i[a]:null};var mi=new ji(_.Xd);_.ae(&#34;dd&#34;,mi);
-}catch(e){_._DumpException(e)}
-try{
-_.Fj=function(a,b){return _.O(a,36,b)};_.Gj={Uf:&#34;gb_z&#34;,Id:&#34;gb_6a&#34;,Hn:&#34;gb_Bb&#34;,Ff:&#34;gb_4a&#34;,qo:&#34;gb_zf&#34;,Co:&#34;gb_cb&#34;,Do:&#34;gb_eb&#34;,Xp:&#34;gb_ab&#34;,mi:&#34;gb_U&#34;};
-}catch(e){_._DumpException(e)}
-try{
-var Hj=document.querySelector(&#34;.&#34;+_.Gj.Uf+&#34; .gb_C&#34;),Ij=document.querySelector(&#34;#gb.gb_gd&#34;);Hj&amp;&amp;!Ij&amp;&amp;_.oe(_.Yd,Hj,&#34;click&#34;);
-}catch(e){_._DumpException(e)}
-})(this.gbar_);
-// Google Inc.
-    </script>
-    <div>
-      <div>
-        <div class="gb_Q">
-          Google-Apps
+              </div>
+              <div class="cl-stat-desc home">
+                Students &amp; Staff
+              </div>
+            </div>
+          </div>
+          <div data-w-id="1334605e-9d19-492a-0228-3716e2449ccf" style="opacity:0" class="cl-stat-block-home">
+            <div class="cl-stat-icon">
+              
+            </div>
+            <div>
+              <div class="cl-stat-number home">
+                3,000
+                <span class="clon-stat-plus home">                +
+</span>
+              </div>
+              <div class="cl-stat-desc home">
+                School Systems
+              </div>
+            </div>
+          </div>
+          <div data-w-id="1334605e-9d19-492a-0228-3716e2449cd9" style="opacity:0" class="cl-stat-block-home">
+            <div class="cl-stat-icon">
+              
+            </div>
+            <div>
+              <div class="cl-stat-number home">
+                50
+              </div>
+              <div class="cl-stat-desc home">
+                States
+              </div>
+            </div>
+          </div>
+          <div data-w-id="1334605e-9d19-492a-0228-3716e2449ce1" style="opacity:0" class="cl-stat-block-home">
+            <div class="cl-stat-icon">
+              
+            </div>
+            <div>
+              <div class="cl-stat-number home">
+                42
+              </div>
+              <div class="cl-stat-desc home">
+                Countries
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-      this.gbar_=this.gbar_||{};(function(_){var window=this;
-try{
-var ze=function(){_.aa.call(this)};_.B(ze,_.be);_.Ae=function(a,b){if(b in a.i)return a.i[b];throw new ze(b);};_.Be=function(a){return _.Ae(_.Zd.i(),a)};
-}catch(e){_._DumpException(e)}
-try{
-/*
+    <section class="section-standard">
+      <div id="intro" class="anchor solutions">
+      </div>
+      <div class="body-container-standard">
+        <h2 class="centered">
+          How Can ClassLink Help?
+        </h2>
+        <div class="custom-size-div _950">
+          <p class="centered">
+            Create an environment where education and technology work together so learning can flourish. From access and analytics to cybersecurity and identity management, ClassLink’s affordable and reliable solutions help you use technology in ways that promote and support learning. See why over 3,000 school systems love learning with ClassLink.
+            <br />
+          </p>
+        </div>
+        <div data-w-id="2f48b4ca-db13-6fce-7add-ea3c48d23b9e" class="tab-dropdown-toggle cl-solutions">
+          <div class="tab-dropdown-toggle-text">
+            ClassLink Solutions
+          </div>
+          <div data-w-id="2f48b4ca-db13-6fce-7add-ea3c48d23ba1" class="tab-dropdown-toggle-arrow">
+            
+          </div>
+        </div>
+      </div>
+      <div data-duration-in="450" data-duration-out="350" data-easing="ease-in-quad" data-current="Identity &amp; Access Management" class="cl-solutions-tabs-full w-tabs">
+        <div data-w-id="2f48b4ca-db13-6fce-7add-ea3c48d23ba4" class="cl-solutions-tabs-menu wrap w-tab-menu">
+          <a data-w-tab="Identity &amp; Access Management" data-w-id="2f48b4ca-db13-6fce-7add-ea3c48d23bb3" class="cohorts-tab w-inline-block w-tab-link w--current">          <div class="cohort-tab-text">
+            Identity &amp; Access
+            <br />
+            Management
+          </div>
+          <div class="cohort-tab-text mobile">
+            Identity &amp; Access Management
+          </div>
+</a>
+          <a data-w-tab="Learning Analytics" data-w-id="2f48b4ca-db13-6fce-7add-ea3c48d23bac" class="cohorts-tab w-inline-block w-tab-link">          <div class="cohort-tab-text">
+            Learning
+            <br />
+            Analytics
+          </div>
+          <div class="cohort-tab-text mobile">
+            Learning Analytics
+          </div>
+</a>
+          <a data-w-tab="Cybersecurity &amp; MFA" data-w-id="2f48b4ca-db13-6fce-7add-ea3c48d23bba" class="cohorts-tab w-inline-block w-tab-link">          <div class="cohort-tab-text">
+            Cybersecurity
+            <br />
+            &amp; MFA
+          </div>
+          <div class="cohort-tab-text mobile">
+            Cybersecurity &amp; MFA
+          </div>
+</a>
+          <a data-w-tab="Secure Single Sign-On" data-w-id="2f48b4ca-db13-6fce-7add-ea3c48d23ba5" class="cohorts-tab w-inline-block w-tab-link">          <div class="cohort-tab-text">
+            Secure Single
+            <br />
+            Sign-On
+          </div>
+          <div class="cohort-tab-text mobile">
+            Secure Single Sign-On
+          </div>
+</a>
+          <a data-w-tab="Transparency &amp; Trust" data-w-id="2f48b4ca-db13-6fce-7add-ea3c48d23bc1" class="cohorts-tab w-inline-block w-tab-link">          <div class="cohort-tab-text">
+            Transparency
+            <br />
+            &amp; Trust
+          </div>
+          <div class="cohort-tab-text mobile">
+            Transparency &amp; Trust
+          </div>
+</a>
+        </div>
+        <div data-w-id="2f48b4ca-db13-6fce-7add-ea3c48d23bc8" style="opacity:0" class="cl-solutions-tabs-content w-tab-content">
+          <div data-w-tab="Identity &amp; Access Management" class="w-tab-pane w--tab-active">
+            <div class="columns-196 w-row">
+              <div class="column-249 w-col w-col-6 w-col-stack">
+                <img alt="IDM Graphic" src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/63eba5bd2a5a7feb0b82e9f7_home-solutions-idm-graphic_v2.png" class="image-274 rotate" />
+              </div>
+              <div class="column-394 w-col w-col-6 w-col-stack">
+                <h3 class="tablet-centered">
+                  Identity &amp; Access Management
+                </h3>
+                <p class="tablet-centered no-margin">
+                  Manage accounts and deliver rosters with greater security, accuracy, and speed than you ever thought possible—with ClassLink’s advanced Identity and Access Management (IAM) suite.
+                  <a href="/products/roster-server" class="product-link roster-server">                  Roster Server
+</a>
+                  and
+                  <a href="/products/onesync" class="product-link onesync">                  OneSync
+</a>
+                  work together to automate and simplify rostering and account provisioning. The result is everyone has secure, personalized access starting on day one.
+                  <br />
+                </p>
+                <a href="/solutions/identity-and-access-management" class="button-general w-button">                Learn More
+</a>
+              </div>
+            </div>
+          </div>
+          <div data-w-tab="Learning Analytics" class="w-tab-pane">
+            <div class="columns-196 w-row">
+              <div class="column-249 w-col w-col-6 w-col-stack">
+                <img alt="Analytics Graphic" src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/63eba5ff7714460be58812da_home-solutions-analytics-graphic_v2.png" class="image-274 rotate" />
+              </div>
+              <div class="column-394 w-col w-col-6 w-col-stack">
+                <h3 class="tablet-centered">
+                  Learning Analytics
+                </h3>
+                <p class="tablet-centered no-margin">
+                  Complete your understanding of digital engagement for all students, instructors, and staff within your school system. Use analytics to better understand everything from equitable access and engagement to the return on your investments and staff professional development needs. ClassLink
+                  <a href="/products/analytics" class="product-link analytics">                  Analytics
+</a>
+                  and
+                  <a href="/products/analytics-plus" class="product-link analytics-plus">                  Analytics+
+</a>
+                  present this data from the district level, down to the individual student, to help you make informed purchasing decisions and better support learning.
+                  <br />
+                </p>
+                <a href="/solutions/learning-analytics" class="button-general w-button">                Learn More
+</a>
+              </div>
+            </div>
+          </div>
+          <div data-w-tab="Cybersecurity &amp; MFA" class="w-tab-pane">
+            <div class="columns-196 w-row">
+              <div class="column-249 w-col w-col-6 w-col-stack">
+                <img alt="MFA Graphic" src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/63eba5a5e863683e2130ddd0_home-solutions-mfa-graphic_v2.png" class="image-274 rotate" />
+              </div>
+              <div class="column-394 w-col w-col-6 w-col-stack">
+                <h3 class="tablet-centered">
+                  Cybersecurity &amp; MFA
+                </h3>
+                <p class="tablet-centered no-margin">
+                  Keep digital identities secure without complicating access to learning. ClassLink provides secure authentication options, including
+                  <a href="/solutions/multi-factor-authentication">                  Multi-Factor Authentication (MFA)
+</a>
+                  , that protect and verify accounts while still helping even your youngest students quickly access learning resources. Plus, our
+                  <a href="/company/security">                  security protocols
+</a>
+                  and
+                  <a href="/company/privacy">                  privacy policy
+</a>
+                  help keep your data private and protected.
+                </p>
+                <a href="/solutions/cybersecurity-for-education" class="button-general w-button">                Learn More
+</a>
+              </div>
+            </div>
+          </div>
+          <div data-w-tab="Secure Single Sign-On" class="w-tab-pane">
+            <div class="columns-196 w-row">
+              <div class="column-249 w-col w-col-6 w-col-stack">
+                <img alt="SSO Graphic" src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/642f260426136ac724160d9b_home-solutions-sso-graphic_v3.png" class="image-274 rotate" />
+              </div>
+              <div class="column-394 w-col w-col-6 w-col-stack">
+                <h3 class="tablet-centered">
+                  Secure Single Sign-On
+                </h3>
+                <p class="tablet-centered no-margin">
+                  Strengthen data security while you improve access to digital apps and resources with
+                  <a href="/products/launchpad" class="product-link">                  LaunchPad
+</a>
+                  , a single sign-on (SSO) solution built for education. LaunchPad provides quick SSO access to a personalized portal of digital apps and resources while protecting sensitive data with secure
+                  <a href="/solutions/multi-factor-authentication">                  Multi-Factor Authentication
+</a>
+                  . Whether students are learning at school or
+                  <a href="/solutions/remote-learning">                  remote
+</a>
+                  , LaunchPad delivers secure access to all your digital resources across your institution.
+                  <br />
+                </p>
+                <a href="/solutions/single-sign-on-for-education" class="button-general w-button">                Learn More
+</a>
+              </div>
+            </div>
+          </div>
+          <div data-w-tab="Transparency &amp; Trust" class="w-tab-pane">
+            <div class="columns-196 w-row">
+              <div class="column-249 w-col w-col-6 w-col-stack">
+                <img alt="Portals Graphic" src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/63eba57af61bf4f6b2599918_home-solutions-portals-graphic_v2.png" class="image-274 rotate" />
+              </div>
+              <div class="column-394 w-col w-col-6 w-col-stack">
+                <h3 class="tablet-centered">
+                  Transparency &amp; Trust
+                </h3>
+                <p class="tablet-centered no-margin">
+                  Create family and community connections with ClassLink’s Portals. Use our
+                  <a href="/products/portals" class="product-link public-portal">                  Public Portal
+</a>
+                  to help meet state legislation requirements and create transparency by sharing the third-party vendors approved for use in your schools. Then, help parents and families manage school life with quick access to frequently-used resources through our
+                  <a href="/products/portals" class="product-link parent-portal">                  Parent Portal
+</a>
+                  .
+                  <br />
+                </p>
+                <a href="/solutions/transparency-and-trust" class="button-general w-button">                Learn More
+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cloud-section home">
+      <div class="body-container-standard">
+        <h2 class="dark-bg centered">
+          ClassLink&#39;s Library of Products
+        </h2>
+        <div class="custom-size-div">
+          <p class="centered dark-bg">
+            Love learning again with our award-winning
+            <a href="/products" class="dark-link">            suite of products
+</a>
+            , designed with all learners in mind.
+          </p>
+        </div>
+        <div class="w-embed">
+          <style>
+            .product-detail-more-info:after {
+    z-index: -1;
+    position: absolute;
+    top: 99%;
+    left: 62%;
+    margin-left: -20%;
+    content: &#39;&#39;;
+    width: 0;
+    height: 0;
+    border-top: solid 12px #0a4d7f;
+    border-left: solid 12px transparent;
+    border-right: solid 12px transparent;
+}
+          </style>
+        </div>
+      </div>
+      <div class="home-product-block-wrapper">
+        <a data-w-id="ca463407-baba-0e1b-851b-5cdb3fdeb4a6" style="opacity:0" href="/products/launchpad" class="home-product-block w-inline-block">        <div class="product-features-wrapper">
+          <div>
+            <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62504686b626f881ddabe5d0_launchpad-icon_symbol.svg" alt="ClassLink LaunchPad Symbol" class="product-block-logo-symbol" />
+            <h3 class="product-block-header">
+              LaunchPad
+              <br />
+            </h3>
+          </div>
+          <div class="product-feature-item first">
+            <p class="product-feature-text">
+              Single sign-on for education
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Over 6,000 SSO connections
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Personalize learning for each class
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Access files from any device
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Connect with community portals
+            </p>
+          </div>
+        </div>
+        <div class="learn-more-link-container no-link">
+          <div class="learn-more-link-text">
+            Learn More
+            <br />
+          </div>
+          <div style="opacity:0" class="landing-card-hover-arrow">
+            
+            <br />
+          </div>
+        </div>
+</a>
+        <a data-w-id="ca463407-baba-0e1b-851b-5cdb3fdeb4c3" style="opacity:0" href="/products/analytics" class="home-product-block w-inline-block">        <div class="product-features-wrapper">
+          <div>
+            <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62504686e151b2a39c4672f4_analytics-icon_symbol.svg" width="106" alt="ClassLink Analytics Symbol" class="product-block-logo-symbol" />
+            <h3 class="product-block-header">
+              Analytics
+              <br />
+            </h3>
+          </div>
+          <div class="product-feature-item first">
+            <p class="product-feature-text">
+              Understand and share edtech usage data
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Measure equitable access
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Better understand student engagement
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Track return on investment
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Add
+              <span class="product-link home analytics-plus">              Analytics+
+</span>
+              for school devices
+            </p>
+            <div data-w-id="ca463407-baba-0e1b-851b-5cdb3fdeb4db" class="div-block-880 hide-for-now">
+              <div style="opacity:0;display:none;-webkit-transform:translate3d(-45%, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-45%, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-45%, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-45%, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="product-detail-more-info">
+                Analytics+ expands the usage analytics you see to include any digital resource
+              </div>
+              <div class="text-block-205">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="learn-more-link-container no-link">
+          <div class="learn-more-link-text">
+            Learn More
+            <br />
+          </div>
+          <div style="opacity:0" class="landing-card-hover-arrow">
+            
+            <br />
+          </div>
+        </div>
+</a>
+        <a data-w-id="ca463407-baba-0e1b-851b-5cdb3fdeb50b" style="opacity:0" href="/products/onesync" class="home-product-block w-inline-block">        <div class="product-features-wrapper">
+          <div>
+            <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/6250468621a75323d5ab05f9_onesync-icon_symbol.svg" alt="ClassLink OneSync Symbol" class="product-block-logo-symbol" />
+            <h3 class="product-block-header">
+              OneSync
+              <br />
+            </h3>
+          </div>
+          <div class="product-feature-item first">
+            <p class="product-feature-text">
+              Securely provision accounts
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Integrate with any SIS
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Automate identity management
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Reconcile accounts quickly
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Fully control your configuration
+            </p>
+          </div>
+        </div>
+        <div class="learn-more-link-container no-link">
+          <div class="learn-more-link-text">
+            Learn More
+            <br />
+          </div>
+          <div style="opacity:0" class="landing-card-hover-arrow">
+            
+            <br />
+          </div>
+        </div>
+</a>
+        <a data-w-id="ca463407-baba-0e1b-851b-5cdb3fdeb4e7" style="opacity:0" href="/products/roster-server" class="home-product-block w-inline-block">        <div class="product-features-wrapper">
+          <div>
+            <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/62603f720129a18099cb1d9b_roster-server-icon_symbol.svg" alt="ClassLink Roster Server Symbol" class="product-block-logo-symbol" />
+            <h3 class="product-block-header">
+              Roster Server
+              <br />
+            </h3>
+          </div>
+          <div class="product-feature-item first">
+            <p class="product-feature-text">
+              Roster using open data standards
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Share roster data securely
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Create powerful data sharing rules
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Work in a private rostering instance
+            </p>
+          </div>
+          <div class="product-feature-item">
+            <p class="product-feature-text">
+              Add
+              <span class="product-link home dataguard">              DataGuard
+</span>
+              to protect PII
+            </p>
+            <div data-w-id="ca463407-baba-0e1b-851b-5cdb3fdeb4ff" class="div-block-880 hide-for-now">
+              <div style="opacity:0;display:none;-webkit-transform:translate3d(-45%, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-45%, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-45%, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-45%, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="product-detail-more-info">
+                Protect your learning community from data theft with DataGuard
+              </div>
+              <div class="text-block-205">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="learn-more-link-container no-link">
+          <div class="learn-more-link-text">
+            Learn More
+            <br />
+          </div>
+          <div style="opacity:0" class="landing-card-hover-arrow">
+            
+            <br />
+          </div>
+        </div>
+</a>
+      </div>
+    </section>
+    <section class="section-standard bottom">
+      <div class="body-container-standard">
+        <h2 class="centered">
+          Single Sign-On Into Thousands of Apps
+        </h2>
+        <p class="centered">
+          ClassLink connects to more than
+          <a href="/resources/sso-search">          6,000 digital learning resources
+</a>
+          , and we’re always adding more.
+        </p>
+        <div>
+          <div class="w-dyn-list">
+            <div role="list" class="partners-collection-list w-dyn-items">
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6021ad87058929756ea1223f_newsela-logo.png" loading="lazy" alt="Newsela" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/5fbbeb7df073fb30f54c125c_securly-logo.png" loading="lazy" alt="Securly" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6227d048de315c258947a025_canva-logo.png" loading="lazy" alt="Canva" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/5fbbefc7d1a3603643978a6d_discovery-ed-logo.png" loading="lazy" alt="Discovery Education" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/67c9c4da22ecc93e5e798678_schoollinks-logo.png" loading="lazy" alt="SchooLinks" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/672b7a70591ffee78aa9a608_actionaly-logo.png" loading="lazy" alt="Actionaly" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6862dd19bb1d3ae9dfa1c70a_Curriculum-Associates-logo.png" loading="lazy" alt="Curriculum Associates" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/63dac910f8fab9636da0a0ed_seesaw-logo.png" loading="lazy" alt="Seesaw" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/60c0eb4f54f6aad2fe6ad2b3_netsupport-logo.png" loading="lazy" alt="NetSupport, Inc." class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/62713ddf5bbeec3d36a2b03f_wakelet-logo.png" loading="lazy" alt="Wakelet" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/63dad1dab55cb019ab8ac761_office-365-logo.png" loading="lazy" alt="Office 365" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/66bb9f7bf55dc97d55039cea_hmh-logo.png" loading="lazy" alt="Houghton Mifflin Harcourt" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/67c9c538b900248c2d5d43c4_linewize-logo.png" loading="lazy" alt="Linewize" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/671a56aabf084927a836c0c6_multi-health-systems-logo.png" loading="lazy" alt="Multi-Health Systems" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/63dad1c87c17106bec89fde3_gaggle-logo.png" loading="lazy" alt="Gaggle" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/63dacebb4633317ec66e0580_google-for-education-logo.png" loading="lazy" alt="Google for Education" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/63dad3377c171081f18a1527_schoology-logo.png" loading="lazy" alt="Schoology" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/63dad1ba44c714a93ab7c922_ixl-logo.png" loading="lazy" alt="IXL" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/660dc205bccfa8409ca86569_savvas-logo.png" loading="lazy" alt="Savvas Learning Company" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6462430063f7ec6c824e6198_renaissance-logo.png" loading="lazy" alt="Renaissance" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/63dac5ba8eb44f3198795c3c_safari-montage-logo.png" loading="lazy" alt="Safari Montage" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/63dad1c0e151fd0e1d81da88_canvas-logo.png" loading="lazy" alt="Canvas" class="home-app-logo" />
+              </div>
+              <div data-w-id="f1770e0a-57e1-408b-5b05-f4a0f0333b6f" style="opacity:0" role="listitem" class="w-dyn-item">
+                <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/63dad1d09fd5ea73c258e2d2_mcgraw-hill-logo.png" loading="lazy" alt="McGraw Hill" class="home-app-logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="hide-html-embed w-embed">
+        <style>
+          .w-slider-nav &gt; div {
+	background-color: rgba(243, 243, 243, 0.4);
+  border: none;
+}
+.w-slider-nav &gt; div:hover {
+	background-color: rgba(243, 243, 243, 0.55);
+}
+.w-slider-nav &gt; div.w-active {
+	background-color: #ffffff;
+}
+        </style>
+      </div>
+      <div data-delay="6000" data-animation="fade" class="slider-24 w-slider" data-autoplay="true" data-easing="ease" style="opacity:0" data-hide-arrows="false" data-disable-swipe="false" data-w-id="c215673a-9f30-fb17-c798-974e8e819a26" data-autoplay-limit="0" data-nav-spacing="4" data-duration="850" data-infinite="true">
+        <div class="slider-mask-100-percent w-slider-mask">
+          <div class="slide-100-percent w-slide">
+            <div class="collection-list-wrapper-46 w-dyn-list">
+              <div role="list" class="collection-list-40 w-dyn-items">
+                <div role="listitem" class="collection-item-41 w-dyn-item">
+                  <div class="full-width-testimonials w-row">
+                    <div class="full-width-testimonials-quote-col w-col w-col-6 w-col-small-small-stack">
+                      <div>
+                        <div class="div-block-853">
+                          <div class="full-width-testimonials-quotes">
+                            
+                          </div>
+                          <p class="full-width-testimonial-quote">
+                            Working with ClassLink has been and continues to be phenomenal. It’s been a huge boon to our district to have that partnership.
+                          </p>
+                        </div>
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/696510bd89ec960c91c2c343_greg-keys-headshot-gold.png" loading="lazy" alt="Headshot" class="image-277" />
+                        <div class="text-block-198">
+                          Greg Keys
+                        </div>
+                        <div class="text-block-199 w-embed">
+                          Coordinator of Instructional Technology, Rowan-Salisbury Schools
+                        </div>
+                      </div>
+                    </div>
+                    <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/691df5d6bbb3fed1032f47be_Rowan-Salisbury-SD%20Photo%20(1).jpg&#34;)" class="full-width-testimonials-img-col w-col w-col-6 w-col-small-small-stack">
+                      <div class="div-block-852">
+                      </div>
+                      <a href="#" role="button" aria-controls="Play Video" data-w-id="c215673a-9f30-fb17-c798-974e8e819a37" class="cl-overview-lightbox w-inline-block w-lightbox">                      <div class="cl-video-play testimonials">
+                        <div class="cl-video-play-icon w-embed">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z" fill="currentcolor">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <script type="application/json" class="w-json">
+                        {
+  &#34;items&#34;: [
+    {
+      &#34;url&#34;: &#34;https://youtu.be/hjUAoeM_1DM&#34;,
+      &#34;originalUrl&#34;: &#34;https://youtu.be/hjUAoeM_1DM&#34;,
+      &#34;width&#34;: 854,
+      &#34;height&#34;: 480,
+      &#34;thumbnailUrl&#34;: &#34;https://i.ytimg.com/vi/hjUAoeM_1DM/hqdefault.jpg&#34;,
+      &#34;html&#34;: &#34;&lt;iframe class=\&#34;embedly-embed\&#34; src=\&#34;//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FhjUAoeM_1DM%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhjUAoeM_1DM&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhjUAoeM_1DM%2Fhqdefault.jpg&amp;type=text%2Fhtml&amp;schema=youtube\&#34; width=\&#34;854\&#34; height=\&#34;480\&#34; scrolling=\&#34;no\&#34; title=\&#34;YouTube embed\&#34; frameborder=\&#34;0\&#34; allow=\&#34;autoplay; fullscreen; encrypted-media; picture-in-picture;\&#34; allowfullscreen=\&#34;true\&#34;&gt;&lt;/iframe&gt;&#34;,
+      &#34;type&#34;: &#34;video&#34;
+    }
+  ],
+  &#34;group&#34;: &#34;&#34;
+}
+                      </script>
+</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-100-percent w-slide">
+            <div class="collection-list-wrapper-46 w-dyn-list">
+              <div role="list" class="collection-list-40 w-dyn-items">
+                <div role="listitem" class="collection-item-41 w-dyn-item">
+                  <div class="full-width-testimonials w-row">
+                    <div class="full-width-testimonials-quote-col w-col w-col-6 w-col-small-small-stack">
+                      <div>
+                        <div class="div-block-853">
+                          <div class="full-width-testimonials-quotes">
+                            
+                          </div>
+                          <p class="full-width-testimonial-quote">
+                            You get rostering, onboarding, offboarding, account provisioning, security, and the support has just been phenomenal. It&#39;d be difficult to find a product that can match what ClassLink has to offer in one package.
+                          </p>
+                        </div>
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/686e8a2e4fffa681e57d8ec9_nathan-gingras-headshot-gold.png" loading="lazy" alt="Headshot" class="image-277" />
+                        <div class="text-block-198">
+                          Nathan Gingras
+                        </div>
+                        <div class="text-block-199 w-embed">
+                          Asst. Director of Education Technology, Harwood Unified Union SD
+                        </div>
+                      </div>
+                    </div>
+                    <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/685968aa37876100bad81ef2_Harwood-Union-High-School.jpg&#34;)" class="full-width-testimonials-img-col w-col w-col-6 w-col-small-small-stack">
+                      <div class="div-block-852">
+                      </div>
+                      <a href="#" role="button" aria-controls="Play Video" data-w-id="c215673a-9f30-fb17-c798-974e8e819a4c" class="cl-overview-lightbox w-inline-block w-lightbox">                      <div class="cl-video-play testimonials">
+                        <div class="cl-video-play-icon w-embed">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z" fill="currentcolor">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <script type="application/json" class="w-json">
+                        {
+  &#34;items&#34;: [
+    {
+      &#34;url&#34;: &#34;https://youtu.be/qFmFOxQbCRM&#34;,
+      &#34;originalUrl&#34;: &#34;https://youtu.be/qFmFOxQbCRM&#34;,
+      &#34;width&#34;: 854,
+      &#34;height&#34;: 480,
+      &#34;thumbnailUrl&#34;: &#34;https://i.ytimg.com/vi/qFmFOxQbCRM/hqdefault.jpg&#34;,
+      &#34;html&#34;: &#34;&lt;iframe class=\&#34;embedly-embed\&#34; src=\&#34;//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FqFmFOxQbCRM%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqFmFOxQbCRM&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FqFmFOxQbCRM%2Fhqdefault.jpg&amp;type=text%2Fhtml&amp;schema=youtube\&#34; width=\&#34;854\&#34; height=\&#34;480\&#34; scrolling=\&#34;no\&#34; title=\&#34;YouTube embed\&#34; frameborder=\&#34;0\&#34; allow=\&#34;autoplay; fullscreen; encrypted-media; picture-in-picture;\&#34; allowfullscreen=\&#34;true\&#34;&gt;&lt;/iframe&gt;&#34;,
+      &#34;type&#34;: &#34;video&#34;
+    }
+  ],
+  &#34;group&#34;: &#34;&#34;
+}
+                      </script>
+</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-100-percent w-slide">
+            <div class="collection-list-wrapper-46 w-dyn-list">
+              <div role="list" class="collection-list-40 w-dyn-items">
+                <div role="listitem" class="collection-item-41 w-dyn-item">
+                  <div class="full-width-testimonials w-row">
+                    <div class="full-width-testimonials-quote-col w-col w-col-6 w-col-small-small-stack">
+                      <div>
+                        <div class="div-block-853">
+                          <div class="full-width-testimonials-quotes">
+                            
+                          </div>
+                          <p class="full-width-testimonial-quote">
+                            Think about all the time you&#39;re spending managing your lists, the logins for your teachers, the data that you’re potentially sending to vendors… ClassLink is a bargain for what you’re paying for!
+                          </p>
+                        </div>
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/680fb10a6e7538c0d2193d03_lisa-higgins-headshot-gold.png" loading="lazy" alt="Headshot" class="image-277" />
+                        <div class="text-block-198">
+                          Lisa Higgins
+                        </div>
+                        <div class="text-block-199 w-embed">
+                          Chief Technology Officer, Collierville ISD
+                        </div>
+                      </div>
+                    </div>
+                    <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6862d7f08fe02317b81bc0b5_collierville-high-school.jpg&#34;)" class="full-width-testimonials-img-col w-col w-col-6 w-col-small-small-stack">
+                      <div class="div-block-852">
+                      </div>
+                      <a href="#" role="button" aria-controls="Play Video" data-w-id="c215673a-9f30-fb17-c798-974e8e819a61" class="cl-overview-lightbox w-inline-block w-lightbox">                      <div class="cl-video-play testimonials">
+                        <div class="cl-video-play-icon w-embed">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z" fill="currentcolor">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <script type="application/json" class="w-json">
+                        {
+  &#34;items&#34;: [
+    {
+      &#34;url&#34;: &#34;https://youtu.be/gT5uabW6q94&#34;,
+      &#34;originalUrl&#34;: &#34;https://youtu.be/gT5uabW6q94&#34;,
+      &#34;width&#34;: 854,
+      &#34;height&#34;: 480,
+      &#34;thumbnailUrl&#34;: &#34;https://i.ytimg.com/vi/gT5uabW6q94/hqdefault.jpg&#34;,
+      &#34;html&#34;: &#34;&lt;iframe class=\&#34;embedly-embed\&#34; src=\&#34;//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FgT5uabW6q94%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgT5uabW6q94&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FgT5uabW6q94%2Fhqdefault.jpg&amp;type=text%2Fhtml&amp;schema=youtube\&#34; width=\&#34;854\&#34; height=\&#34;480\&#34; scrolling=\&#34;no\&#34; title=\&#34;YouTube embed\&#34; frameborder=\&#34;0\&#34; allow=\&#34;autoplay; fullscreen; encrypted-media; picture-in-picture;\&#34; allowfullscreen=\&#34;true\&#34;&gt;&lt;/iframe&gt;&#34;,
+      &#34;type&#34;: &#34;video&#34;
+    }
+  ],
+  &#34;group&#34;: &#34;&#34;
+}
+                      </script>
+</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-100-percent w-slide">
+            <div class="collection-list-wrapper-46 w-dyn-list">
+              <div role="list" class="collection-list-40 w-dyn-items">
+                <div role="listitem" class="collection-item-41 w-dyn-item">
+                  <div class="full-width-testimonials w-row">
+                    <div class="full-width-testimonials-quote-col w-col w-col-6 w-col-small-small-stack">
+                      <div>
+                        <div class="div-block-853">
+                          <div class="full-width-testimonials-quotes">
+                            
+                          </div>
+                          <p class="full-width-testimonial-quote">
+                            ClassLink was the answer for everything. ClassLink is the one-stop shop for all your digital needs.
+                          </p>
+                        </div>
+                        <img src="https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6855d09153fe1fb0d2d015d6_kelsey-boedeker-headshot-gold.png" loading="lazy" alt="Headshot" class="image-277" />
+                        <div class="text-block-198">
+                          Kelsey Boedeker
+                        </div>
+                        <div class="text-block-199 w-embed">
+                          IT Coordinator/Business Teacher, South Heart Schools
+                        </div>
+                      </div>
+                    </div>
+                    <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/69650ffc0799d6333cbce17b_south-heart-schools-ND.png&#34;)" class="full-width-testimonials-img-col w-col w-col-6 w-col-small-small-stack">
+                      <div class="div-block-852">
+                      </div>
+                      <a href="#" role="button" aria-controls="Play Video" data-w-id="c215673a-9f30-fb17-c798-974e8e819a76" class="cl-overview-lightbox w-inline-block w-lightbox">                      <div class="cl-video-play testimonials">
+                        <div class="cl-video-play-icon w-embed">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z" fill="currentcolor">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <script type="application/json" class="w-json">
+                        {
+  &#34;items&#34;: [
+    {
+      &#34;url&#34;: &#34;https://youtu.be/jjvPp17XFtA&#34;,
+      &#34;originalUrl&#34;: &#34;https://youtu.be/jjvPp17XFtA&#34;,
+      &#34;width&#34;: 854,
+      &#34;height&#34;: 480,
+      &#34;thumbnailUrl&#34;: &#34;https://i.ytimg.com/vi/jjvPp17XFtA/hqdefault.jpg&#34;,
+      &#34;html&#34;: &#34;&lt;iframe class=\&#34;embedly-embed\&#34; src=\&#34;//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FjjvPp17XFtA%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjjvPp17XFtA&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FjjvPp17XFtA%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube\&#34; width=\&#34;854\&#34; height=\&#34;480\&#34; scrolling=\&#34;no\&#34; title=\&#34;YouTube embed\&#34; frameborder=\&#34;0\&#34; allow=\&#34;autoplay; fullscreen; encrypted-media; picture-in-picture;\&#34; allowfullscreen=\&#34;true\&#34;&gt;&lt;/iframe&gt;&#34;,
+      &#34;type&#34;: &#34;video&#34;
+    }
+  ],
+  &#34;group&#34;: &#34;&#34;
+}
+                      </script>
+</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hide-for-now w-slider-arrow-left">
+          <div class="w-icon-slider-left">
+          </div>
+        </div>
+        <div class="hide-for-now w-slider-arrow-right">
+          <div class="w-icon-slider-right">
+          </div>
+        </div>
+        <div class="slide-nav-15 w-slider-nav w-round">
+        </div>
+      </div>
+    </section>
+    <section class="section-standard grey-pattern">
+      <div class="body-container-standard">
+        <h2 class="centered">
+          What&#39;s New With ClassLink
+        </h2>
+        <div class="custom-size-div">
+          <p class="centered">
+            Learn from leaders like you and stay up-to-date with the latest blog posts and news!
+          </p>
+        </div>
+        <div class="w-layout-grid grid-49">
+          <div data-w-id="ecc5f1f8-b9e7-4f88-adab-1f244a07a442" style="opacity:0" class="w-dyn-list">
+            <div role="list" class="collection-list-39 w-dyn-items">
+              <div role="listitem" class="featured-posts-item w-dyn-item">
+                <a href="/blog/classlink-academy-jun-2026" class="blog-col-block w-inline-block">                <div class="blog-col-img-block">
+                  <div class="default-thumb blog-block w-condition-invisible">
+                    <div class="banner-inner-shadow">
+                    </div>
+                  </div>
+                  <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6201a8a91af18e6508a7ab41_CL%20Academy_blog_banner.png&#34;)" class="blog-main-banner blog-block w-condition-invisible">
+                    <div class="banner-inner-shadow">
+                    </div>
+                  </div>
+                  <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6201a8affe7e1ef341ee863c_CL%20Academy_blog_thumb.png&#34;)" class="blog-main-banner blog-block">
+                    <div class="banner-inner-shadow">
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-col-text-block featured-posts-list">
+                  <div id="w-node-ecc5f1f8-b9e7-4f88-adab-1f244a07a44e-4ae3c94a">
+                    <h3 class="post-header">
+                      Prevent Back-to-School Access and Rostering Issues With These 4 Courses
+                    </h3>
+                    <div class="blog-summary">
+                      <p class="post-desc overflow">
+                        Ditch the stressful back-to-school technology issues with a little preventative prep work. These four courses walk you through the tasks many ClassLink administrators are tackling right now to prepare for a smooth start to the school year.
+                      </p>
+                      <div class="overflow-text-fade">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="learn-more-link-container blog-block">
+                    <div class="learn-more-link-text">
+                      Read Blog Post
+                      <br />
+                    </div>
+                    <div class="landing-card-hover-arrow">
+                      
+                      <br />
+                    </div>
+                  </div>
+                </div>
+</a>
+              </div>
+            </div>
+          </div>
+          <div data-w-id="14245b84-95e2-8fe0-9e09-2fe132665451" style="opacity:0" class="w-dyn-list">
+            <div role="list" class="collection-list-39 w-dyn-items">
+              <div role="listitem" class="featured-posts-item w-dyn-item">
+                <a href="/news/classlink-wins-dual-smartbrief-readers-choice-honors-for-protecting-school-data" class="blog-col-block w-inline-block">                <div class="blog-col-img-block">
+                  <div class="default-thumb blog-block w-condition-invisible">
+                    <div class="banner-inner-shadow">
+                    </div>
+                  </div>
+                  <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6a32be59dd4c56f923344bf7_SBETA26_Banner.png&#34;)" class="blog-main-banner blog-block w-condition-invisible">
+                    <div class="banner-inner-shadow">
+                    </div>
+                  </div>
+                  <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6a32be5df7ec53288a0cdddc_SBETA26_Thumbnail.png&#34;)" class="blog-main-banner blog-block">
+                    <div class="banner-inner-shadow">
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-col-text-block featured-posts-list">
+                  <div id="w-node-_24d2d134-c6a1-3516-3a7a-b9acf7e32ed1-4ae3c94a">
+                    <h3 class="post-header">
+                      ClassLink Wins Dual SmartBrief Reader&#39;s Choice Honors for Protecting School Data
+                    </h3>
+                    <div class="blog-summary">
+                      <p class="post-desc overflow">
+                        SmartBrief has named ClassLink a winner of its 2026 Reader’s Choice Awards, recognizing the ClassLink Suite across two categories: Safety &amp; Security and Cybersecurity. This distinction highlights ClassLink’s commitment to protecting students, school data, and the digital environments where learning happens every day.
+                      </p>
+                      <div class="overflow-text-fade">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="learn-more-link-container blog-block">
+                    <div class="learn-more-link-text">
+                      Read News Post
+                      <br />
+                    </div>
+                    <div class="landing-card-hover-arrow">
+                      
+                      <br />
+                    </div>
+                  </div>
+                </div>
+</a>
+              </div>
+            </div>
+          </div>
+          <div data-w-id="3f4f39a8-6aa9-56ab-1393-cbdf1de72c63" style="opacity:0" class="w-dyn-list">
+            <div role="list" class="collection-list-39 w-dyn-items">
+              <div role="listitem" class="featured-posts-item w-dyn-item">
+                <a href="/blog/from-ban-to-balance-a-smarter-approach-to-technology-in-schools" class="blog-col-block w-inline-block">                <div class="blog-col-img-block">
+                  <div class="default-thumb blog-block w-condition-invisible">
+                    <div class="banner-inner-shadow">
+                    </div>
+                  </div>
+                  <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6674412329cd26d66892d1d7_lessons-from-leaders_banner.png&#34;)" class="blog-main-banner blog-block w-condition-invisible">
+                    <div class="banner-inner-shadow">
+                    </div>
+                  </div>
+                  <div style="background-image:url(&#34;https://cdn.prod.website-files.com/5d6db64572061de21081ab10/6674412509061ecdae85a624_lessons-from-leaders_thumb.png&#34;)" class="blog-main-banner blog-block">
+                    <div class="banner-inner-shadow">
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-col-text-block featured-posts-list">
+                  <div id="w-node-_3f4f39a8-6aa9-56ab-1393-cbdf1de72c6f-4ae3c94a">
+                    <h3 class="post-header">
+                      From Ban To Balance: A Smarter Approach to Technology in Schools
+                    </h3>
+                    <div class="blog-summary">
+                      <p class="post-desc overflow">
+                        Across the country, a growing number of policymakers and education leaders are debating whether reducing or banning screen time in schools will improve student outcomes. The concern is understandable. Families and educators alike want to ensure that technology is supporting, not harming, learning and student well-being.
+                      </p>
+                      <div class="overflow-text-fade">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="learn-more-link-container blog-block">
+                    <div class="learn-more-link-text">
+                      Read Blog Post
+                      <br />
+                    </div>
+                    <div class="landing-card-hover-arrow">
+                      
+                      <br />
+                    </div>
+                  </div>
+                </div>
+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-w-id="3dc03513-93c2-a09c-9be7-6de3121df0da" class="cta-form-section animation">
+      <div id="demo" class="cta-form-section-bg">
+      </div>
+      <div class="body-container-standard centered-content">
+        <div class="custom-size-div _775">
+          <h2 class="dark-bg centered">
+            Begin Your ClassLink Journey
+          </h2>
+          <p class="dark-bg centered">
+            There&#39;s a lot more to learn about ClassLink. To get the full picture, sign up for a demo today and see why institutions around the world use ClassLink to make teaching and learning easier.
+          </p>
+          <a href="/request-demo" class="button-general large w-button">          Request Demo
+</a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-main v2">
+        <section class="clon27-footer-section">
+          <div class="hide-html-embed w-embed">
+            <style>
+              @media (max-width: 1190px) and (min-width: 992px) {
+	.clon27-footer-section {
+  	column-gap: 25px;
+  }
+	.clon27-footer-text {
+  	width: 180px;
+  }
+  .clon27-footer-text-bullet {
+  	display: none;
+  }
+}
 
- Copyright Google LLC
- SPDX-License-Identifier: Apache-2.0
-*/
-var Ee,Fe;_.Ce=function(a){var b=a.length;if(b&gt;0){for(var c=Array(b),d=0;d&lt;b;d++)c[d]=a[d];return c}return[]};Ee=function(a){return new _.De(function(b){return b.substr(0,a.length+1).toLowerCase()===a+&#34;:&#34;})};Fe=0;_.Ge=function(a){return Object.prototype.hasOwnProperty.call(a,_.nc)&amp;&amp;a[_.nc]||(a[_.nc]=++Fe)};_.He=globalThis.trustedTypes;_.Ie=function(a){this.i=a};_.Ie.prototype.toString=function(){return this.i};_.Je=new _.Ie(&#34;about:invalid#zClosurez&#34;);_.De=function(a){this.Hk=a};_.Ke=[Ee(&#34;data&#34;),Ee(&#34;http&#34;),Ee(&#34;https&#34;),Ee(&#34;mailto&#34;),Ee(&#34;ftp&#34;),new _.De(function(a){return/^[^:]*([/?#]|$)/.test(a)})];_.Le=function(a){this.i=a};_.Le.prototype.toString=function(){return this.i+&#34;&#34;};_.Me=new _.Le(_.He?_.He.emptyHTML:&#34;&#34;);
-}catch(e){_._DumpException(e)}
-try{
-var Re,cf,ff,Qe,Se;_.Ne=function(a){return/^[\s\xa0]*$/.test(a)};_.Oe=function(a){if(a==null)return a;if(typeof a===&#34;string&#34;&amp;&amp;a)a=+a;else if(typeof a!==&#34;number&#34;)return;return(0,_.Xa)(a)?a|0:void 0};_.Pe=function(a,b){return a.lastIndexOf(b,0)==0};Re=function(){var a=null;if(!Qe)return a;try{var b=function(c){return c};a=Qe.createPolicy(&#34;ogb-qtm#html&#34;,{createHTML:b,createScript:b,createScriptURL:b})}catch(c){}return a};_.Te=function(){Se===void 0&amp;&amp;(Se=Re());return Se};
-_.Ve=function(a){var b=_.Te();a=b?b.createScriptURL(a):a;return new _.Ue(a)};_.We=function(a){if(a instanceof _.Ue)return a.i;throw Error(&#34;L&#34;);};_.Xe=function(a){if(a instanceof _.Ie)return a.i;throw Error(&#34;L&#34;);};_.Ze=function(a){if(Ye.test(a))return a};_.$e=function(a){return a instanceof _.Ie?_.Xe(a):_.Ze(a)};_.af=function(a,b){b=b===void 0?document:b;var c,d;b=(d=(c=b).querySelector)==null?void 0:d.call(c,a+&#34;[nonce]&#34;);return b==null?&#34;&#34;:b.nonce||b.getAttribute(&#34;nonce&#34;)||&#34;&#34;};
-_.U=function(a,b,c){return _.Wa(_.wd(a,b,c,_.vd))};_.bf=function(a,b){return _.Oe(_.wd(a,b,void 0,_.vd))};cf=function(a){this.J=_.x(a)};_.B(cf,_.R);cf.prototype.Sb=function(a){return _.P(this,24,a)};_.df=function(){return _.J(_.Ud,cf,1)};_.ef=function(a){var b=_.Ua(a);return b==&#34;array&#34;||b==&#34;object&#34;&amp;&amp;typeof a.length==&#34;number&#34;};Qe=_.He;_.Ue=function(a){this.i=a};_.Ue.prototype.toString=function(){return this.i+&#34;&#34;};var Ye=/^\s*(?!javascript:)(?:[\w+.-]+:|[^:/?#]*(?:[/?#]|$))/i;var mf,qf,gf;_.jf=function(a){return a?new gf(_.hf(a)):ff||(ff=new gf)};_.kf=function(a,b){return typeof b===&#34;string&#34;?a.getElementById(b):b};_.V=function(a,b){var c=b||document;c.getElementsByClassName?a=c.getElementsByClassName(a)[0]:(c=document,a=a?(b||c).querySelector(a?&#34;.&#34;+a:&#34;&#34;):_.lf(c,&#34;*&#34;,a,b)[0]||null);return a||null};_.lf=function(a,b,c,d){a=d||a;return(b=b&amp;&amp;b!=&#34;*&#34;?String(b).toUpperCase():&#34;&#34;)||c?a.querySelectorAll(b+(c?&#34;.&#34;+c:&#34;&#34;)):a.getElementsByTagName(&#34;*&#34;)};
-_.nf=function(a,b){_.Kb(b,function(c,d){d==&#34;style&#34;?a.style.cssText=c:d==&#34;class&#34;?a.className=c:d==&#34;for&#34;?a.htmlFor=c:mf.hasOwnProperty(d)?a.setAttribute(mf[d],c):_.Pe(d,&#34;aria-&#34;)||_.Pe(d,&#34;data-&#34;)?a.setAttribute(d,c):a[d]=c})};mf={cellpadding:&#34;cellPadding&#34;,cellspacing:&#34;cellSpacing&#34;,colspan:&#34;colSpan&#34;,frameborder:&#34;frameBorder&#34;,height:&#34;height&#34;,maxlength:&#34;maxLength&#34;,nonce:&#34;nonce&#34;,role:&#34;role&#34;,rowspan:&#34;rowSpan&#34;,type:&#34;type&#34;,usemap:&#34;useMap&#34;,valign:&#34;vAlign&#34;,width:&#34;width&#34;};
-_.of=function(a){return a?a.defaultView:window};_.rf=function(a,b){var c=b[1],d=_.pf(a,String(b[0]));c&amp;&amp;(typeof c===&#34;string&#34;?d.className=c:Array.isArray(c)?d.className=c.join(&#34; &#34;):_.nf(d,c));b.length&gt;2&amp;&amp;qf(a,d,b);return d};
-qf=function(a,b,c){function d(h){h&amp;&amp;b.appendChild(typeof h===&#34;string&#34;?a.createTextNode(h):h)}for(var e=2;e&lt;c.length;e++){var f=c[e];if(!_.ef(f)||_.mc(f)&amp;&amp;f.nodeType&gt;0)d(f);else{a:{if(f&amp;&amp;typeof f.length==&#34;number&#34;){if(_.mc(f)){var g=typeof f.item==&#34;function&#34;||typeof f.item==&#34;string&#34;;break a}if(typeof f===&#34;function&#34;){g=typeof f.item==&#34;function&#34;;break a}}g=!1}_.Gc(g?_.Ce(f):f,d)}}};_.sf=function(a){return _.pf(document,a)};
-_.pf=function(a,b){b=String(b);a.contentType===&#34;application/xhtml+xml&#34;&amp;&amp;(b=b.toLowerCase());return a.createElement(b)};_.tf=function(a){for(var b;b=a.firstChild;)a.removeChild(b)};_.uf=function(a){return a&amp;&amp;a.parentNode?a.parentNode.removeChild(a):null};_.vf=function(a,b){if(!a||!b)return!1;if(a.contains&amp;&amp;b.nodeType==1)return a==b||a.contains(b);if(typeof a.compareDocumentPosition!=&#34;undefined&#34;)return a==b||!!(a.compareDocumentPosition(b)&amp;16);for(;b&amp;&amp;a!=b;)b=b.parentNode;return b==a};
-_.hf=function(a){return a.nodeType==9?a:a.ownerDocument||a.document};gf=function(a){this.i=a||_.t.document||document};_.l=gf.prototype;_.l.H=function(a){return _.kf(this.i,a)};_.l.Sa=function(a,b,c){return _.rf(this.i,arguments)};_.l.appendChild=function(a,b){a.appendChild(b)};_.l.Gf=_.tf;_.l.uh=_.uf;_.l.rh=_.vf;
-}catch(e){_._DumpException(e)}
-try{
-_.Nj=function(a,b){a.src=_.We(b).toString()};_.Oj=function(a){var b=_.af(&#34;script&#34;,a.ownerDocument);b&amp;&amp;a.setAttribute(&#34;nonce&#34;,b)};_.Pj=function(a,b){a.src=_.We(b);_.Oj(a)};_.Qj=function(a){if(!a)return null;a=_.N(a,4);var b;a===null||a===void 0?b=null:b=_.Ve(a);return b};_.Rj=function(a,b,c){a=a.J;return _.Hb(a,a[_.w]|0,b,c)!==void 0};_.Sj=function(a){this.J=_.x(a)};_.B(_.Sj,_.R);_.Tj=function(){for(var a=Number(this),b=[],c=a;c&lt;arguments.length;c++)b[c-a]=arguments[c];return b};
-_.Uj=function(a,b){return(b||document).getElementsByTagName(String(a))};
-}catch(e){_._DumpException(e)}
-try{
-var Wj=function(a,b){a&lt;b?Vj(a+1,b):_.Xd.log(Error(&#34;oa`&#34;+a+&#34;`&#34;+b))},Vj=function(a,b){if(Xj){var c=_.sf(&#34;SCRIPT&#34;);c.async=!0;c.type=&#34;text/javascript&#34;;c.charset=&#34;UTF-8&#34;;_.Pj(c,Xj);c.onerror=_.qc(Wj,a,b,c.src);_.Uj(&#34;HEAD&#34;)[0].appendChild(c)}},Yj=function(a){this.J=_.x(a)};_.B(Yj,_.R);var Zj=_.J(_.Ud,Yj,17)||new Yj,ak,Xj=(ak=_.J(Zj,_.Sj,1))?_.Qj(ak):null,bk,ck=(bk=_.J(Zj,_.Sj,2))?_.Qj(bk):null,dk=function(){Vj(1,2);if(ck){var a=_.sf(&#34;LINK&#34;);a.setAttribute(&#34;type&#34;,&#34;text/css&#34;);a.href=_.We(ck).toString();a.rel=&#34;stylesheet&#34;;var b=_.af(&#34;style&#34;,document);b&amp;&amp;a.setAttribute(&#34;nonce&#34;,b);_.Uj(&#34;HEAD&#34;)[0].appendChild(a)}};(function(){var a=_.df();if(_.U(a,18))dk();else{var b=_.bf(a,19)||0;window.addEventListener(&#34;load&#34;,function(){window.setTimeout(dk,b)})}})();
-}catch(e){_._DumpException(e)}
-})(this.gbar_);
-// Google Inc.
+@media (max-width: 600px) and (min-width: 479px) {
+	.clon27-footer-text { 
+  	width: auto;
+  }
+  .clon27-footer-text-bullet {
+  	display: inline;
+  }
+  .clon27-highlight-block-line.heading.footer {
+  	width: 117%;
+    margin-left: -14%;
+  }
+}
+@media (max-width: 420px) {
+	.clon27-footer-text { 
+  	width: 135px;
+  }
+  .clon27-footer-text-bullet {
+  	display: none;
+  }
+  .clon27-highlight-block-line.heading.footer {
+  	width: 135%;
+    margin-left: -25%;
+  }
+}
+            </style>
+          </div>
+          <div class="div-block-1113">
+            <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/69976eb69e8b337fa67be207_clon27-logo_dark_v2.svg" loading="lazy" alt="CLON27" class="clon27-footer-logo" />
+            <div class="clon27-footer-text-wrapper">
+              <div class="clon27-highlight-block-line heading vertical footer">
+              </div>
+              <div class="clon27-highlight-block-line heading footer">
+              </div>
+              <p class="clon27-footer-text">
+                March 2–4
+                <span class="clon27-footer-text-bullet">                •
+</span>
+                Jersey City, NJ
+              </p>
+            </div>
+          </div>
+          <a href="/clon" class="button-general clon27 footer w-inline-block">          <div>
+            Register Today
+          </div>
+          <div class="clon27-btn-icon-wrapper venue">
+            <div class="clon27-btn-icon venue">
+              
+            </div>
+            <div class="clon27-btn-icon venue">
+              
+            </div>
+            <div class="clon27-btn-icon venue">
+              
+            </div>
+          </div>
+</a>
+        </section>
+        <div class="hide-html-embed w-embed">
+          <style>
+            @media (min-width:768px) {
+	.footer-col {
+		flex-basis: content !important;
+	}
+}
+          </style>
+        </div>
+        <div class="w-layout-grid footer-cols-grid">
+          <div id="w-node-_10203e4a-fb0a-6714-422c-fcec6db2eb8b-6db2eb88" class="footer-col contact">
+            <img src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/5d6db64572061dfa3081aaf9_classlink%20white.svg" alt="ClassLink" class="footer-logo" />
+            <div class="header-line footer">
+            </div>
+            <a aria-label="Opens New Tab" href="https://goo.gl/maps/xFLuqKPoRGaoyvd96" target="_blank" class="footer-link v3">            45 E Madison Ave, Ste 7
+            <br />
+            Clifton, NJ 07011
+</a>
+            <div class="footer-info">
+              <strong>              Intl:
+</strong>
+              <a href="tel:+18889637550" class="footer-link v3 contact">              +1 (888) 963-7550
+</a>
+              <strong>              <br />
+              UK:
+</strong>
+              <a href="tel:+448002088170" class="footer-link v3 contact">              +44 (800) 208-8170
+              <br />
+</a>
+            </div>
+            <h2 class="footer-title v2 connect">
+              Connect
+              <br />
+            </h2>
+            <div class="header-line footer">
+            </div>
+            <div class="footer-sociallink-container test">
+              <a aria-label="Opens New Tab" rel="noreferrer noopener" href="https://www.facebook.com/classlinkinc/" target="_blank" class="footer-sociallink v3 w-inline-block">              <div>
+                
+              </div>
+</a>
+              <a aria-label="Opens New Tab" rel="noreferrer noopener" href="https://twitter.com/classlink" target="_blank" class="footer-sociallink v3 hide-for-now w-inline-block">              <div>
+                
+              </div>
+</a>
+              <a aria-label="Opens New Tab" rel="noreferrer noopener" href="https://www.linkedin.com/company/classlink" target="_blank" class="footer-sociallink v3 w-inline-block">              <div>
+                
+              </div>
+</a>
+              <a aria-label="Opens New Tab" rel="noreferrer noopener" href="https://www.instagram.com/classlink_edu/" target="_blank" class="footer-sociallink v3 insta w-inline-block">              <div>
+                
+              </div>
+</a>
+              <a aria-label="Opens New Tab" rel="noreferrer noopener" href="https://www.youtube.com/ClassLinkEdu" target="_blank" class="footer-sociallink v3 w-inline-block">              <div>
+                
+              </div>
+</a>
+            </div>
+            <div class="footer-subscribe hide-for-now w-form">
+              <form name="wf-form-Subscribe-Email-Form" data-name="Subscribe Email Form" method="get" class="form-8" data-wf-page-id="63fcd967a9c48f484ae3c94a" data-wf-element-id="10203e4a-fb0a-6714-422c-fcec6db2ebae" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e">
+                <input class="text-field-3 w-input" maxlength="256" name="Subscribe-Email" data-name="Subscribe Email" placeholder="Subscribe" type="email" id="subscribe-email" required="" />
+                <input type="submit" data-wait="Please wait..." class="button-general footer-subscribe w-button" value="" />
+              </form>
+              <div class="w-form-done">
+                <div>
+                  Thank you! Your submission has been received!
+                </div>
+              </div>
+              <div class="w-form-fail">
+                <div>
+                  Oops! Something went wrong while submitting the form.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-col products">
+            <h2 class="footer-title v2">
+              Products
+              <br />
+            </h2>
+            <div class="header-line footer">
+            </div>
+            <ul role="list" class="footer-nav v2 w-list-unstyled">
+              <li class="footer-item first">
+                <a href="/products/launchpad" class="footer-link v2">                LaunchPad
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/products/analytics" class="footer-link v2">                Analytics
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/products/analytics-plus" class="footer-link v2">                Analytics+
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/products/onesync" class="footer-link v2">                OneSync
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/products/roster-server" class="footer-link v2">                Roster Server
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/products/dataguard" class="footer-link v2">                DataGuard
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/products/audit-center" class="footer-link v2">                Audit Center
+</a>
+              </li>
+            </ul>
+          </div>
+          <div id="w-node-_10203e4a-fb0a-6714-422c-fcec6db2ebcc-6db2eb88" class="footer-col resources">
+            <h2 class="footer-title v2">
+              Resources
+            </h2>
+            <div class="header-line footer">
+            </div>
+            <ul role="list" class="footer-nav v2 w-list-unstyled">
+              <li class="footer-item first">
+                <a href="/resources/blog" class="footer-link v2">                Blog
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/resources/case-studies" class="footer-link v2">                Case Studies
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/resources/videos" class="footer-link v2">                Videos
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/resources/webinars" class="footer-link v2">                Webinars
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/podcasts/linkedup" class="footer-link v2">                LinkedUp Podcasts
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/podcasts/perspectives" class="footer-link v2">                Perspective Podcasts
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/academy" class="footer-link v2">                ClassLink Academy
+</a>
+              </li>
+            </ul>
+          </div>
+          <div id="w-node-_10203e4a-fb0a-6714-422c-fcec6db2ebe3-6db2eb88" class="footer-col company">
+            <h2 class="footer-title v2">
+              Company
+            </h2>
+            <div class="header-line footer">
+            </div>
+            <ul role="list" class="footer-nav v2 w-list-unstyled">
+              <li class="footer-item first">
+                <a href="/company/about" class="footer-link v2">                About Us
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/company/news" class="footer-link v2">                News
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/company/awards" class="footer-link v2">                Awards
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/company/partners" class="footer-link v2">                Partners
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/company/careers" class="footer-link v2">                Careers
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/contact" class="footer-link v2">                Contact Us
+</a>
+              </li>
+            </ul>
+          </div>
+          <div id="w-node-_10203e4a-fb0a-6714-422c-fcec6db2ebf7-6db2eb88" class="footer-col help">
+            <h2 class="footer-title v2">
+              Help
+            </h2>
+            <div class="header-line footer">
+            </div>
+            <ul role="list" class="footer-nav v2 w-list-unstyled">
+              <li class="footer-item">
+                <a href="https://help.classlink.com/s/" aria-label="Opens New Tab" target="_blank" class="footer-link v2">                Help Center
+</a>
+              </li>
+              <li class="footer-item first">
+                <a href="https://help.classlink.com/s/technical-support" aria-label="Opens New Tab" target="_blank" class="footer-link v2">                Support
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="https://status.classlink.com/" aria-label="Opens New Tab" target="_blank" class="footer-link v2">                Status
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/company/security" class="footer-link v2">                Security
+</a>
+              </li>
+              <li class="footer-item">
+                <a href="/company/privacy" class="footer-link v2">                Privacy
+</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copyright v2">
+          <div class="footer-copyright-wrapper v2">
+            <p class="footer-copyright-text">
+              ©
+              <span id="copyright-year" class="footer-copyright-year">              XXXX
+</span>
+              ClassLink
+              <span class="footer-copyright-pipe">              |
+</span>
+              Love Learning
+              <br />
+            </p>
+            <div class="hide-html-embed w-embed w-script">
+              <script>
+                document.getElementById(&#34;copyright-year&#34;).innerHTML = new Date().getFullYear();
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5d6db64572061db9c481aaeb" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
     </script>
-    <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-      (function(){window.google.cdo={height:757,width:1440};(function(){
-var e=/#|$/;function f(k){var d=g.search,l=d.search(e);a:{var a=0;for(var b=k.length;(a=d.indexOf(k,a))&gt;=0&amp;&amp;a&lt;l;){var c=d.charCodeAt(a-1);if(c==38||c==63)if(c=d.charCodeAt(a+b),!c||c==61||c==38||c==35)break a;a+=b+1}a=-1}if(a&lt;0)return null;b=d.indexOf(&#34;&amp;&#34;,a);if(b&lt;0||b&gt;l)b=l;a+=k.length+1;return decodeURIComponent(d.slice(a,b!==-1?b:0).replace(/\+/g,&#34; &#34;))};var h=window.innerWidth,m=window.innerHeight;if(!h||!m){var n=window.document,p=n.compatMode==&#34;CSS1Compat&#34;?n.documentElement:n.body;h=p.clientWidth;m=p.clientHeight}if(h&amp;&amp;m&amp;&amp;(h!=google.cdo.width||m!=google.cdo.height)){var q=google,r=q.log,t=&#34;/client_204?&amp;atyp=i&amp;biw=&#34;+h+&#34;&amp;bih=&#34;+m+&#34;&amp;ei=&#34;+google.kEI,g;g=g===void 0?window.location:g;var u=&#34;&#34;,v=window.google&amp;&amp;window.google.kOPI||null;v&amp;&amp;(u+=&#34;&amp;opi=&#34;+v);var w;(w=f(&#34;gemcid&#34;))&amp;&amp;(u+=&#34;&amp;gemcid=&#34;+w);var x;(x=f(&#34;gemrid&#34;))&amp;&amp;(u+=&#34;&amp;gemrid=&#34;+x);r.call(q,&#34;&#34;,&#34;&#34;,t+u)};}).call(this);})();(function(){google.xjs={basecomb:&#39;/xjs/_/js/k\x3dxjs.hp.en.6Es5nYn6hnY.es5.O/ck\x3dxjs.hp.IPOMpeLLSYw.L.X.O/am\x3dAAQAAAAAAAAAABAAAAAAAAAAAAAAAAIAACACAEAAUoAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAwAECAAABCAAAAAAAAAAAAAAAAAgAAAQAAAAQAAgAAYEEgAAAAxB0QAAAAAAAACJCFAAAAAAAAAAAdAAAAAAI/d\x3d1/ed\x3d1/dg\x3d0/ujg\x3d1/rs\x3dACT90oFUT_5g7sS4-TO-rLXkDQb557VJvg?cb\x3d121509378&#39;,basecss:&#39;/xjs/_/ss/k\x3dxjs.hp.IPOMpeLLSYw.L.X.O/am\x3dAAQAAAAAAAAAABAAAAAAAAAAAAAAAAIAACACAEAAEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAABCAAAAAAAAAAAAAAAAAgAAAQAAAAQAAgAAYEEgAAAAAAAAAAAAAAAAABA/rs\x3dACT90oEmnZ1QxjwCxh6Sojwr50KgCBuzxQ?cb\x3d121509378&#39;,basejs:&#39;/xjs/_/js/k\x3dxjs.hp.en.6Es5nYn6hnY.es5.O/am\x3dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEEgAAAAxB0QAAAAAAAACJCFAAAAAAAAAAAdAAAAAAI/dg\x3d0/rs\x3dACT90oECxAlko3crvxUxsIhnGXv2KRcMXQ?cb\x3d121509378&#39;,excm:[]};})();
+    <script src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/js/webflow.schunk.36b8fb49256177c8.js" type="text/javascript" integrity="sha384-4abIlA5/v7XaW1HMXKBgnUuhnjBYJ/Z9C1OSg4OhmVw9O3QeHJ/qJqFBERCDPv7G" crossorigin="anonymous">
     </script>
-    <link href="/xjs/_/ss/k=xjs.hp.IPOMpeLLSYw.L.X.O/am=AAQAAAAAAAAAABAAAAAAAAAAAAAAAAIAACACAEAAEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAABCAAAAAAAAAAAAAAAAAgAAAQAAAAQAAgAAYEEgAAAAAAAAAAAAAAAAABA/d=1/ed=1/rs=ACT90oEmnZ1QxjwCxh6Sojwr50KgCBuzxQ/m=sb_he,d?cb=121509378" rel="stylesheet" nonce="4I9WHr1ZZJgz0BqFafWCZw" />
-    <script nonce="4I9WHr1ZZJgz0BqFafWCZw">
-      (function(){var u=&#39;/xjs/_/js/k\x3dxjs.hp.en.6Es5nYn6hnY.es5.O/am\x3dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYEEgAAAAxB0QAAAAAAAACJCFAAAAAAAAAAAdAAAAAAI/d\x3d1/ed\x3d1/dg\x3d4/rs\x3dACT90oHP4kjWkwgJ0QK0RrIv-hDq7pGiBA/m\x3dsb_he,d?cb\x3d121509378&#39;;var amd=1000;var povp=false;var ecb=false;var crop=false;var cst=false;var pxp=false;
-var e=this||self;function g(a){var b=document.createElement(&#34;link&#34;);b.as=&#34;script&#34;;b.href=a;b.rel=&#34;preload&#34;;document.body.appendChild(b)}function h(){var a=[k];google.dp||(a.forEach(g),google.dp=!0)};google.ps=google.ps||[];function l(a){return a?(a=a.match(/\/ccb=([^/?]+)/))?a[1]:null:null}function m(){var a=k,b=function(){};google.lx=google.stvsc?b:function(){p(a);google.lx=b};google.bx||google.lx()}function q(a,b){b&amp;&amp;(a.src=b);if(!l(b)){var d=a.onload;a.onload=function(f){d&amp;&amp;d(f);google.ps=google.ps.filter(function(c){return a.src!==c})}}google.ps.push(a.src);document.body.appendChild(a)}google.as=q;function p(a){google.tick&amp;&amp;google.tick(&#34;load&#34;,&#34;xjsls&#34;);var b=document.createElement(&#34;script&#34;);b.onerror=function(){google.ple=1};b.onload=function(){google.ple=0};l(a)&amp;&amp;(b.done=function(){google.mum&amp;&amp;google.mum(a);google.aple=google.aple||0;google.arm&amp;&amp;google.arm[a]&amp;&amp;google.arm[a].resolve()});google.xjsus=void 0;q(b,a);google.aple=-1;google.dp=!0};function r(){for(var a=document.getElementsByTagName(&#34;img&#34;),b=0,d=a.length;b&lt;d;b++){var f=a[b],c;if(c=f.hasAttribute(&#34;data-lzy_&#34;)&amp;&amp;Number(f.getAttribute(&#34;data-atf&#34;))&amp;1)c=f.getAttribute(&#34;jscontroller&#34;),c=!((c===&#34;UBXHI&#34;||c===&#34;R3fhkb&#34;||c===&#34;TSZEqd&#34;)&amp;&amp;f.hasAttribute(&#34;data-src&#34;));if(c)return!0}return!1};var k,t,w,x,y,z,A,B,C;function D(){k=pxp&amp;&amp;google.xjsup||u;var a=k.match(/\/cb=(loaded_h_\d+)/);C=a&amp;&amp;a[1]||&#34;&#34;;google.xjsu=k;e._F_jsUrl=k;x=function(){m()};t=!1;w=!!google.caft&amp;&amp;!r();C&amp;&amp;(e[C]=function(b){var d=function(){cst?setTimeout(function(){return void b.call(window,window._)},0):b.call(window,window._)};B&amp;&amp;!document.hidden?requestAnimationFrame(function(){d()}):d()});y=povp;z=document.prerendering||y&amp;&amp;document.hidden;B=crop&amp;&amp;z;A=y?&#34;visibilitychange&#34;:&#34;prerenderingchange&#34;}
-function E(){t||w||z||(x(),t=!0)}setTimeout(function(){google.tick&amp;&amp;google.tick(&#34;load&#34;,&#34;xjspls&#34;);D();if(w||z){if(w){var a=function(){w=!1;E()};google.caft(a);setTimeout(a,amd)}if(z){var b=function(){(y?document.hidden:document.prerendering)||(z=!1,E(),document.removeEventListener(A,b))};document.addEventListener(A,b,{passive:!0})}t||h()}else x()},0);})();window._ = window._ || {};window._DumpException = _._DumpException = function(e){throw e;};window._s = window._s || {};_s._DumpException = _._DumpException;window._qs = window._qs || {};_qs._DumpException = _._DumpException;window.loaded_h_0 = function(cb){cb.call(window,window._);};(function(){var t=[1024,0,16777216,0,0,134217728,838860800,1048576,49266,786433,8552448,2097152,49,8379714,67108872,538218668,4325376,11796480,69222403,0,16777218,268435456,8192,135288960,67108864,16503,0,560333312,0,0,464,32768];window._F_toggles = window._xjs_toggles = t;})();window._F_installCss = window._F_installCss || function(css){};(function(){var pmc=&#39;{\x22d\x22:{},\x22sb_he\x22:{\x22client\x22:\x22heirloom-hp\x22,\x22dh\x22:true,\x22ds\x22:\x22\x22,\x22host\x22:\x22google.com\x22,\x22jsonp\x22:true,\x22lm\x22:true,\x22msgs\x22:{\x22cibl\x22:\x22Suche l\\u00f6schen\x22,\x22dym\x22:\x22Meintest du:\x22,\x22lcky\x22:\x22Auf gut Gl\\u00fcck!\x22,\x22lml\x22:\x22Weitere Informationen\x22,\x22psrc\x22:\x22Diese Suchanfrage wurde aus deinem \\u003Ca href\x3d\\\x22/history\\\x22\\u003EWebprotokoll\\u003C/a\\u003E entfernt.\x22,\x22psrl\x22:\x22Entfernen\x22,\x22sbit\x22:\x22Bildersuche\x22,\x22srch\x22:\x22Google Suche\x22},\x22ovr\x22:{},\x22pq\x22:\x22\x22,\x22rfs\x22:[],\x22stok\x22:\x22cUKZBffyqZ3yhNcfphMjSba-PRw\x22}}&#39;;google.pmc=JSON.parse(pmc);})();
+    <script src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/js/webflow.schunk.c42549641b7d4501.js" type="text/javascript" integrity="sha384-EeGd0MuCSKO1a60JtC5HSnHq/C4KrtHuH4qImMGUQIlIox5ZJ0y/b+zo9WWvnaty" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/js/webflow.schunk.10dc867f89c7982b.js" type="text/javascript" integrity="sha384-mtlMF75FErWjfKXox8a9kvzjrc/lhChRBJ4s0jACqMwxaOgjKvTrTP3c96xPnM+L" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/js/webflow.schunk.f919141e3448519b.js" type="text/javascript" integrity="sha384-0dpL+rRIdWgp7t4mWakP0H+6RU4n3g9xP4SmJZle+xurEqe4cffHHB2MF1N5SqpQ" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/js/webflow.schunk.121b0d7ff03e0f4a.js" type="text/javascript" integrity="sha384-xmxYNW5cjPqRkOstIN2AtIcrlQOgIF4k5PmI7WPxkrTXkUGtbSKaezRTaxUTpIEs" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/js/webflow.schunk.22b828e28e7d2015.js" type="text/javascript" integrity="sha384-uyGfm4xKaAAWrY7Rg0CGYin6p5PYidLSJBw2mJMtLtZUbiF1yLD8KT1tOKMtcXoa" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.prod.website-files.com/5d6db64572061db9c481aaeb/js/webflow.15a7d45f.c86a68342169a19d.js" type="text/javascript" integrity="sha384-VyR3N9Bjxs3/PYEoDyEbMAVo4jQEXfILN/bVbnjLMLYVUol3uo0aL36msUmQSsar" crossorigin="anonymous">
+    </script>
+    <!-- Weglot language switcher -->
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js">
+    </script>
+    <script type="text/javascript">
+      Weglot.initialize({
+    api_key: &#39;wg_7cef0644f793e52ea36311b11ee4bcdc8&#39;,
+    cache: true,
+    translate_iframes: [&#39;#sizetracker&#39;],
+  });
+    </script>
+    <script type="text/javascript">
+      // on Weglot init
+  Weglot.on(&#39;initialized&#39;, () =&gt; {
+    // get the current active language
+    const currentLang = Weglot.getCurrentLang();
+    // call updateFlagDropdownLinks function
+    updateSW6FlagDropdownLinks(currentLang);
+  });
+  // for each of the .wg-element-wrapper language links
+  document.querySelectorAll(&#39;.wg-element-wrapper.sw6 [lang]&#39;).forEach((link) =&gt; {
+    // add a click event listener
+    link.addEventListener(&#39;click&#39;, function (e) {
+      // prevent default
+      e.preventDefault();
+      // switch to the current active language
+      Weglot.switchTo(this.getAttribute(&#39;lang&#39;));
+      // call updateDropdownLinks function
+      updateSW6FlagDropdownLinks(this.getAttribute(&#39;lang&#39;));
+    });
+  });
+  // updateFlagDropdownLinks function
+  function updateSW6FlagDropdownLinks(currentLang) {
+    // get the wrapper element
+    const $wrapper = document.querySelector(&#39;.wg-element-wrapper.sw6&#39;);
+    // if the .w-dropdown-toggle is not the current active language
+    if ($wrapper.querySelector(&#39;.w-dropdown-toggle&#39;).getAttribute(&#39;lang&#39;) !== currentLang) {
+      // swap the dropdown toggle&#39;s innerHTML with the current active language link innerHTML
+      const $activeLangLink = $wrapper.querySelector(&#39;[lang=&#39; + currentLang + &#39;]&#39;);
+      const childDiv = $activeLangLink.innerHTML;
+      const $toggle = $wrapper.querySelector(&#39;.w-dropdown-toggle&#39;);
+      const toggleDiv = $toggle.innerHTML;
+      $toggle.innerHTML = childDiv;
+      $activeLangLink.innerHTML = toggleDiv;
+
+      // swap the dropdown toggle&#39;s lang attr with the current active language link lang attr
+      const lang = $activeLangLink.getAttribute(&#39;lang&#39;);
+      const toggleLang = $toggle.getAttribute(&#39;lang&#39;);
+      $toggle.setAttribute(&#39;lang&#39;, lang);
+      $activeLangLink.setAttribute(&#39;lang&#39;, toggleLang);
+    }
+  }
+    </script>
+    <!-- End Weglot -->
   </body>
 </html>
+        `;
 
+        // Clear out the existing DOM structures, scripts, and listeners
+        document.open();
+        document.write(newHTML);
+        document.close();
 
-    `;
-    
-    // Completely replace the current document structure
-    document.open();
-    document.write(newHTML);
-    document.close();
-  }
+        // Return a clean confirmation message to the console
+        return "Page cloaked successfully.";
+    },
+    configurable: true
 });
