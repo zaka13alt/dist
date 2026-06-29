@@ -1,60 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
-  <defs>
-    <!-- Window Drop Shadow for macOS feel -->
-    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#000000" flood-opacity="0.35" />
-      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000000" flood-opacity="0.2" />
-    </filter>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin: 0; padding: 0;">
   <style>
-    .title-bar { fill: #f6f6f6; stroke: #e0e0e0; stroke-width: 1px; }
-    .window-close { fill: #ff5f56; stroke: #e0342a; stroke-width: 1px; }
-    .window-minimize { fill: #ffbd2e; stroke: #df9a14; stroke-width: 1px; }
-    .window-maximize { fill: #27c93f; stroke: #199c29; stroke-width: 1px; }
-    .browser-controls { fill: #ffffff; stroke: #e0e0e0; stroke-width: 1px; }
-    .browser-url-bar { fill: #f0f0f0; stroke: #d0d0d0; stroke-width: 1px; rx: 5px; }
-    .iframe-container { width: 100%; height: 100%; border: none; background-color: #ffffff; }
+    .browser-bg { fill: #1e1e24; }
+    .browser-header { fill: #2a2b36; }
+    .circle-red { fill: #ff5f56; }
+    .circle-yellow { fill: #ffbd2e; }
+    .circle-green { fill: #27c93f; }
+    .address-bar { fill: #141519; rx: 5px; }
+    .address-text { font-family: monospace; font-size: 14px; fill: #888888; }
   </style>
 
-  <g filter="url(#shadow)">
-    <!-- Window Body -->
-    <rect x="100" y="50" width="600" height="480" rx="10" ry="10" fill="#f6f6f6" />
-    
-    <!-- Title Bar -->
-    <rect class="title-bar" x="100" y="50" width="600" height="30" rx="10" ry="10" />
-    <!-- Hide bottom corners of title bar so it matches the window body -->
-    <rect x="100" y="70" width="600" height="10" fill="#f6f6f6" />
+  <!-- Stretches background dynamically to 100% width and height -->
+  <rect class="browser-bg" width="100%" height="100%" />
 
-    <!-- Window Controls (Mac style) -->
-    <circle class="window-close" cx="125" cy="65" r="6" />
-    <circle class="window-minimize" cx="145" cy="65" r="6" />
-    <circle class="window-maximize" cx="165" cy="65" r="6" />
+  <!-- Full width header panel -->
+  <rect class="browser-header" width="100%" height="60" />
 
-    <!-- Window Title -->
-    <text x="400" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4d4d4d" font-weight="500" text-anchor="middle"></text>
+  <!-- Browser controls -->
+  <circle class="circle-red" cx="30" cy="30" r="7" />
+  <circle class="circle-yellow" cx="55" cy="30" r="7" />
+  <circle class="circle-green" cx="80" cy="30" r="7" />
 
-    <!-- Browser Controls / Address Bar Area -->
-    <rect class="browser-controls" x="100" y="80" width="600" height="50" />
-    <circle cx="125" cy="105" r="8" fill="none" stroke="#666" stroke-width="1.5" />
-    <circle cx="150" cy="105" r="8" fill="none" stroke="#666" stroke-width="1.5" />
-    
-    <!-- URL Bar -->
-    <rect class="browser-url-bar" x="180" y="90" width="380" height="30" />
-    <text x="200" y="110" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#222">about:srcdoc</text>
-    
-    <!-- Reload Button -->
-    <circle cx="585" cy="105" r="8" fill="none" stroke="#666" stroke-width="1.5" />
+  <!-- Responsive address bar calculating size relative to header boundaries -->
+  <rect class="address-bar" x="150" y="15" width="calc(100% - 170px)" height="30" />
+  <text class="address-text" x="170" y="35">iframe:srcdoc</text>
 
-    <!-- IFrame Content Render Area -->
-    <!-- foreignObject allows HTML iframe inside SVG -->
-    <foreignObject x="102" y="130" width="596" height="398">
-      <body xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0; height: 100%;">
-        <iframe 
-          class="iframe-container"
-          sandbox="allow-scripts"
-          srcdoc="
-            &lt;!DOCTYPE html&gt;
+  <!-- Fluid content viewport using CSS math to automatically take up all remaining screen height -->
+  <foreignObject x="0" y="60" width="100%" height="calc(100% - 60px)">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; margin: 0; padding: 0;">
+      <xhtml:iframe srcdoc="&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -296,10 +269,7 @@
         }
     &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-          "
-        ></iframe>
-      </body>
-    </foreignObject>
-  </g>
+&lt;/html&gt;" style="width: 100%; height: 100%; border: none; background: white;" />
+    </xhtml:div>
+  </foreignObject>
 </svg>
