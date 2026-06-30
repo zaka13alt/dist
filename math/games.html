@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IXL Learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container where the Lumin SDK will load the content -->
+    <div id="games"></div> 
+
+    <!-- Lumin SDK Script -->
+    <script src="https://cdn.jsdelivr.net/gh/luminsdk/script@latest/lumin.min.js"></script> 
+    <script>
+        // Initialize the Lumin SDK
+        Lumin.init({
+            container: '#games',
+            theme: 'dark'
+        });
+    </script>
+
+</body>
+</html>
