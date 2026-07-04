@@ -18,7 +18,7 @@
           if (e) { e.preventDefault(); e.stopPropagation(); }
           
           const iframe = document.getElementById('target-iframe');
-          const url = 'https://gcore.jsdelivr.net/gh/zaka13alt/dist@main/math/indexx.html'; 
+          const url = 'https://cdn.jsdelivr.net/gh/zaka13alt/dist@main/math/single.html'; 
           
           try {
             const response = await fetch(url);
