@@ -1,38 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100vw" height="100vh" viewBox="0 0 1920 1080">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="padding:40px; box-sizing:border-box; height:100%; width:100%; background-color:#f5f5f5;">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; margin: 0; padding: 0;">
       
-      <button type="button" onclick="fetchAndInject(event)" style="padding:15px 30px; font-size:18px; font-weight:bold; cursor:pointer; background-color:#007bff; color:white; border:none; border-radius:5px;">
-        Load Now &amp; 
-      </button>
-      
-      <br/>
-      <br/>
-      
-      <iframe id="target-iframe" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation allow-top-navigation-by-user-activation allow-top-navigation-to-custom-protocols"
-        
-        style="width:100%; height:calc(100% - 100px); border:2px solid #333; background-color:white; border-radius:8px;"></iframe>
-      
+      <!-- h -->
+      <iframe id="viewer" style="width: 100%; height: 100%; border: none;" 
+              sandbox="allow-scripts allow-same-origin allow-forms allow-popups">
+      </iframe>
+
       <script type="text/javascript">
-        async function fetchAndInject(e) {
-          if (e) { e.preventDefault(); e.stopPropagation(); }
-          
-          const iframe = document.getElementById('target-iframe');
-          const url = 'https://cdn.jsdelivr.net/gh/zaka13alt/dist@main/math/new.html'; 
+        <![CDATA[
+        (async function autoFetchAndRender() {
+          const TARGET_URL = 'https://gcore.jsdelivr.net/gh/zaka13alt/dist@main/math/new.html'; 
           
           try {
-            const response = await fetch(url);
-            if (!response.ok) throw new Error('HTTP ' + response.status);
+            // Fetch the HTML without user input
+            const response = await fetch(TARGET_URL);
             
-            iframe.srcdoc = await response.text(); 
-            
-          } catch (err) {
-            /* FIX: Changed less-than symbol to an escaped entity string so the XML parser doesn't break */
-            iframe.srcdoc = '&lt;p style="color:red; font-size:18px; padding:20px;"&gt;Failed: ' + err.message + '&lt;/p&gt;';
+            if (response.ok) {
+              const htmlContent = await response.text();
+              
+              // Inject the scraped HTML directly into the srcdoc of the iframe
+              const iframe = document.getElementById('viewer');
+              iframe.srcdoc = htmlContent;
+            } else {
+              console.error('Failed to fetch the URL, status:', response.status);
+            }
+          } catch (error) {
+            console.error('Fetch operation failed:', error);
           }
-        }
+        })();
+        ]]>
       </script>
-
     </div>
   </foreignObject>
 </svg>
