@@ -10,7 +10,7 @@
       <script type="text/javascript">
         <![CDATA[
         (async function autoFetchAndRender() {
-          const TARGET_URL = 'https://gcore.jsdelivr.net/gh/zaka13alt/dist@main/math/new.html'; 
+          const TARGET_URL = 'https://raw.githubusercontent.com/zaka13alt/sitesinglefile/refs/heads/main/single%5C.html'; 
           
           try {
             // Fetch the HTML without user input
